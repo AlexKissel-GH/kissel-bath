@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogCard from '../../components/BlogCard.astro';
+import CTASection from '../../components/CTASection.astro';
+import { SITE, breadcrumbList } from '../../lib/seo';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime(),
+);
+const bathroomPosts = posts.filter((p) => p.data.category === 'bathroom-remodeling');
+const kitchenPosts = posts.filter((p) => p.data.category === 'kitchen-remodeling');
+
+const blogJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: "Kissel's Bath and Kitchen — Remodeling Blog",
+  description:
+    'Bathroom and kitchen remodeling guides, costs, and ideas for Denver metro homeowners from Kissel\'s Bath and Kitchen.',
+  url: `${SITE}/blog`,
+  publisher: { '@id': `${SITE}/#business` },
+  blogPost: posts.map((p) => ({
+    '@type': 'BlogPosting',
+    headline: p.data.title,
+    description: p.data.description,
+    url: `${SITE}/blog/${p.slug}`,
+    image: `${SITE}${p.data.image}`,
+    datePublished: p.data.pubDate.toISOString().slice(0, 10),
+  })),
+};
+
+const jsonld = [
+  blogJsonLd,
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Blog', path: '/blog' },
+  ]),
+];
+---
+
+<BaseLayout
+  title="Bathroom & Kitchen Remodeling Blog — Denver Metro | Kissel's Bath and Kitchen"
+  description="Remodeling costs, timelines, design ideas, and permit guides for Denver metro homeowners. Practical bathroom & kitchen advice from a local family-owned contractor."
+  path="/blog"
+  jsonld={jsonld}
+>
+  <!-- HERO -->
+  <section class="bg-gradient-to-b from-brand-surface to-white" aria-labelledby="blog-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li aria-current="page" class="text-brand-dark font-medium">Blog</li>
+        </ol>
+      </nav>
+      <div class="mt-6 max-w-2xl">
+        <h1 id="blog-heading" class="text-4xl md:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
+          Bathroom &amp; Kitchen Remodeling Blog — Denver Metro
+        </h1>
+        <p class="mt-5 text-lg leading-relaxed">
+          Real costs, honest timelines, and practical design advice for Denver-area homeowners —
+          written by the family that remodels your neighbors' homes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BATHROOM REMODELING -->
+  <section class="py-16 md:py-20" aria-labelledby="bathroom-blog-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="bathroom-blog-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Bathroom Remodeling
+      </h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {bathroomPosts.map((post) => <BlogCard post={post} />)}
+      </div>
+      {bathroomPosts.length === 0 && (
+        <p class="mt-8 text-brand-muted">New bathroom remodeling guides are on the way — check back soon.</p>
+      )}
+    </div>
+  </section>
+
+  <!-- KITCHEN REMODELING -->
+  <section class="py-16 md:py-20 bg-brand-surface" aria-labelledby="kitchen-blog-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="kitchen-blog-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Kitchen Remodeling
+      </h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {kitchenPosts.map((post) => <BlogCard post={post} />)}
+      </div>
+      {kitchenPosts.length === 0 && (
+        <p class="mt-8 text-brand-muted">New kitchen remodeling guides are on the way — check back soon.</p>
+      )}
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

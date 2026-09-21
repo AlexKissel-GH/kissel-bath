@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { settings } from '../lib/seo';
+---
+
+<BaseLayout
+  title="Thank You — Estimate Request Received | Kissel's Bath and Kitchen"
+  description="Thank you for contacting Kissel's Bath and Kitchen. We've received your estimate request and will be in touch shortly."
+  path="/thank-you"
+  noindex={true}
+>
+  <section class="py-20 md:py-28 bg-brand-surface" aria-labelledby="page-heading">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="mx-auto w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center">
+        <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+        </svg>
+      </div>
+      <h1 id="page-heading" class="mt-6 text-4xl font-bold text-brand-dark tracking-tight">
+        Thank you! Your request is in.
+      </h1>
+      <p class="mt-4 text-lg">
+        We've received your estimate request. Alex or Daria will reach out shortly to schedule your free in-home consultation —
+        usually within one business day.
+      </p>
+      <p class="mt-4">
+        Need to reach us sooner? Call or text
+        <a href={settings.phoneHref} class="font-semibold text-emerald-700 hover:text-emerald-800">{settings.phone}</a>
+        — Mon–Fri 8am–6pm, Sat 9am–2pm.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-8 py-4 min-h-[44px] bg-brand-dark text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+        >
+          Back to Home
+        </a>
+        <a
+          href="/portfolio"
+          class="inline-flex items-center justify-center px-8 py-4 min-h-[44px] bg-white text-brand-dark font-semibold rounded-xl border border-slate-300 hover:border-slate-400 transition-colors"
+        >
+          Browse Our Work
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

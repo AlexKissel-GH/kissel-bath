@@ -1,0 +1,22 @@
+{
+  "name": "kissels-bath-and-kitchen",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kissel's Bath and Kitchen — family-owned bathroom & kitchen remodeling in Denver/Aurora, CO. Astro SSG + Tailwind + Decap CMS.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.2.1",
+    "@astrojs/tailwind": "^5.1.5",
+    "@fontsource/inter": "^5.1.0",
+    "astro": "^4.16.18",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20"
+  }
+}

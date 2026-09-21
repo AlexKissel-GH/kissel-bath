@@ -1,0 +1,265 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TestimonialCard from '../components/TestimonialCard.astro';
+import CTASection from '../components/CTASection.astro';
+import { settings, businessJsonLd, breadcrumbList } from '../lib/seo';
+
+const about = await getEntry('pages', 'about');
+const { Content } = await about!.render();
+
+const testimonials = (await getCollection('testimonials')).sort((a, b) => a.data.order - b.data.order);
+
+const stats = [
+  { value: '200+', label: 'Projects Completed' },
+  { value: `${settings.rating}★`, label: 'Google Rating' },
+  { value: '10', label: 'Service Packages' },
+  { value: '1-Year', label: 'Labor Warranty' },
+];
+
+const values = [
+  {
+    title: 'Family-Owned & Local',
+    text: 'Founded by Alex and Daria Kissel and based in Aurora, CO. We treat every home like our own.',
+  },
+  {
+    title: 'Licensed & Insured',
+    text: 'Licensed General Contractor with liability insurance and bonding for your peace of mind.',
+  },
+  {
+    title: 'EPA Lead-Safe Certified',
+    text: 'Certified firm NAT-F212803-1 — trained and certified to work safely in pre-1978 homes.',
+  },
+  {
+    title: 'Award-Winning Service',
+    text: 'HomeAdvisor Elite Service & Top-Rated Pro. Houzz 2024 Best of Service & Best of Design.',
+  },
+];
+
+const certifications = [
+  { title: 'EPA Lead-Safe', sub: 'Firm NAT-F212803-1' },
+  { title: 'Licensed GC', sub: 'Bonded & Insured' },
+  { title: 'HomeAdvisor', sub: 'Elite Service · Top-Rated Pro' },
+  { title: 'Houzz 2024', sub: 'Best of Service · Best of Design' },
+  { title: `Google ${settings.rating}★`, sub: `${settings.reviewCount} Reviews` },
+];
+
+const brands = [
+  {
+    name: 'Sentrel Bath Systems',
+    text: 'Multi-layered composite wall surrounds that mimic natural stone and marble. Lifetime warranty. 100% made in the USA. Available in Silhouette & Monterey collections.',
+  },
+  { name: 'Samuel Mueller', text: 'Elegant shower systems and bathroom accessories.' },
+  { name: 'Kohler & Delta', text: 'Premium plumbing fixtures, faucets, and shower systems.' },
+  { name: 'Moen', text: 'Trusted for innovation and durability.' },
+];
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    mainEntity: businessJsonLd({
+      reviews: testimonials.map((t) => t.data),
+      extra: {
+        founder: [
+          { '@type': 'Person', name: 'Alex Kissel', jobTitle: 'Founder & Lead Contractor' },
+          { '@type': 'Person', name: 'Daria Kissel', jobTitle: 'Co-Founder & Design Lead' },
+        ],
+        hasCredential: [
+          {
+            '@type': 'EducationalOccupationalCredential',
+            credentialCategory: 'certification',
+            name: 'EPA Lead-Safe Certified Firm NAT-F212803-1',
+          },
+          {
+            '@type': 'EducationalOccupationalCredential',
+            credentialCategory: 'license',
+            name: 'Licensed General Contractor, Bonded & Insured',
+          },
+        ],
+      },
+    }),
+  },
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+  ]),
+];
+---
+
+<BaseLayout
+  title="About Us — Kissel's Bath and Kitchen | Denver Remodeling Contractor"
+  description="Family-owned bathroom & kitchen remodeling in Denver. Meet Alex & Daria. Licensed, EPA Lead-Safe certified, HomeAdvisor Elite & Houzz award winner. Call 720.705.1461."
+  path="/about"
+  jsonld={jsonld}
+>
+  <section class="bg-brand-surface border-b border-slate-200" aria-labelledby="page-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-18">
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-brand-dark font-medium" aria-current="page">About</li>
+        </ol>
+      </nav>
+      <h1 id="page-heading" class="mt-4 text-4xl md:text-5xl font-bold text-brand-dark tracking-tight">
+        About Kissel's Bath and Kitchen
+      </h1>
+      <p class="mt-4 text-lg max-w-2xl">
+        A family-owned remodeling company built on trust, craftsmanship, and the belief that every homeowner deserves a beautiful, functional space.
+      </p>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="py-14 md:py-16" aria-labelledby="story-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="prose-like">
+        <h2 id="story-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+          {about!.data.storyHeading}
+        </h2>
+        <div class="mt-5 space-y-4 leading-relaxed [&_p]:leading-relaxed">
+          <Content />
+        </div>
+      </div>
+      <div>
+        <img
+          src="/images/team-founders.webp"
+          alt="Alex and Daria Kissel, founders of Kissel's Bath and Kitchen"
+          width="1024"
+          height="768"
+          loading="lazy"
+          decoding="async"
+          class="w-full rounded-2xl shadow-lg aspect-[4/3] object-cover"
+        />
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+      <dl class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+        {stats.map((stat) => (
+          <div class="bg-brand-surface rounded-2xl border border-slate-200 p-6 text-center">
+            <dt class="sr-only">{stat.label}</dt>
+            <dd class="text-3xl font-bold text-brand-dark">{stat.value}</dd>
+            <dd class="mt-1 text-sm text-brand-muted">{stat.label}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="values-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="values-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        What we stand for
+      </h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {values.map((v) => (
+          <div class="bg-white rounded-2xl border border-slate-200 p-6">
+            <h3 class="font-bold text-brand-dark">{v.title}</h3>
+            <p class="mt-2 text-sm leading-relaxed">{v.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="py-14 md:py-16" aria-labelledby="team-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="team-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Meet the family
+      </h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <article class="bg-white rounded-2xl border border-slate-200 p-6 md:p-8">
+          <h3 class="text-xl font-bold text-brand-dark">Alex Kissel</h3>
+          <p class="text-sm font-medium text-brand-accent mt-1">Founder &amp; Lead Contractor</p>
+          <p class="mt-3 text-sm leading-relaxed">
+            With years of hands-on experience in bathroom and kitchen remodeling, Alex oversees every installation personally.
+            Factory-trained in Sentrel composite systems and certified in EPA lead-safe practices.
+          </p>
+        </article>
+        <article class="bg-white rounded-2xl border border-slate-200 p-6 md:p-8">
+          <h3 class="text-xl font-bold text-brand-dark">Daria Kissel</h3>
+          <p class="text-sm font-medium text-brand-accent mt-1">Co-Founder &amp; Design Lead</p>
+          <p class="mt-3 text-sm leading-relaxed">
+            Daria ensures every client feels heard and informed. From color selection to project timelines,
+            she keeps everything on track and makes sure the final result matches your vision.
+          </p>
+        </article>
+      </div>
+
+      <!-- Certifications -->
+      <ul class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        {certifications.map((c) => (
+          <li class="bg-brand-surface rounded-2xl border border-slate-200 p-4 text-center">
+            <div class="font-bold text-brand-dark text-sm">{c.title}</div>
+            <div class="text-xs text-brand-muted mt-1">{c.sub}</div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="brands-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="brands-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Brands we trust
+      </h2>
+      <p class="mt-3 max-w-2xl">We never cut corners on materials — only trusted, name-brand products with real warranties.</p>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {brands.map((b) => (
+          <div class="bg-white rounded-2xl border border-slate-200 p-6">
+            <h3 class="font-bold text-brand-dark">{b.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed">{b.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="py-14 md:py-16" aria-labelledby="community-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 md:p-8">
+        <h2 id="community-heading" class="text-xl font-bold text-brand-dark">Veterans &amp; Seniors Discount</h2>
+        <p class="mt-3 text-sm leading-relaxed">
+          We offer a special discount for active military, veterans, and homeowners aged 65+.
+          Just mention your status during your free consultation and we'll apply the discount to your estimate.
+          It's our way of saying thank you.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 md:p-8">
+        <h2 class="text-xl font-bold text-brand-dark">Accessibility Experts</h2>
+        <p class="mt-3 text-sm leading-relaxed">
+          We specialize in accessibility remodeling for aging in place: barrier-free (curbless) showers,
+          ADA-compliant grab bar placement, walk-in tubs and comfort-height toilets, wider doorways and non-slip flooring.
+        </p>
+        <a href="/services#accessibility-ada-remodeling" class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark hover:text-brand-accent transition-colors min-h-[44px]">
+          Learn about ADA remodeling
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL TESTIMONIALS -->
+  <section id="testimonials" class="py-14 md:py-16 bg-brand-surface scroll-mt-24" aria-labelledby="reviews-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="reviews-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        What our clients say
+      </h2>
+      <p class="mt-3">{settings.rating}★ average across {settings.reviewCount} Google reviews.</p>
+      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {testimonials.map((t) => <TestimonialCard testimonial={t} />)}
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

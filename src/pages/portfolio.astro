@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CTASection from '../components/CTASection.astro';
+import { breadcrumbList, SITE, BUSINESS_ID } from '../lib/seo';
+
+const projects = (await getCollection('portfolio')).sort((a, b) => a.data.order - b.data.order);
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name: "Kissel's Bath and Kitchen — Project Portfolio",
+    about: { '@id': BUSINESS_ID },
+    image: projects.map((p) => ({
+      '@type': 'ImageObject',
+      contentUrl: `${SITE}${p.data.image}`,
+      name: `${p.data.title} — ${p.data.location}`,
+      description: p.data.description,
+    })),
+  },
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Portfolio', path: '/portfolio' },
+  ]),
+];
+---
+
+<BaseLayout
+  title="Portfolio — Bathroom & Kitchen Remodeling Projects Denver | Kissel's Bath and Kitchen"
+  description="See real bathroom and kitchen remodeling projects across Denver, Aurora, Parker & Highlands Ranch. Tub-to-shower conversions, complete remodels, kitchen facelifts & more."
+  path="/portfolio"
+  jsonld={jsonld}
+>
+  <section class="bg-brand-surface border-b border-slate-200" aria-labelledby="page-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-18">
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-brand-dark font-medium" aria-current="page">Portfolio</li>
+        </ol>
+      </nav>
+      <h1 id="page-heading" class="mt-4 text-4xl md:text-5xl font-bold text-brand-dark tracking-tight">
+        Our Recent Projects
+      </h1>
+      <p class="mt-4 text-lg max-w-2xl">
+        Real remodels across the Denver metro — from one-day shower renovations to full kitchen transformations.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-14 md:py-16" aria-label="Project gallery">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projects.map((project) => (
+          <article class="flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg hover:border-slate-300 transition-all">
+            <img
+              src={project.data.image}
+              alt={project.data.imageAlt}
+              width="1024"
+              height="768"
+              loading="lazy"
+              decoding="async"
+              class="w-full aspect-[4/3] object-cover"
+            />
+            <div class="flex flex-col flex-1 p-6">
+              <div class="flex items-center gap-2 text-xs font-medium">
+                <span class="px-2.5 py-1 rounded-full bg-brand-surface border border-slate-200 text-brand-body">
+                  {project.data.serviceType}
+                </span>
+                <span class="text-brand-muted">{project.data.location}</span>
+              </div>
+              <h2 class="mt-3 text-lg font-bold text-brand-dark">{project.data.title}</h2>
+              <p class="mt-2 text-sm leading-relaxed flex-1">{project.data.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <div class="mt-12 text-center bg-brand-surface rounded-2xl border border-slate-200 p-8">
+        <h2 class="text-xl font-bold text-brand-dark">Want results like these?</h2>
+        <p class="mt-2 max-w-xl mx-auto">
+          Every project starts with a free in-home consultation and a fixed, itemized estimate.
+        </p>
+        <a
+          href="/contact"
+          class="mt-5 inline-flex items-center justify-center px-8 py-4 min-h-[44px] bg-brand-dark text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+        >
+          Get My Free Estimate
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

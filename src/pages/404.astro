@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { settings } from '../lib/seo';
+
+const links = [
+  { label: 'Home', href: '/' },
+  { label: 'Services', href: '/services' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Portfolio', href: '/portfolio' },
+  { label: 'About', href: '/about' },
+  { label: 'FAQ', href: '/faq' },
+  { label: 'Contact', href: '/contact' },
+];
+---
+
+<BaseLayout
+  title="Page Not Found (404) | Kissel's Bath and Kitchen"
+  description="The page you're looking for doesn't exist. Explore our bathroom and kitchen remodeling services, pricing, and portfolio — or call 720.705.1461."
+  path="/404"
+  noindex={true}
+>
+  <section class="py-20 md:py-28 bg-brand-surface" aria-labelledby="page-heading">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-6xl font-bold text-brand-accent">404</p>
+      <h1 id="page-heading" class="mt-4 text-4xl font-bold text-brand-dark tracking-tight">
+        This page isn't here
+      </h1>
+      <p class="mt-4 text-lg">
+        The page you're looking for may have moved or never existed. Here's where to go instead:
+      </p>
+      <nav class="mt-8" aria-label="Helpful links">
+        <ul class="flex flex-wrap justify-center gap-3">
+          {links.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="inline-flex items-center px-5 py-2.5 min-h-[44px] bg-white border border-slate-300 rounded-xl font-medium text-brand-dark hover:border-brand-accent hover:text-brand-accent transition-colors"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <p class="mt-8">
+        Or call us directly:
+        <a href={settings.phoneHref} class="font-semibold text-emerald-700 hover:text-emerald-800">{settings.phone}</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

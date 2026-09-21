@@ -1,0 +1,201 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogCard from '../../components/BlogCard.astro';
+import { SITE, settings, breadcrumbList } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const categoryLabel =
+  post.data.category === 'bathroom-remodeling' ? 'Bathroom Remodeling' : 'Kitchen Remodeling';
+const categoryAnchor =
+  post.data.category === 'bathroom-remodeling' ? '/blog#bathroom-blog-heading' : '/blog#kitchen-blog-heading';
+
+const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+const isoDate = post.data.pubDate.toISOString().slice(0, 10);
+
+// ~200 words/min reading time from the raw markdown body
+const wordCount = post.body.split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+const allPosts = await getCollection('blog');
+const related = allPosts
+  .filter((p) => p.data.category === post.data.category && p.slug !== post.slug)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+  .slice(0, 3);
+
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description,
+  image: `${SITE}${post.data.image}`,
+  datePublished: isoDate,
+  author: {
+    '@type': 'Person',
+    name: post.data.author,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: "Kissel's Bath and Kitchen",
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE}/images/og-image.jpg`,
+    },
+  },
+  mainEntityOfPage: `${SITE}/blog/${post.slug}`,
+  ...(post.data.keywords.length ? { keywords: post.data.keywords.join(', ') } : {}),
+};
+
+const jsonld: Record<string, unknown>[] = [
+  articleJsonLd,
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Blog', path: '/blog' },
+    { name: categoryLabel, path: categoryAnchor },
+    { name: post.data.title, path: `/blog/${post.slug}` },
+  ]),
+];
+
+if (post.data.faq && post.data.faq.length > 0) {
+  jsonld.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: post.data.faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  });
+}
+---
+
+<BaseLayout
+  title={`${post.data.title} | Kissel's Bath and Kitchen`}
+  description={post.data.description}
+  path={`/blog/${post.slug}`}
+  ogImage={post.data.image}
+  ogType="article"
+  jsonld={jsonld}
+>
+  <article class="py-12 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Breadcrumbs -->
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href="/blog" class="hover:text-brand-dark transition-colors">Blog</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href={categoryAnchor} class="hover:text-brand-dark transition-colors">{categoryLabel}</a></li>
+          <li aria-hidden="true">/</li>
+          <li aria-current="page" class="text-brand-dark font-medium">{post.data.title}</li>
+        </ol>
+      </nav>
+
+      <p class="mt-8 inline-flex items-center px-3 py-1 rounded-full bg-brand-surface border border-slate-200 text-sm font-medium text-brand-body">
+        {categoryLabel}
+      </p>
+      <h1 class="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
+        {post.data.title}
+      </h1>
+      <p class="mt-5 text-sm text-brand-muted">
+        By <span class="font-semibold text-brand-dark">{post.data.author}</span>
+        · {formattedDate} · {readingTime} min read
+      </p>
+
+      <img
+        src={post.data.image}
+        alt={post.data.imageAlt}
+        width="1200"
+        height="675"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        class="mt-8 w-full rounded-2xl shadow-lg aspect-video object-cover"
+      />
+
+      <!-- Article body -->
+      <div
+        class="prose prose-lg mt-10 max-w-none prose-headings:text-brand-dark prose-p:text-brand-body prose-li:text-brand-body prose-a:text-brand-accent prose-a:font-semibold prose-strong:text-brand-dark"
+      >
+        <Content />
+      </div>
+
+      <!-- FAQ from frontmatter -->
+      {post.data.faq && post.data.faq.length > 0 && (
+        <section class="mt-14" aria-labelledby="post-faq-heading">
+          <h2 id="post-faq-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+            Frequently Asked Questions
+          </h2>
+          <div class="mt-6 space-y-6">
+            {post.data.faq.map((f) => (
+              <div class="bg-brand-surface rounded-2xl border border-slate-200 p-6">
+                <h3 class="text-lg font-bold text-brand-dark">{f.q}</h3>
+                <p class="mt-2 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- CTA box -->
+      <section class="mt-14 bg-brand-dark rounded-2xl p-8 md:p-10 text-center" aria-labelledby="post-cta-heading">
+        <h2 id="post-cta-heading" class="text-2xl md:text-3xl font-bold text-white tracking-tight">
+          Ready to start your project?
+        </h2>
+        <p class="mt-3 text-slate-300 max-w-xl mx-auto">
+          Schedule your free in-home estimate today. Fixed, itemized pricing — no surprises, no pressure.
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href="/contact"
+            class="inline-flex items-center justify-center px-8 py-4 min-h-[44px] w-full sm:w-auto bg-brand-accent text-white font-semibold rounded-xl hover:bg-amber-700 transition-colors"
+          >
+            Get Free Estimate
+          </a>
+          <a
+            href={settings.phoneHref}
+            class="inline-flex items-center justify-center gap-2 px-8 py-4 min-h-[44px] w-full sm:w-auto bg-white/10 text-white font-semibold rounded-xl border border-white/20 hover:bg-white/20 transition-colors"
+            aria-label={`Call us at ${settings.phone}`}
+          >
+            {settings.phone}
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Related articles -->
+    {related.length > 0 && (
+      <section class="mt-16 md:mt-20 py-16 bg-brand-surface" aria-labelledby="related-heading">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 id="related-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+            Related articles
+          </h2>
+          <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {related.map((p) => <BlogCard post={p} />)}
+          </div>
+        </div>
+      </section>
+    )}
+  </article>
+</BaseLayout>

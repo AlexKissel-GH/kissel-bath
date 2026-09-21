@@ -1,0 +1,144 @@
+---
+import { settings } from '../lib/seo';
+
+const nav = [
+  { label: 'Services', href: '/services' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Portfolio', href: '/portfolio' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'About', href: '/about' },
+  { label: 'FAQ', href: '/faq' },
+  { label: 'Contact', href: '/contact' },
+];
+
+const currentPath = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? currentPath === '/' : currentPath.startsWith(href);
+---
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+      <!-- LOGO: two lines, same font size -->
+      <a href="/" class="leading-tight" aria-label="Kissel's Bath and Kitchen — home">
+        <div class="text-lg md:text-xl font-bold text-brand-dark tracking-tight">Kissel's Bath</div>
+        <div class="text-lg md:text-xl font-bold text-brand-dark tracking-tight">and Kitchen</div>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium text-brand-body" aria-label="Main navigation">
+        {nav.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              'hover:text-brand-dark transition-colors py-2',
+              isActive(item.href) ? 'text-brand-dark font-semibold' : '',
+            ]}
+            aria-current={isActive(item.href) ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        ))}
+      </nav>
+
+      <div class="hidden md:flex items-center gap-3">
+        <a
+          href={settings.phoneHref}
+          class="phone-pulse inline-flex items-center gap-2 px-4 py-2.5 min-h-[44px] bg-emerald-600 text-white text-sm font-semibold rounded-xl hover:bg-emerald-700 transition-colors"
+          aria-label={`Call us at ${settings.phone}`}
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+          {settings.phone}
+        </a>
+        <a
+          href="/contact"
+          class="inline-flex items-center px-5 py-2.5 min-h-[44px] bg-brand-dark text-white text-sm font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+        >
+          Free Estimate
+        </a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button
+        id="menu-toggle"
+        type="button"
+        class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl text-brand-dark hover:bg-slate-100 transition-colors"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white">
+    <nav class="px-4 py-3 flex flex-col text-base font-medium text-brand-body" aria-label="Mobile navigation">
+      {nav.map((item) => (
+        <a
+          href={item.href}
+          class:list={[
+            'py-3 min-h-[44px] flex items-center border-b border-slate-100 last:border-0 hover:text-brand-dark transition-colors',
+            isActive(item.href) ? 'text-brand-dark font-semibold' : '',
+          ]}
+          aria-current={isActive(item.href) ? 'page' : undefined}
+        >
+          {item.label}
+        </a>
+      ))}
+      <a
+        href={settings.phoneHref}
+        class="mt-3 mb-2 inline-flex items-center justify-center gap-2 px-4 py-3 min-h-[44px] bg-emerald-600 text-white font-semibold rounded-xl"
+        aria-label={`Call us at ${settings.phone}`}
+      >
+        Call {settings.phone}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile menu toggle — the only custom JS on the site -->
+<script is:inline>
+  (function () {
+    var btn = document.getElementById('menu-toggle');
+    var menu = document.getElementById('mobile-menu');
+    var iconOpen = document.getElementById('menu-icon-open');
+    var iconClose = document.getElementById('menu-icon-close');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('hidden') === false;
+      btn.setAttribute('aria-expanded', String(open));
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      if (iconOpen) iconOpen.classList.toggle('hidden', open);
+      if (iconClose) iconClose.classList.toggle('hidden', !open);
+    });
+  })();
+</script>
+
+<!-- Sticky mobile bottom bar: Call / Free Estimate -->
+<div class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-white border-t border-slate-200 grid grid-cols-2 shadow-[0_-4px_12px_rgba(0,0,0,0.06)]">
+  <a
+    href={settings.phoneHref}
+    class="inline-flex items-center justify-center gap-2 py-4 min-h-[44px] bg-emerald-600 text-white font-semibold"
+    aria-label={`Call us at ${settings.phone}`}
+  >
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+    </svg>
+    Call Now
+  </a>
+  <a
+    href="/contact"
+    class="inline-flex items-center justify-center py-4 min-h-[44px] bg-brand-dark text-white font-semibold"
+  >
+    Free Estimate
+  </a>
+</div>

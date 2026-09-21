@@ -1,0 +1,50 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+  eager?: boolean;
+  showExcerpt?: boolean;
+}
+
+const { post, eager = false, showExcerpt = true } = Astro.props;
+
+const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+---
+
+<article class="bg-white rounded-2xl border border-slate-200 overflow-hidden flex flex-col hover:shadow-lg transition-shadow">
+  <a href={`/blog/${post.slug}`} class="block">
+    <img
+      src={post.data.image}
+      alt={post.data.imageAlt}
+      width="800"
+      height="450"
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      class="w-full aspect-video object-cover"
+    />
+  </a>
+  <div class="p-6 flex flex-col grow">
+    <p class="text-sm text-brand-muted">{formattedDate}</p>
+    <h3 class="mt-2 text-lg font-bold text-brand-dark leading-snug">
+      <a href={`/blog/${post.slug}`} class="hover:text-brand-accent transition-colors">
+        {post.data.title}
+      </a>
+    </h3>
+    {showExcerpt && <p class="mt-2 text-sm leading-relaxed line-clamp-3">{post.data.description}</p>}
+    <a
+      href={`/blog/${post.slug}`}
+      class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-dark hover:text-brand-accent transition-colors min-h-[44px]"
+    >
+      Read article
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+      </svg>
+    </a>
+  </div>
+</article>

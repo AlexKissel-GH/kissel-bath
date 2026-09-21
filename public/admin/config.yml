@@ -1,0 +1,198 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Run `npx decap-server` locally to edit content without deploying.
+local_backend: true
+
+# Uncomment to enable the editorial workflow (draft → review → publish).
+# Requires Netlify Git Gateway. Leave commented for instant-publish mode.
+# publish_mode: editorial_workflow
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: https://kisselremodeling.com
+logo_url: /images/og-image.jpg
+
+collections:
+  # ---------------------------------------------------------------------------
+  # 1. SITE SETTINGS — single JSON file read by every page (header, footer,
+  #    contact info, JSON-LD schema).
+  # ---------------------------------------------------------------------------
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "src/data/settings.json"
+        fields:
+          - { label: "Phone (display)", name: "phone", widget: "string" }
+          - { label: "Phone (tel: link)", name: "phoneHref", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Business Hours", name: "hours", widget: "string" }
+          - label: "Primary Service Areas"
+            name: "serviceAreas"
+            widget: "list"
+            field: { label: "City", name: "city", widget: "string" }
+          - label: "Extended Service Areas"
+            name: "extendedServiceAreas"
+            widget: "list"
+            field: { label: "City", name: "city", widget: "string" }
+          - { label: "Google Rating", name: "rating", widget: "number", value_type: "float", min: 1, max: 5 }
+          - { label: "Review Count", name: "reviewCount", widget: "number", value_type: "int", min: 0 }
+
+  # ---------------------------------------------------------------------------
+  # 2. SERVICES — one markdown file per service, rendered on /, /services,
+  #    /pricing and in the contact form dropdown + JSON-LD OfferCatalog.
+  # ---------------------------------------------------------------------------
+  - name: "services"
+    label: "Services"
+    folder: "src/content/services"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["order", "title"]
+    summary: "{{order}}. {{title}} — {{priceLabel}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["bathroom", "kitchen"]
+      - label: "Price From (USD, leave empty for custom quote)"
+        name: "priceFrom"
+        widget: "number"
+        value_type: "int"
+        required: false
+      - { label: "Price Label (e.g. 'from $6,500' or 'Custom quote')", name: "priceLabel", widget: "string" }
+      - { label: "Duration (e.g. '3–4 days')", name: "duration", widget: "string" }
+      - { label: "Short Description", name: "shortDescription", widget: "text" }
+      - label: "What's Included"
+        name: "includes"
+        widget: "list"
+        field: { label: "Item", name: "item", widget: "string" }
+      - { label: "Card Image", name: "image", widget: "image" }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string" }
+      - { label: "Featured (Most Popular)", name: "featured", widget: "boolean", default: false }
+      - { label: "Sort Order", name: "order", widget: "number", value_type: "int" }
+      - { label: "Long Description", name: "body", widget: "markdown" }
+
+  # ---------------------------------------------------------------------------
+  # 3. TESTIMONIALS — rendered on / and /about, embedded as Review schema.
+  # ---------------------------------------------------------------------------
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "src/content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["order", "name"]
+    summary: "{{name}} ({{rating}}★)"
+    fields:
+      - { label: "Customer Name", name: "name", widget: "string" }
+      - { label: "Testimonial Text", name: "text", widget: "text" }
+      - { label: "Rating (1–5)", name: "rating", widget: "number", value_type: "int", min: 1, max: 5, default: 5 }
+      - { label: "Service (optional)", name: "service", widget: "string", required: false }
+      - { label: "Show on Home Page", name: "showOnHome", widget: "boolean", default: false }
+      - { label: "Sort Order", name: "order", widget: "number", value_type: "int", default: 99 }
+
+  # ---------------------------------------------------------------------------
+  # 4. FAQ — question in frontmatter, answer is the markdown body.
+  #    All entries are rendered on /faq and injected into FAQPage JSON-LD.
+  # ---------------------------------------------------------------------------
+  - name: "faq"
+    label: "FAQ"
+    folder: "src/content/faq"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["order", "question"]
+    summary: "{{order}}. {{question}}"
+    fields:
+      - { label: "Question", name: "question", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Pricing & Estimates"
+          - "Timeline & Process"
+          - "Products & Materials"
+          - "Accessibility & Special Needs"
+          - "Warranty & Aftercare"
+      - { label: "Sort Order", name: "order", widget: "number", value_type: "int" }
+      - { label: "Answer", name: "body", widget: "markdown" }
+
+  # ---------------------------------------------------------------------------
+  # 5. PORTFOLIO — rendered on /portfolio.
+  # ---------------------------------------------------------------------------
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "src/content/portfolio"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["order", "title"]
+    summary: "{{order}}. {{title}} — {{location}}"
+    fields:
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Location (city)", name: "location", widget: "string" }
+      - { label: "Service Type", name: "serviceType", widget: "string" }
+      - { label: "Project Image", name: "image", widget: "image" }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Sort Order", name: "order", widget: "number", value_type: "int" }
+
+  # ---------------------------------------------------------------------------
+  # 6. BLOG — rendered on /blog and /blog/<slug>. FAQ items feed FAQPage
+  #    JSON-LD on the post page.
+  # ---------------------------------------------------------------------------
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["pubDate", "title"]
+    summary: "{{title}} — {{category}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description (150–160 chars)", name: "description", widget: "text" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Bathroom Remodeling", value: "bathroom-remodeling" }
+          - { label: "Kitchen Remodeling", value: "kitchen-remodeling" }
+      - { label: "Publish Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", default: "Alex Kissel" }
+      - label: "Keywords"
+        name: "keywords"
+        widget: "list"
+        field: { label: "Keyword", name: "keyword", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Alt Text (with local keyword)", name: "imageAlt", widget: "string" }
+      - label: "FAQ (rendered on the post + FAQPage schema)"
+        name: "faq"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "q", widget: "string" }
+          - { label: "Answer", name: "a", widget: "text" }
+      - { label: "Article Body", name: "body", widget: "markdown" }
+
+  # ---------------------------------------------------------------------------
+  # 7. PAGES — editable copy for the home hero and the about story.
+  # ---------------------------------------------------------------------------
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "src/content/pages/home.md"
+        fields:
+          - { label: "Hero Badge Text", name: "heroBadge", widget: "string" }
+          - { label: "Hero Heading (H1)", name: "heroHeading", widget: "string" }
+          - { label: "Hero Subheading", name: "heroSubheading", widget: "text" }
+      - name: "about"
+        label: "About Page"
+        file: "src/content/pages/about.md"
+        fields:
+          - { label: "Story Heading", name: "storyHeading", widget: "string" }
+          - { label: "Our Story", name: "body", widget: "markdown" }
