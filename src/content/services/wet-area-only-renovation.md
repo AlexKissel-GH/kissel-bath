@@ -1,7 +1,7 @@
 ---
 title: Wet Area Only Renovation
 category: bathroom
-priceFrom: 14900
+priceFrom: 12200
 priceLabel: from $12,200
 duration: 3–4 days
 shortDescription: Update just the wet zone — tub or shower area — while keeping
