@@ -1,16 +1,4 @@
 {
-  "phone": "720.705.1461",
-  "phoneHref": "tel:7207051461",
-  "email": "kisselremodeling@gmail.com",
-  "address": "16797 E 2nd Ave, Aurora, CO 80011",
-  "hours": "Mon–Fri: 8am–6pm · Sat: 9am–2pm · Sun: Closed",
-  "serviceAreas": [
-    "Denver, CO",
-    "Aurora, CO",
-    "Broomfield, CO",
-    "Parker, CO",
-    "Highlands Ranch, CO"
-  ],
   "extendedServiceAreas": [
     "Arvada, CO",
     "Boulder, CO",
@@ -33,6 +21,18 @@
     "Morrison, CO",
     "Federal Heights, CO"
   ],
-  "rating": 4.9,
-  "reviewCount": 127
+  "phone": "720.705.1461",
+  "hours": "Mon–Fri: 8am–6pm · Sat: 9am–2pm · Sun: Closed",
+  "serviceAreas": [
+    "Denver, CO",
+    "Aurora, CO",
+    "Broomfield, CO",
+    "Parker, CO",
+    "Highlands Ranch, CO"
+  ],
+  "address": "16797 E 2nd Ave, Aurora, CO 80011",
+  "reviewCount": 45,
+  "phoneHref": "tel:7207051461",
+  "email": "kisselremodeling@gmail.com",
+  "rating": 4.9
 }
