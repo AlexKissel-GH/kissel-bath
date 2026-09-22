@@ -1,17 +1,19 @@
 ---
-title: "Surrounds Only — Facelift"
+title: Surrounds Only
 category: bathroom
 priceFrom: 6500
-priceLabel: "from $6,500"
-duration: "1 day"
-shortDescription: "Keep your existing tub or shower base and just replace the walls. Fastest turnaround with dramatic visual impact. Perfect if your base is solid but walls are dated."
+priceLabel: from $6,500
+duration: 1 day
+shortDescription: Keep your existing tub or shower base and just replace the
+  walls. Fastest turnaround with dramatic visual impact. Perfect if your base is
+  solid but walls are dated.
 includes:
-  - "Removal of old wall surround"
-  - "New composite wall panels"
-  - "Corner caddies & trim"
-  - "Sealant & waterproofing"
-image: "/images/service-surrounds.webp"
-imageAlt: "New composite wall surround panels installed around an existing bathtub"
+  - Removal of old wall surround
+  - New composite wall panels
+  - Corner caddies & trim
+  - Sealant & waterproofing
+image: /images/service-surrounds.webp
+imageAlt: New composite wall surround panels installed around an existing bathtub
 featured: false
 order: 1
 ---
