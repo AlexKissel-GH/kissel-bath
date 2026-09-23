@@ -15,7 +15,7 @@ faq:
   - q: "How long does a kitchen remodel take in Aurora?"
     a: "On-site work runs 3 to 5 days for a facelift or cabinet refacing and 7 to 14 days for a full remodel. The complete process — design, selections, permits, ordering, and construction — typically spans four to ten weeks. Our kitchen remodel timeline guide walks through each phase week by week."
   - q: "Is Kissel's Bath and Kitchen based in Aurora?"
-    a: "Yes. We're a family-owned company based in Aurora, founded by Alex and Daria Kissel, with more than 200 completed kitchen and bathroom projects across Aurora and the Denver metro. We're a licensed and insured General Contractor, an EPA Lead-Safe Firm, and hold a 4.9-star Google rating across 127 reviews. Every project includes a 1-year labor warranty."
+    a: "Yes. We're a family-owned company based in Aurora, founded by Alex and Daria Kissel, with more than 200 completed kitchen and bathroom projects across Aurora and the Denver metro. We're a licensed and insured General Contractor, an EPA Lead-Safe Firm, and hold a 4.9-star Google rating across 40 reviews. Every project includes a 1-year labor warranty."
 ---
 
 If you own a home in Aurora, you already know the city isn't one kind of neighborhood. A 1962 brick ranch near Hoffman Heights remodels nothing like a 2005 two-story in Tallyn's Reach or a newer build out at Southshore. Kitchen remodeling in Aurora, CO means matching the project to the housing stock — and that's where being a local, family-owned company matters.
@@ -92,7 +92,7 @@ Whether you hire us or not, hold every bidder to this list:
 
 1. **Licensed and insured General Contractor.** Ask directly; a real GC answers immediately.
 2. **Fixed, itemized pricing in writing.** A one-line quote with a round number is a change-order factory. Every line item should be visible before you sign.
-3. **Verified reviews.** Look for volume and consistency — we hold a 4.9-star Google rating across 127 reviews, and we're proud that much of our Aurora work comes from referrals and repeat clients.
+3. **Verified reviews.** Look for volume and consistency — we hold a 4.9-star Google rating across 40 reviews, and we're proud that much of our Aurora work comes from referrals and repeat clients.
 4. **A written warranty.** We back every project with a 1-year labor warranty. If a contractor won't warranty labor, ask why.
 5. **Who actually does the work?** Know whether the person quoting your job runs the crew or hands it off.
 6. **Financing transparency.** If you plan to finance, terms should be clear. Ours is a soft credit check with 0% APR for 18 months for qualified buyers — no impact to your credit to see options.

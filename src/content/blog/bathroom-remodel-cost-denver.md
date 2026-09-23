@@ -92,7 +92,7 @@ Practical advice from 200+ projects:
 
 ## Why the Cheapest Bid Usually Isn't
 
-In this market, an unusually low bid almost always means one of three things: unlicensed labor, no insurance, or a scope that will "grow" once demolition starts. Any of the three leaves you holding the risk. Verify the contractor's license and insurance, ask who pulls the permit, and ask what happens if the price changes mid-project. Our labor carries a 1-year warranty, and our Google rating of 4.9 stars across 127 reviews reflects what happens when pricing is fixed and honest from day one.
+In this market, an unusually low bid almost always means one of three things: unlicensed labor, no insurance, or a scope that will "grow" once demolition starts. Any of the three leaves you holding the risk. Verify the contractor's license and insurance, ask who pulls the permit, and ask what happens if the price changes mid-project. Our labor carries a 1-year warranty, and our Google rating of 4.9 stars across 40 reviews reflects what happens when pricing is fixed and honest from day one.
 
 ## Get a Fixed Price on Your Bathroom
 

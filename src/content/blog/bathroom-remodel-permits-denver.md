@@ -88,6 +88,6 @@ We're also an EPA Lead-Safe Certified Firm (NAT-F212803-1), which matters on per
 
 ## Have a Project in Mind? Ask Us First
 
-The fastest way to find out whether your project needs a permit is a free in-home estimate. We'll look at the scope, tell you plainly what your city will require, and include permit handling in your fixed, itemized price. Family-owned, 200+ projects completed, 4.9 stars on Google across 127 reviews, and a 1-year labor warranty on everything we build.
+The fastest way to find out whether your project needs a permit is a free in-home estimate. We'll look at the scope, tell you plainly what your city will require, and include permit handling in your fixed, itemized price. Family-owned, 200+ projects completed, 4.9 stars on Google across 40 reviews, and a 1-year labor warranty on everything we build.
 
 Call **720.705.1461** or [book your free estimate](/contact). Curious how permits fit into the overall schedule? Our [bathroom remodel timeline guide](/blog/bathroom-remodel-timeline-denver) walks through it week by week, and the [pricing page](/pricing) shows current starting prices for every project type.

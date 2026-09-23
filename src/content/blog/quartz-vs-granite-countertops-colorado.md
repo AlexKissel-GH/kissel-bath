@@ -89,6 +89,6 @@ A simple decision framework:
 - **Choose granite if** you love natural stone character, cook aggressively with hot pans, have strong sun exposure on your counters, or want the confidence of selecting a one-of-a-kind slab.
 - **When in doubt,** visit a slab yard. Standing in front of full slabs settles this question faster than any article — including this one.
 
-Whatever you choose, installation quality matters as much as material. Precise templating, level installation, and clean seam work are what separate counters you love from counters you tolerate. Kissel's Bath and Kitchen is a family-owned, licensed and insured general contractor based in Aurora, with 200+ completed projects, a 4.9-star Google rating from 127 reviews, and a 1-year labor warranty on our work. Every project comes with fixed, itemized pricing and a free in-home estimate.
+Whatever you choose, installation quality matters as much as material. Precise templating, level installation, and clean seam work are what separate counters you love from counters you tolerate. Kissel's Bath and Kitchen is a family-owned, licensed and insured general contractor based in Aurora, with 200+ completed projects, a 4.9-star Google rating from 40 reviews, and a 1-year labor warranty on our work. Every project comes with fixed, itemized pricing and a free in-home estimate.
 
 See our [countertop and kitchen services](/pricing) for current starting prices, then [contact us](/contact) or call 720.705.1461 to schedule your estimate — we'll bring samples and honest advice, not a sales pitch.

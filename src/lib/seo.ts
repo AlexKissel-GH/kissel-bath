@@ -54,7 +54,7 @@ export function businessJsonLd(opts: { reviews?: ReviewInput[]; extra?: Record<s
       postalCode: '80011',
       addressCountry: 'US',
     },
-    geo: { '@type': 'GeoCoordinates', latitude: 39.7292, longitude: -104.9903 },
+    geo: { '@type': 'GeoCoordinates', latitude: 39.7196944, longitude: -104.7925253 },
     areaServed,
     openingHoursSpecification: [
       {
@@ -75,11 +75,11 @@ export function businessJsonLd(opts: { reviews?: ReviewInput[]; extra?: Record<s
       ratingValue: settings.rating,
       reviewCount: settings.reviewCount,
     },
-    // TODO: replace with the real profile URLs once confirmed by the owner
+    // Verified business profiles (Google Maps place URL confirmed against the live GBP card)
     sameAs: [
-      'https://www.google.com/maps/search/Kissel%27s+Bath+and+Kitchen+Aurora+CO',
-      'https://www.houzz.com/professionals/kissels-bath-and-kitchen',
-      'https://www.homeadvisor.com/sp/Kissels-Bath-and-Kitchen',
+      "https://www.google.com/maps/place/Kissel's+Bath+for+US/@39.7196944,-104.7925253,17z/data=!4m6!3m5!1s0x876c7dca5fdaf431:0xc0d4d25ad129929e!8m2!3d39.7196944!4d-104.7925253!16s%2Fg%2F11h94tpl17",
+      'https://www.houzz.com/professionals/kitchen-and-bath-remodelers/kissel-s-bath-for-us-pfvwus-pf~221904293',
+      'https://www.facebook.com/bath4us',
     ],
     ...(opts.reviews ? { review: opts.reviews.map(reviewSchema) } : {}),
     ...(opts.extra ?? {}),

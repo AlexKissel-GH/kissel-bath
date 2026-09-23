@@ -83,4 +83,4 @@ Like-for-like conversions that keep the drain and supplies in place often don't 
 
 Every conversion we do starts with a free in-home estimate and ends with a fixed, itemized price — no allowances, no surprises when the wall comes open (we'll have already talked about what's likely back there in your era of home). Our labor carries a 1-year warranty, Sentrel walls carry a lifetime warranty, and financing with a soft credit check — including 0% APR for 18 months for qualified buyers — can make the project fit your budget.
 
-We're family-owned, based in Aurora, with 200+ completed projects and a 4.9-star Google rating across 127 reviews. Call **720.705.1461** or [book your free estimate](/contact), and see the full scope on our [services page](/services).
+We're family-owned, based in Aurora, with 200+ completed projects and a 4.9-star Google rating across 40 reviews. Call **720.705.1461** or [book your free estimate](/contact), and see the full scope on our [services page](/services).

@@ -95,4 +95,4 @@ Budget projects pair naturally with financing. We offer financing with a soft cr
 
 ## Get your fixed number
 
-We're a family-owned company based in Aurora — Alex and Daria Kissel, 200+ completed projects, a 4.9★ Google rating from 127 reviews, and a licensed and insured General Contractor. Every estimate is free, in-home, and ends with itemized fixed pricing you can hold us to. Call 720.705.1461 or [schedule your estimate](/contact) and find out whether your shower qualifies for the budget scope.
+We're a family-owned company based in Aurora — Alex and Daria Kissel, 200+ completed projects, a 4.9★ Google rating from 40 reviews, and a licensed and insured General Contractor. Every estimate is free, in-home, and ends with itemized fixed pricing you can hold us to. Call 720.705.1461 or [schedule your estimate](/contact) and find out whether your shower qualifies for the budget scope.

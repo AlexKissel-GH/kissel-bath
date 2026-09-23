@@ -77,6 +77,6 @@ After 200+ projects across Denver, Aurora, Lakewood, Centennial, and the south m
 
 Either way, the work behind the walls — the waterproofing, the plumbing, the prep — matters more than the surface you choose. That's where showers succeed or fail.
 
-The easiest way to decide is to see both. In a free in-home estimate, we'll bring Sentrel samples, talk through tile options for your space, and price both paths with a fixed, itemized quote so you can compare real numbers rather than guesses. We're family-owned, based in Aurora, licensed and insured, with a 4.9-star Google rating from 127 reviews.
+The easiest way to decide is to see both. In a free in-home estimate, we'll bring Sentrel samples, talk through tile options for your space, and price both paths with a fixed, itemized quote so you can compare real numbers rather than guesses. We're family-owned, based in Aurora, licensed and insured, with a 4.9-star Google rating from 40 reviews.
 
 Call **720.705.1461** or [schedule your free estimate](/contact), and browse project scopes on our [services page](/services).

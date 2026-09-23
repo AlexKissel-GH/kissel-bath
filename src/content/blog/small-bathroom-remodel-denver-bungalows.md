@@ -97,4 +97,4 @@ Common surprises we budget-contingency for in 1900s–1970s homes: corroded galv
 
 ## Get a fixed price for your small bath
 
-A 5×8 bathroom remodels beautifully when the plan respects the room's bones. We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating (127 reviews) and a 1-year labor warranty on every project. Call 720.705.1461 or [request a free in-home estimate](/contact) — you'll get itemized, fixed pricing and a straight answer on what your room needs.
+A 5×8 bathroom remodels beautifully when the plan respects the room's bones. We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating (40 reviews) and a 1-year labor warranty on every project. Call 720.705.1461 or [request a free in-home estimate](/contact) — you'll get itemized, fixed pricing and a straight answer on what your room needs.

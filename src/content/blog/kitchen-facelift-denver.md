@@ -86,4 +86,4 @@ A facelift is likely your answer if:
 
 If you're still weighing scope, our team will tell you honestly during a free estimate — we'd rather sell you the right-sized project than the biggest one. Financing is available with a soft credit check, including 0% APR for 18 months for qualified buyers.
 
-Kissel's Bath and Kitchen is family-owned, based in Aurora, and rated 4.9 stars on Google across 127 reviews. Browse our [kitchen services and starting prices](/services), then [contact us](/contact) or call 720.705.1461 to book your free in-home estimate.
+Kissel's Bath and Kitchen is family-owned, based in Aurora, and rated 4.9 stars on Google across 40 reviews. Browse our [kitchen services and starting prices](/services), then [contact us](/contact) or call 720.705.1461 to book your free in-home estimate.

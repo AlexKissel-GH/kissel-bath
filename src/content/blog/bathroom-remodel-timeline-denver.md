@@ -92,4 +92,4 @@ Most Denver-area families stay home through the entire project, and with a littl
 
 ## Ready to put dates on the calendar?
 
-We're a family-owned, licensed and insured General Contractor based in Aurora — 200+ completed projects, a 4.9★ Google rating from 127 reviews, and a 1-year labor warranty. Financing is available with a soft credit check, including 0% APR for 18 months for qualified buyers. Call 720.705.1461 or [book your free in-home estimate](/contact), and you'll leave the visit with a fixed price and a realistic start-to-finish schedule for your specific bathroom.
+We're a family-owned, licensed and insured General Contractor based in Aurora — 200+ completed projects, a 4.9★ Google rating from 40 reviews, and a 1-year labor warranty. Financing is available with a soft credit check, including 0% APR for 18 months for qualified buyers. Call 720.705.1461 or [book your free in-home estimate](/contact), and you'll leave the visit with a fixed price and a realistic start-to-finish schedule for your specific bathroom.

@@ -79,6 +79,6 @@ If the project starts from an existing tub, our [tub-to-shower conversion](/blog
 
 ## Start With a Free In-Home Assessment
 
-Every accessible project starts with a free in-home estimate. We'll look at the bathroom with you — entry, floor, plumbing, framing era — talk through who will use the space and how that might change, and leave you with a fixed, itemized price. Our labor carries a 1-year warranty, and we're a licensed and insured General Contractor, family-owned in Aurora, with 200+ completed projects and a 4.9-star Google rating from 127 reviews.
+Every accessible project starts with a free in-home estimate. We'll look at the bathroom with you — entry, floor, plumbing, framing era — talk through who will use the space and how that might change, and leave you with a fixed, itemized price. Our labor carries a 1-year warranty, and we're a licensed and insured General Contractor, family-owned in Aurora, with 200+ completed projects and a 4.9-star Google rating from 40 reviews.
 
 Call **720.705.1461** or [schedule your free estimate](/contact). You can also browse the full scope of what we do on our [services page](/services). We serve the entire Denver metro — Aurora, Lakewood, Centennial, Highlands Ranch, Parker, Arvada, Littleton, Boulder, and beyond.

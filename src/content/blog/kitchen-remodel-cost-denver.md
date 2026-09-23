@@ -99,4 +99,4 @@ Online cost calculators can only take you so far, because they can't see your pa
 2. **Get fixed, itemized pricing.** Every line spelled out, so you can see exactly where the money goes and adjust selections to fit your budget.
 3. **Compare apples to apples.** Our full range of kitchen services and starting prices is listed on our [pricing page](/pricing) so you can walk into any estimate already informed.
 
-Kissel's Bath and Kitchen is family-owned, based in Aurora, and we've completed 200+ projects across the Denver metro with a 4.9-star Google rating from 127 reviews. Every project is backed by a 1-year labor warranty. If you're ready to find out what your kitchen would cost — with a real number, not a guess — [contact us](/contact) or call 720.705.1461 to book your free estimate.
+Kissel's Bath and Kitchen is family-owned, based in Aurora, and we've completed 200+ projects across the Denver metro with a 4.9-star Google rating from 40 reviews. Every project is backed by a 1-year labor warranty. If you're ready to find out what your kitchen would cost — with a real number, not a guess — [contact us](/contact) or call 720.705.1461 to book your free estimate.

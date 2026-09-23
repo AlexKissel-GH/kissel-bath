@@ -80,4 +80,4 @@ A better framework than timing: remodel when the room needs it, scope it to the 
 
 In most Denver metro cases, yes — with three conditions: scope the project to the neighborhood, prioritize the wet area and visible surfaces, and do permitted, properly waterproofed work that survives inspection. Skip any of the three and the return erodes.
 
-We're a family-owned, licensed and insured General Contractor based in Aurora — Alex and Daria Kissel, 200+ completed projects, a 4.9★ Google rating from 127 reviews, and a 1-year labor warranty. We'll walk your bathroom and give you a straight read on which scope makes sense for your house and your plans, with itemized fixed pricing. Call 720.705.1461 or [schedule a free in-home estimate](/contact).
+We're a family-owned, licensed and insured General Contractor based in Aurora — Alex and Daria Kissel, 200+ completed projects, a 4.9★ Google rating from 40 reviews, and a 1-year labor warranty. We'll walk your bathroom and give you a straight read on which scope makes sense for your house and your plans, with itemized fixed pricing. Call 720.705.1461 or [schedule a free in-home estimate](/contact).
