@@ -1,18 +1,20 @@
 ---
-title: "Wet Area Only Renovation"
+title: Wet Area Only Renovation
 category: bathroom
-priceFrom: 14900
-priceLabel: "from $14,900"
-duration: "3–4 days"
-shortDescription: "Update just the wet zone — tub or shower area — while keeping your vanity, toilet, and flooring intact. Great for a quick refresh without a full gut."
+priceFrom: 12200
+priceLabel: from $12,200
+duration: 3–4 days
+shortDescription: Update just the wet zone — tub or shower area — while keeping
+  your vanity, toilet, and flooring intact. Great for a quick refresh without a
+  full gut.
 includes:
-  - "Tub or shower base replacement"
-  - "Composite wall surround system"
-  - "New fixtures & trim"
-  - "Plumbing connections"
-  - "Vanity, toilet & flooring untouched"
-image: "/images/service-wet-area.webp"
-imageAlt: "Updated bathtub and shower wet area with new composite wall surround"
+  - Tub or shower base replacement
+  - Composite wall surround system
+  - New fixtures & trim
+  - Plumbing connections
+  - Vanity, toilet & flooring untouched
+image: /images/service-wet-area.webp
+imageAlt: Updated bathtub and shower wet area with new composite wall surround
 featured: false
 order: 3
 ---

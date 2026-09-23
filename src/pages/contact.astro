@@ -97,14 +97,6 @@ const labelClass = 'block text-sm font-semibold text-brand-dark mb-1.5';
                 <option value="Not sure yet — need consultation">Not sure yet — need consultation</option>
               </select>
             </div>
-            <div class="sm:col-span-2">
-              <label for="address" class={labelClass}>Project address *</label>
-              <input type="text" id="address" name="address" required autocomplete="street-address" placeholder="123 Main St" class={inputClass} />
-            </div>
-            <div>
-              <label for="city" class={labelClass}>City *</label>
-              <input type="text" id="city" name="city" required autocomplete="address-level2" placeholder="Denver" class={inputClass} />
-            </div>
             <div>
               <label for="zip" class={labelClass}>ZIP code *</label>
               <input type="text" id="zip" name="zip" required autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}" placeholder="80011" class={inputClass} />
