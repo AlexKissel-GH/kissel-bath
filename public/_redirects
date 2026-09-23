@@ -51,3 +51,42 @@ https://www.bath4.us/post/revitalize-your-bathroom-the-benefits-of-a-facelift-wi
 # Catch-alls (MUST stay last)
 https://www.bath4.us/post/* https://kisselremodeling.com/blog 301!
 https://www.bath4.us/* https://kisselremodeling.com/ 301!
+
+# Apex domain (bath4.us without www) — same rules; Netlify matches hosts exactly
+https://bath4.us/ https://kisselremodeling.com/ 301!
+https://bath4.us/about https://kisselremodeling.com/about 301!
+https://bath4.us/contact https://kisselremodeling.com/contact 301!
+https://bath4.us/faq https://kisselremodeling.com/faq 301!
+https://bath4.us/blog https://kisselremodeling.com/blog 301!
+https://bath4.us/sentrel-bath-systems https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-services https://kisselremodeling.com/services 301!
+https://bath4.us/complete-bathroom-remodeling https://kisselremodeling.com/services 301!
+https://bath4.us/tub-to-shower-conversion https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-highlands-ranch-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-boulder-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-parker-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-aurora-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-lone-tree-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-castle-pines-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-greenwood-village-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-centennial-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-federal-heights-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-littleton-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-lakewood-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-castle-rock-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-arvada-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-golden-co https://kisselremodeling.com/services 301!
+https://bath4.us/bathroom-remodeling-broomfield-co https://kisselremodeling.com/services 301!
+https://bath4.us/copy-of-bathroom-remodeling-englewood-co https://kisselremodeling.com/services 301!
+https://bath4.us/copy-of-bathroom-remodeling-commerce-city-co https://kisselremodeling.com/services 301!
+https://bath4.us/post/increase-the-value-of-your-home-with-our-bathroom-renovation-services-in-denver-co https://kisselremodeling.com/blog/bathroom-remodel-roi-denver 301!
+https://bath4.us/post/why-composite-shower-walls-are-the-future-of-bathroom-design https://kisselremodeling.com/blog/sentrel-vs-tile-shower-walls-colorado 301!
+https://bath4.us/post/composite-wall-surrounds-a-modern-solution-for-bathroom-remodeling https://kisselremodeling.com/blog/sentrel-vs-tile-shower-walls-colorado 301!
+https://bath4.us/post/creating-safe-and-accessible-bathrooms-for-the-elderly-and-people-with-disabilities https://kisselremodeling.com/blog/accessible-bathroom-design-ada-denver 301!
+https://bath4.us/post/enhance-comfort-and-safety-why-you-should-consider-a-shower-seat-for-your-bathroom-remodel https://kisselremodeling.com/blog/walk-in-showers-aging-in-place-denver 301!
+https://bath4.us/post/bathtub-vs-shower-which-is-better-for-your-bathroom https://kisselremodeling.com/blog/tub-to-shower-conversion-denver 301!
+https://bath4.us/post/transform-your-bathroom-on-a-budget-the-power-of-wall-surrounds https://kisselremodeling.com/blog/budget-shower-renovation-denver 301!
+https://bath4.us/post/making-your-dream-bathroom-affordable-what-you-need-to-know-about-financing https://kisselremodeling.com/pricing 301!
+https://bath4.us/post/revitalize-your-bathroom-the-benefits-of-a-facelift-with-composite-shower-wall-surrounds https://kisselremodeling.com/services 301!
+https://bath4.us/post/* https://kisselremodeling.com/blog 301!
+https://bath4.us/* https://kisselremodeling.com/ 301!
