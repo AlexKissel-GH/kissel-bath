@@ -18,7 +18,7 @@ even if a local page matches the path).
 | Old URL (www.bath4.us) | New URL (kisselremodeling.com) | Rationale |
 |---|---|---|
 | `/` | `/` | Home → home |
-| `/about` | `/about` | Same page exists on the new site |
+| `/about` | `/services/tub-to-shower-conversion-denver/` | Old `/about` URL actually held the "Tub to Shower Conversion in Denver, CO" page (Wix mislabel) — confirmed by owner |
 | `/contact` | `/contact` | Same page exists on the new site |
 | `/faq` | `/faq` | Same page exists on the new site |
 | `/blog` | `/blog` | Same page exists on the new site |
@@ -27,19 +27,19 @@ even if a local page matches the path).
 
 | Old URL | New URL | Rationale |
 |---|---|---|
-| `/sentrel-bath-systems` | `/services` | Sentrel product page → services overview (Sentrel is covered there) |
-| `/bathroom-remodeling-services` | `/services` | Old services hub → new services hub |
-| `/complete-bathroom-remodeling` | `/services` | Old single-service page → consolidated services page |
-| `/tub-to-shower-conversion` | `/services` | Old single-service page → consolidated services page (has matching service) |
+| `/sentrel-bath-systems` | `/services/bathroom-surrounds-replacement-denver/` | Sentrel product page → dedicated surrounds service page |
+| `/bathroom-remodeling-services` | `/services` | Old services hub → new services hub (unchanged) |
+| `/complete-bathroom-remodeling` | `/services/bathroom-remodeling-denver/` | Old single-service page → dedicated service page |
+| `/tub-to-shower-conversion` | `/services/tub-to-shower-conversion-denver/` | Old single-service page → dedicated service page |
 
 ## Old location pages (17)
 
-The old site had one thin page per city. The new site covers all cities on
-`/services` (dedicated location pages are a future SEO step — see SEO-MAP.md).
+The old site had one thin page per city. The five cities that now have
+dedicated location pages redirect there directly; the rest go to `/services`.
 
 | Old URL | New URL | Rationale |
 |---|---|---|
-| `/bathroom-remodeling-highlands-ranch-co` | `/services` | Thin location page → services until a dedicated page exists |
+| `/bathroom-remodeling-highlands-ranch-co` | `/locations/bathroom-remodeling-highlands-ranch-co/` | Dedicated location page now exists |
 | `/bathroom-remodeling-boulder-co` | `/services` | Same |
 | `/bathroom-remodeling-parker-co` | `/services` | Same |
 | `/bathroom-remodeling-aurora-co` | `/services` | Same |
@@ -71,7 +71,7 @@ Each old post redirects to the topically closest new article (or page).
 | `/post/bathtub-vs-shower-which-is-better-for-your-bathroom` | `/blog/tub-to-shower-conversion-denver` | Tub vs shower → tub-to-shower conversion |
 | `/post/transform-your-bathroom-on-a-budget-the-power-of-wall-surrounds` | `/blog/budget-shower-renovation-denver` | Budget remodel with surrounds |
 | `/post/making-your-dream-bathroom-affordable-what-you-need-to-know-about-financing` | `/pricing` | Financing topic → pricing page with financing info |
-| `/post/revitalize-your-bathroom-the-benefits-of-a-facelift-with-composite-shower-wall-surrounds` | `/services` | Facelift service → services page (surrounds-only facelift) |
+| `/post/revitalize-your-bathroom-the-benefits-of-a-facelift-with-composite-shower-wall-surrounds` | `/services/bathroom-surrounds-replacement-denver/` | Facelift/surrounds topic → dedicated surrounds service page |
 
 ## Catch-alls (last rules in the file)
 
