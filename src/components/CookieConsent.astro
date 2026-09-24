@@ -1,0 +1,78 @@
+---
+// Compact cookie-consent bar. Consent is stored in localStorage under
+// "kissel-consent" ("accepted" | "declined"). GTM is loaded only after
+// acceptance (see BaseLayout). The Footer "Manage cookies" button calls
+// window.__kisselShowConsent() to clear the choice and re-show this bar.
+---
+
+<div
+  id="cookie-consent"
+  class="hidden fixed bottom-0 inset-x-0 z-[60] bg-white border-t border-slate-200 shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"
+  role="region"
+  aria-label="Cookie consent"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-6">
+    <p class="text-sm text-brand-body leading-relaxed flex-1">
+      We use cookies for analytics to improve your experience.
+      <a href="/privacy-policy/" class="font-semibold text-brand-dark hover:text-brand-accent underline underline-offset-2 transition-colors">Privacy Policy</a>
+    </p>
+    <div class="flex items-center gap-3 w-full sm:w-auto">
+      <button
+        id="cookie-decline"
+        type="button"
+        class="flex-1 sm:flex-none inline-flex items-center justify-center px-5 py-2.5 min-h-[44px] bg-white text-brand-dark text-sm font-semibold rounded-xl border border-slate-300 hover:border-slate-400 transition-colors"
+      >
+        Decline
+      </button>
+      <button
+        id="cookie-accept"
+        type="button"
+        class="flex-1 sm:flex-none inline-flex items-center justify-center px-5 py-2.5 min-h-[44px] bg-brand-dark text-white text-sm font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'kissel-consent';
+    var bar = document.getElementById('cookie-consent');
+    if (!bar) return;
+
+    function getConsent() {
+      try { return localStorage.getItem(KEY); } catch (e) { return null; }
+    }
+    function setConsent(value) {
+      try { localStorage.setItem(KEY, value); } catch (e) {}
+    }
+    function showBar() { bar.classList.remove('hidden'); }
+    function hideBar() { bar.classList.add('hidden'); }
+
+    // Re-show the banner (used by the "Manage cookies" footer link)
+    window.__kisselShowConsent = function () {
+      try { localStorage.removeItem(KEY); } catch (e) {}
+      showBar();
+    };
+
+    document.getElementById('cookie-accept').addEventListener('click', function () {
+      setConsent('accepted');
+      hideBar();
+      if (typeof window.__loadGTM === 'function') window.__loadGTM();
+    });
+    document.getElementById('cookie-decline').addEventListener('click', function () {
+      setConsent('declined');
+      hideBar();
+    });
+
+    // First visit (no stored choice): show the bar. Accepted on a previous
+    // visit: load GTM immediately. Declined: stay silent.
+    var consent = getConsent();
+    if (consent === 'accepted') {
+      if (typeof window.__loadGTM === 'function') window.__loadGTM();
+    } else if (!consent) {
+      showBar();
+    }
+  })();
+</script>

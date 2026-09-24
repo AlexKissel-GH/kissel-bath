@@ -1,16 +1,17 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { servicePageUrl } from '../lib/serviceUrls';
 
 interface Props {
   service: CollectionEntry<'services'>;
   linkPrefix?: string;
 }
-const { service, linkPrefix = '/services' } = Astro.props;
+const { service } = Astro.props;
 const { title, priceLabel, duration, shortDescription, image, imageAlt, featured } = service.data;
-const href = `${linkPrefix}#${service.slug}`;
+const href = servicePageUrl(service.slug);
 ---
 
-<article class="relative flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg hover:border-slate-300 transition-all">
+<article class="relative flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg hover:border-slate-300 transition-all" data-track="service-card">
   {featured && (
     <span class="absolute top-4 left-4 z-10 inline-flex items-center px-3 py-1 rounded-full bg-brand-accent text-white text-xs font-semibold uppercase tracking-wide">
       Most Popular

@@ -15,7 +15,7 @@ faq:
   - q: "Can I stay in my home during a kitchen remodel?"
     a: "Yes, most families do. You'll lose use of the kitchen itself, so we recommend setting up a temporary station with a microwave, coffee maker, and the refrigerator in the garage or dining room. Water and power shutoffs are measured in hours, not days. We contain dust with barriers and clean the work area daily."
   - q: "What is the fastest way to update a kitchen?"
-    a: "Countertop replacement is the quickest meaningful upgrade — starting at $4,200 and finished in 1 to 2 days. A kitchen facelift starting at $7,900 refreshes doors, hardware, and surfaces in 3 to 5 days. Both deliver a visibly new kitchen without the timeline or cost of a full remodel."
+    a: "Countertop replacement is the quickest meaningful upgrade — starting at $5,200 and finished in 1 to 2 days. A kitchen facelift starting at $8,900 refreshes doors, hardware, and surfaces in 3 to 5 days. Both deliver a visibly new kitchen without the timeline or cost of a full remodel."
 ---
 
 Most Denver kitchen remodels take somewhere between three days and two weeks of actual on-site construction. That range sounds wide because it is — a countertop swap and a full gut remodel are different animals. But when homeowners ask me how long a kitchen remodel takes, they usually mean the whole journey, from the first estimate to the day they cook dinner in a finished space. That honest answer is four to ten weeks, depending on scope, permits, and material lead times.
@@ -28,10 +28,10 @@ The single biggest factor in your timeline is scope. Here's what we tell homeown
 
 | Project | Starting at | On-site time |
 | --- | --- | --- |
-| Countertop Replacement | $4,200 | 1–2 days |
-| Kitchen Facelift | $7,900 | 3–5 days |
-| Cabinet Refacing | $10,500 | 3–5 days |
-| Full Kitchen Remodel | Custom quote | 7–14 days |
+| [Countertop Replacement](/services/countertop-replacement-denver/) | $5,200 | 1–2 days |
+| [Kitchen Facelift](/services/kitchen-facelift-denver/) | $8,900 | 3–5 days |
+| [Cabinet Refacing](/services/cabinet-refacing-denver/) | $10,500 | 3–5 days |
+| [Full Kitchen Remodel](/services/kitchen-remodeling-denver/) | Custom quote | 7–14 days |
 
 A facelift keeps your cabinet boxes and layout but replaces doors, drawer fronts, hardware, and surfaces. Refacing goes further with new veneer on the boxes themselves. A full remodel means demo to the studs, new cabinets, counters, plumbing, electrical, flooring, and finishes. You can see exactly what's included in each tier on our [kitchen pricing page](/pricing), and our [kitchen remodel cost guide](/blog/kitchen-remodel-cost-denver) explains what drives each number.
 

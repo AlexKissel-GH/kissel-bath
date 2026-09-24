@@ -1,0 +1,72 @@
+---
+import ServicePage from '../../components/ServicePage.astro';
+---
+
+<ServicePage
+  title="Countertop Replacement in Denver"
+  metaTitle="Countertop Replacement Denver | Quartz & Granite from $5,200"
+  metaDescription="Countertop replacement in Denver from $5,200, installed in 1–2 days. Quartz, granite & solid surface with sink cutouts and edge profiles. Free estimate: 720.705.1461."
+  heroSubheading="Nothing changes a kitchen faster than new countertops. We remove your tired laminate or tile counters and install quartz, granite, or solid-surface slabs — templated to your kitchen, cut for your sink and faucet, finished with your choice of edge profile — in just 1–2 days. It is the highest-impact, lowest-disruption upgrade we offer in the Denver metro, and it pairs beautifully with a kitchen facelift or cabinet refacing for a complete transformation in under a week."
+  priceLabel="from $5,200"
+  duration="1–2 days"
+  heroImage="/images/service-countertops.webp"
+  heroImageAlt="Countertop replacement in Denver with new quartz slab and eased edge profile"
+  priceFrom={5200}
+  includes={[
+    'In-home template & precise measurement',
+    'Removal & disposal of old countertops',
+    'Quartz, granite, or solid-surface slab',
+    'Sink & faucet cutouts, cooktop cutouts as needed',
+    'Edge profile options: eased, bevel, or ogee',
+    'Backsplash coordination & caulking',
+    'Sink reconnection & faucet reinstallation',
+    '1-year labor warranty',
+  ]}
+  processSteps={[
+    { title: 'Consultation & templating', text: 'Free in-home visit anywhere in the Denver metro. We template your existing counters with precise measurements, check cabinet level and support, and show you actual slab samples in quartz, granite, and solid surface.' },
+    { title: 'Fixed itemized estimate', text: 'A written fixed price covering slab, fabrication, cutouts, edge profile, removal, disposal, and installation. The number you sign is the number you pay — no surprise square-footage adjustments after templating.' },
+    { title: 'Fabrication & install', text: 'Your slab is cut and edged to the template, then installed in 1–2 days. Old counters are hauled away the same morning, and most Denver families are cooking in the kitchen again by dinner.' },
+    { title: 'Walkthrough & warranty', text: 'We review seams, edges, and caulk lines together, share sealing and care instructions for your material, and back the installation with a 1-year labor warranty.' },
+  ]}
+  priceFactors={[
+    'Material — quartz and granite sit in a similar range for most kitchens; exotic slabs and premium quartz patterns cost more',
+    'Square footage & layout — a long L-shape with an island uses more slab than a Lakewood galley kitchen',
+    'Edge profile — eased and bevel are standard; ogee and waterfall edges add fabrication time',
+    'Cutouts — undermount sinks, cooktops, and faucet hole counts affect fabrication cost',
+    'Removal complexity — tile counters with mortar beds take longer to remove than laminate',
+    'Backsplash scope — a 4-inch backsplash strip versus a full-height tile backsplash changes the total',
+  ]}
+  faqs={[
+    {
+      q: 'How much does countertop replacement cost in Denver?',
+      a: 'Our countertop replacement starts at $5,200 for a typical Denver-metro kitchen in quartz or granite, installed in 1–2 days. Where your project lands depends on square footage, material selection, edge profile, and cutouts — a small galley in a Denver bungalow prices very differently from a big island kitchen in Highlands Ranch. The number we give you after templating is fixed and itemized, covering slab, fabrication, removal of your old counters, and installation. No post-template surprises.',
+    },
+    {
+      q: 'Quartz or granite — which is better for a Colorado kitchen?',
+      a: 'Both perform well here, and they price similarly for most kitchens. Quartz is engineered, non-porous, and never needs sealing — the low-maintenance choice, with consistent patterns. Granite is natural stone; every slab is unique, it handles heat from pots beautifully, but it should be sealed periodically. One Colorado-specific note: our dry climate and altitude cause no issues for either material, but hard Front Range water makes a quality faucet and good caulk lines matter more than the slab choice. We bring samples of both to your estimate.',
+    },
+    {
+      q: 'Can you replace countertops without replacing my cabinets?',
+      a: 'Yes — that is exactly what this service is. As long as your cabinets are structurally sound and reasonably level, we remove the old counters and install the new slab directly on your existing boxes. If we find sagging or water damage during templating, we tell you before quoting. Many Denver homeowners pair new countertops with cabinet refacing (from $10,500) or a kitchen facelift (from $8,900) for what looks like a full remodel at roughly half the disruption and cost.',
+    },
+    {
+      q: 'How long will I be without my kitchen?',
+      a: 'One to two days, start to finish, for most replacements. Day one is removal of the old counters and setting the new slab; day two, when needed, is sink reconnection, faucet reinstallation, and caulk cure time. Compare that to a full remodel at 7–14 days. We schedule so your sink is offline for the shortest possible window, and most families are back to normal cooking within 48 hours of our arrival.',
+    },
+    {
+      q: 'Do you replace countertops near me, or only in Denver?',
+      a: 'We cover the whole Denver metro from our Aurora base: Denver, Aurora, Broomfield, Parker, and Highlands Ranch are our core areas, and we regularly install countertops in Lakewood, Arvada, Centennial, Littleton, Thornton, Westminster, Golden, Boulder, and surrounding communities. Searching for a countertop replacement contractor near me anywhere in the metro gets you the same deal — free in-home templating, fixed itemized pricing, and installation in 1–2 days. Call 720.705.1461.',
+    },
+  ]}
+  relatedServices={[
+    { title: 'Cabinet Refacing in Denver', href: '/services/cabinet-refacing-denver', priceLabel: 'from $10,500' },
+    { title: 'Kitchen Facelift in Denver', href: '/services/kitchen-facelift-denver', priceLabel: 'from $8,900' },
+    { title: 'Full Kitchen Remodeling in Denver', href: '/services/kitchen-remodeling-denver', priceLabel: 'Custom quote' },
+  ]}
+  formLocation="service"
+  photos={[
+    { src: '/images/service-countertops.webp', alt: 'New quartz countertop installed in a Denver kitchen with undermount sink' },
+    { src: '/images/blog/quartz-vs-granite-countertops-colorado.webp', alt: 'Quartz and granite countertop samples compared for a Colorado kitchen' },
+    { src: '/images/blog/countertop-replacement-cost-denver.webp', alt: 'Countertop replacement project in a Denver-area home with new granite slab' },
+  ]}
+/>

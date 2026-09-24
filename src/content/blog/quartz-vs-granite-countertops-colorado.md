@@ -11,7 +11,7 @@ faq:
   - q: "Is quartz or granite better for a Colorado kitchen?"
     a: "Both perform well in Colorado's climate. Quartz wins on maintenance — it never needs sealing and resists staining. Granite wins on heat tolerance and natural, one-of-a-kind character. The better choice depends on how you cook, how much maintenance you'll tolerate, and the look you want. Both are durable in our dry climate."
   - q: "How much does countertop replacement cost in Denver?"
-    a: "Professional countertop replacement in the Denver metro starts at $4,200 and typically takes just 1-2 days. The final price depends on material selection, square footage, edge profiles, and the number of cutouts for sinks and cooktops. Every estimate we provide is fixed and itemized before work begins."
+    a: "Professional countertop replacement in the Denver metro starts at $5,200 and typically takes just 1-2 days. The final price depends on material selection, square footage, edge profiles, and the number of cutouts for sinks and cooktops. Every estimate we provide is fixed and itemized before work begins."
   - q: "Does quartz need to be sealed?"
     a: "No. Quartz is engineered from ground stone bound with resin, making it non-porous. It never needs sealing, resists staining from wine, coffee, and oil, and cleans with mild soap and water. Granite is porous natural stone and should be resealed periodically — typically every one to three years depending on use."
   - q: "Can you put hot pans on quartz or granite?"
@@ -54,7 +54,7 @@ The trade-offs: granite is porous and needs periodic sealing — typically every
 | Slab selection | Sample is representative | Choose the actual slab |
 | Price | Comparable range | Comparable range |
 
-For most Denver kitchens, installed pricing for the two materials overlaps considerably. Material grade, edge profile, and cutouts move the number more than the quartz-versus-granite choice itself. Our countertop replacement service starts at $4,200 with a 1–2 day installation.
+For most Denver kitchens, installed pricing for the two materials overlaps considerably. Material grade, edge profile, and cutouts move the number more than the quartz-versus-granite choice itself. Our [countertop replacement service](/services/countertop-replacement-denver/) starts at $5,200 with a 1–2 day installation.
 
 ## Colorado-Specific Considerations
 
@@ -72,7 +72,7 @@ Local design taste has been drifting toward warm, nature-inspired palettes: soft
 
 ## What Countertops Cost in Denver
 
-Countertop replacement starts at $4,200 and takes 1–2 days, making it one of the fastest high-impact upgrades you can make. The variables that move your quote:
+Countertop replacement starts at $5,200 and takes 1–2 days, making it one of the fastest high-impact upgrades you can make. The variables that move your quote:
 
 - **Material tier** — entry-level slabs and colors cost less than exotic or premium selections
 - **Square footage** — larger kitchens and islands need more material
@@ -89,6 +89,6 @@ A simple decision framework:
 - **Choose granite if** you love natural stone character, cook aggressively with hot pans, have strong sun exposure on your counters, or want the confidence of selecting a one-of-a-kind slab.
 - **When in doubt,** visit a slab yard. Standing in front of full slabs settles this question faster than any article — including this one.
 
-Whatever you choose, installation quality matters as much as material. Precise templating, level installation, and clean seam work are what separate counters you love from counters you tolerate. Kissel's Bath and Kitchen is a family-owned, licensed and insured general contractor based in Aurora, with 200+ completed projects, a 4.9-star Google rating from 40 reviews, and a 1-year labor warranty on our work. Every project comes with fixed, itemized pricing and a free in-home estimate.
+Whatever you choose, installation quality matters as much as material. Precise templating, level installation, and clean seam work are what separate counters you love from counters you tolerate. If the rest of the kitchen needs attention too, new counters pair naturally with [cabinet refacing](/services/cabinet-refacing-denver/) or a [kitchen facelift](/services/kitchen-facelift-denver/) — both typically finished in under a week. Kissel's Bath and Kitchen is a family-owned, licensed and insured general contractor based in Aurora, with 200+ completed projects, a 4.9-star Google rating from 40 reviews, and a 1-year labor warranty on our work. Every project comes with fixed, itemized pricing and a free in-home estimate.
 
 See our [countertop and kitchen services](/pricing) for current starting prices, then [contact us](/contact) or call 720.705.1461 to schedule your estimate — we'll bring samples and honest advice, not a sales pitch.

@@ -1,0 +1,37 @@
+---
+// Accessible FAQ accordion using native <details>/<summary>, matching the
+// pattern used on /faq. Used by ServicePage and LocationPage templates.
+
+interface Faq {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  faqs: Faq[];
+  heading?: string;
+}
+
+const { faqs, heading = 'Frequently asked questions' } = Astro.props;
+---
+
+<section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="faq-heading">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 id="faq-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">{heading}</h2>
+    <div class="mt-6 space-y-3">
+      {faqs.map((faq) => (
+        <details class="group bg-white rounded-2xl border border-slate-200 open:border-slate-300 open:shadow-sm">
+          <summary class="flex items-center justify-between gap-4 cursor-pointer px-6 py-4 min-h-[44px] font-semibold text-brand-dark hover:text-brand-accent transition-colors">
+            <span>{faq.q}</span>
+            <svg class="faq-chevron w-5 h-5 shrink-0 text-brand-muted transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </summary>
+          <div class="px-6 pb-5 text-sm leading-relaxed">
+            <p>{faq.a}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

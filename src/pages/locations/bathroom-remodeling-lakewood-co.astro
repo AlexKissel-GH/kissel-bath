@@ -1,0 +1,73 @@
+---
+import LocationPage from '../../components/LocationPage.astro';
+import { servicePageUrl } from '../../lib/serviceUrls';
+
+const topServices = [
+  {
+    title: 'Budget Shower Renovation',
+    href: servicePageUrl('budget-shower-renovation'),
+    priceLabel: 'from $9,900',
+    duration: '2–3 days',
+  },
+  {
+    title: 'Wet Area Only Renovation',
+    href: servicePageUrl('wet-area-only-renovation'),
+    priceLabel: 'from $12,200',
+    duration: '3–4 days',
+  },
+  {
+    title: 'Accessibility / ADA Bathroom Remodeling',
+    href: servicePageUrl('accessibility-ada-remodeling'),
+    priceLabel: 'Custom quote',
+    duration: '4–7 days',
+  },
+];
+---
+
+<LocationPage
+  city="Lakewood"
+  metaTitle="Bathroom Remodeling Lakewood, CO | Licensed & Insured"
+  metaDescription="Lakewood, CO bathroom remodeling for mid-century ranches and bungalows — small-bath specialists, licensed & insured. Free estimates: 720.705.1461."
+  housingStock={[
+    "Lakewood grew up fast after World War II, and its housing stock shows it: mile after mile of mid-century ranches and brick bungalows in neighborhoods like Applewood, Belmar Park, Green Mountain, and the streets around Kountze Lake. These are solid, well-built homes — but their bathrooms were designed for 1955, not for how households live now. The typical Lakewood hall bath is small, often barely 40 square feet, with a tub-shower combo, a narrow vanity, and exactly one place to stand.",
+    "Small doesn't mean hopeless — it means every decision matters more. In compact baths we focus on three levers: reclaiming visual space (a low-threshold shower with clear glass instead of a tub behind a curtain), right-sizing fixtures (shallower vanities, comfort-height toilets that don't crowd the doorway), and lighting, because most of these rooms were built with a single ceiling fixture and a medicine cabinet bulb. Done well, the same footprint feels a full size larger without moving a single wall.",
+    "The thing to respect in Lakewood's older homes is the plumbing. Supply lines from the 50s and 60s are at or past their expected service life, drains may be original cast iron, and shutoff valves sometimes haven't turned in decades. We test what we can during the estimate and open walls expecting to update at least some of it — budgeted into the quote, not sprung on you later. Many Lakewood owners also ask us to fold in accessibility features while the room is open: grab-bar blocking, a comfort-height toilet, or a curbless entry costs little now and saves a second remodel down the road.",
+    "Ventilation deserves a mention in these small rooms too. A compact hall bath concentrates moisture, and many Lakewood ranches were built with a window as the only ventilation — fine in July, less helpful in January. Where feasible we recommend a properly ducted exhaust fan as part of any remodel; it protects the new finishes you just paid for. As with everything we quote, it's a line item you see and approve upfront, not a surprise. Every Lakewood project starts with a free in-home estimate and ends with a walkthrough — we're not done until the room works the way we said it would.",
+  ]}
+  permits={`Permit requirements in Lakewood depend on what your project changes. Swapping fixtures and finishes in place typically requires no permit; relocating plumbing, altering venting, or adding electrical circuits generally does. Rules vary by city and evolve, so we confirm requirements with Lakewood's building division before work starts and can advise on or handle the permitting process where required. The city's <a href="https://www.lakewood.org/" target="_blank" rel="noopener">official website</a> lists current permit and licensing information under Planning and Building.`}
+  topServices={topServices}
+  blogLinks={[
+    { title: "Small Bathroom Remodel Ideas for Denver's Older Homes", href: '/blog/small-bathroom-remodel-denver-bungalows' },
+    { title: 'Walk-In Showers & Aging-in-Place Bathroom Design in Denver Metro', href: '/blog/walk-in-showers-aging-in-place-denver' },
+  ]}
+  faqs={[
+    {
+      q: 'Can you make my tiny Lakewood hall bath feel bigger?',
+      a: "Yes — it's what we do most in Lakewood. Converting the tub to a low-threshold shower with clear glass, installing a shallower vanity, and upgrading lighting typically transforms a 40-square-foot bath without moving walls. We measure at your free estimate and show you exactly what fits.",
+    },
+    {
+      q: 'Will the 1950s or 60s plumbing in my home need replacing?',
+      a: "Often at least partially. Original supply lines and cast-iron drains in Lakewood's mid-century homes are frequently near end of life. We inspect what's accessible during the estimate, tell you what we'd replace while walls are open, and include it in your fixed quote — no mid-project surprises. Updating supply lines while the bathroom is already open costs a fraction of a standalone plumbing call later.",
+    },
+    {
+      q: 'Do I need a permit for a bathroom remodel in Lakewood?',
+      a: 'Like-for-like fixture and finish replacement usually requires none; work that moves plumbing or electrical typically does. Requirements vary by city and scope, so we verify with the City of Lakewood before starting and handle permitting where required.',
+    },
+    {
+      q: 'Can you add accessibility features without making the bathroom look clinical?',
+      a: 'Absolutely. Modern grab bars come in finishes that match your fixtures, curbless showers read as high-end design, and comfort-height toilets look like any other toilet. We follow ADA guidelines for placement and blocking, customized to the mobility needs of your household.',
+    },
+    {
+      q: 'Is financing available?',
+      a: 'Yes. We partner with financing providers offering a range of options, including 0% APR for 18 months for qualified buyers. Applying uses a soft credit inquiry and will not affect your credit score. We can review options during your free in-home estimate — many Lakewood owners finance a complete remodel and pay it off inside the promotional window.',
+    },
+  ]}
+  nearbyCities={[
+    { name: 'Aurora, CO', href: '/locations/bathroom-remodeling-aurora-co/' },
+    { name: 'Parker, CO', href: '/locations/bathroom-remodeling-parker-co/' },
+    { name: 'Highlands Ranch, CO', href: '/locations/bathroom-remodeling-highlands-ranch-co/' },
+    { name: 'Littleton, CO', href: '/locations/bathroom-remodeling-littleton-co/' },
+    { name: 'All Service Areas', href: '/' },
+  ]}
+  formLocation="location"
+/>

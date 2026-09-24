@@ -11,7 +11,7 @@ faq:
   - q: "How long does a full bathroom remodel take in Denver?"
     a: "For a Complete Bathroom Remodel in a space up to 50 square feet, plan on 5-12 working days on site once materials and permits are ready. Design, selections, permitting, and material ordering add lead time before demo day, so the full calendar from signed contract to final walkthrough is typically several weeks depending on permit queues."
   - q: "What is the fastest bathroom remodel option?"
-    a: "A Surrounds Only Facelift is our fastest project at one day on site, starting at $6,500. A Budget Shower Renovation for a standard 60x30 alcove takes 2-3 days and starts at $9,000. Both deliver a transformed wet area without the longer timeline of a full gut remodel."
+    a: "A Surrounds Only Facelift is our fastest project at one day on site, starting at $6,500. A Budget Shower Renovation for a standard 60x30 alcove takes 2-3 days and starts at $9,900. Both deliver a transformed wet area without the longer timeline of a full gut remodel."
   - q: "What delays bathroom remodels most often in Denver?"
     a: "The three most common delays are permit and inspection scheduling through Denver or Aurora building departments, hidden damage in older homes (corroded galvanized supply lines, cracked cast-iron drains, subfloor rot), and late changes to selections. Fixed scope and materials on site before demo prevent most slippage."
   - q: "Can I stay in my home during a bathroom remodel?"
@@ -24,12 +24,12 @@ faq:
 
 | Project | Starting price | On-site time |
 |---|---|---|
-| Surrounds Only Facelift | from $6,500 | 1 day |
-| Budget Shower Renovation (standard 60"×30" alcove) | from $9,000 | 2–3 days |
-| Wet Area Only | from $14,900 | 3–4 days |
-| Tub-to-Shower Conversion | from $14,900 | 3–4 days |
-| Complete Bathroom Remodel (up to 50 sq.ft.) | from $19,700 | 5–12 days |
-| ADA/Accessibility Remodel | custom quote | 4–7 days |
+| [Surrounds Only Facelift](/services/bathroom-surrounds-replacement-denver/) | from $6,500 | 1 day |
+| [Budget Shower Renovation](/services/shower-remodel-denver/) (standard 60"×30" alcove) | from $9,900 | 2–3 days |
+| [Wet Area Only](/services/walk-in-shower-installation-denver/) | from $12,200 | 3–4 days |
+| [Tub-to-Shower Conversion](/services/tub-to-shower-conversion-denver/) | from $12,900 | 3–4 days |
+| [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) (up to 50 sq.ft.) | from $19,700 | 5–12 days |
+| [ADA/Accessibility Remodel](/services/ada-bathroom-remodeling-denver/) | custom quote | 4–7 days |
 
 "On-site time" means days our crew is physically working in your home. It does not include design, selections, permit review, or material lead times — those happen before demo and overlap with your normal life rather than disrupting it. Full scope details for each tier are on our [services page](/services).
 

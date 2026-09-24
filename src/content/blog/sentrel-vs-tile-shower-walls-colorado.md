@@ -18,7 +18,7 @@ faq:
     a: "Sentrel wall systems carry a lifetime warranty, which is one of the strongest in the shower wall category. At Kissel's Bath and Kitchen, that product warranty is paired with our 1-year labor warranty on the installation, so both the material and the workmanship are covered."
 ---
 
-If you've started researching a shower remodel, you've hit the fork in the road every homeowner hits: traditional tile, or a groutless composite wall system like **Sentrel**. We install both, and we're a Sentrel installer, so we'll give you the honest version: tile is beautiful and endlessly customizable — and for most Colorado households, Sentrel is the more practical choice. Here's the full comparison.
+If you've started researching a [shower remodel](/services/shower-remodel-denver/), you've hit the fork in the road every homeowner hits: traditional tile, or a groutless composite wall system like **Sentrel**. We install both, and we're a Sentrel installer, so we'll give you the honest version: tile is beautiful and endlessly customizable — and for most Colorado households, Sentrel is the more practical choice. Here's the full comparison.
 
 ## What Sentrel Actually Is
 
@@ -34,11 +34,11 @@ Tile's reputation for being expensive is really about labor, not material. Setti
 |---|---|---|
 | Wall material cost | Moderate | Low to high (huge range) |
 | Installation labor | Low — large panels, few seams | High — setting, grouting, sealing |
-| Typical install time (walls) | 1 day within a 3–4 day project | 2–4+ extra days |
+| Typical install time (walls) | 1 day within a 3–4 day [wet-area renovation](/services/walk-in-shower-installation-denver/) | 2–4+ extra days |
 | Grout sealing | Never | Initially and periodically after |
 | Warranty | Lifetime (Sentrel) | No material warranty on tile itself; labor warranty only |
 
-Our [Budget Shower Renovation](/blog/budget-shower-renovation-denver) for a standard 60"×30" alcove starts at $9,000 and takes 2–3 days — a price point that's only possible with composite walls. The same scope in custom tile adds days of labor and typically thousands of dollars. For the broader budget picture, see our [Denver bathroom remodel cost guide](/blog/bathroom-remodel-cost-denver).
+Our [Budget Shower Renovation](/blog/budget-shower-renovation-denver) for a standard 60"×30" alcove starts at $9,900 and takes 2–3 days — a price point that's only possible with composite walls. The same scope in custom tile adds days of labor and typically thousands of dollars. For the broader budget picture, see our [Denver bathroom remodel cost guide](/blog/bathroom-remodel-cost-denver).
 
 ## Maintenance in Colorado's Climate: The Deciding Factor for Many
 
@@ -69,7 +69,7 @@ We'd rather lose the argument than have you make the wrong choice for your house
 
 ## Resale Considerations in the Denver Market
 
-Buyers in the metro respond well to both, for different reasons. A clean, modern groutless shower reads as "low maintenance" — an increasingly strong selling point. Quality tile reads as "custom and premium." What hurts resale is neither material but condition: stained grout, cracked caulk, or a dated surround. Our [bathroom remodel ROI guide](/blog/bathroom-remodel-roi-denver) digs into how these choices play out at sale time.
+Buyers in the metro respond well to both, for different reasons. A clean, modern groutless shower reads as "low maintenance" — an increasingly strong selling point. Quality tile reads as "custom and premium." What hurts resale is neither material but condition: stained grout, cracked caulk, or a dated surround — the kind of problem a [surrounds replacement](/services/bathroom-surrounds-replacement-denver/) fixes in a day. Our [bathroom remodel ROI guide](/blog/bathroom-remodel-roi-denver) digs into how these choices play out at sale time.
 
 ## Our Recommendation, and How to Decide
 

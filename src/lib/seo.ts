@@ -1,4 +1,5 @@
 import settings from '../data/settings.json';
+import { servicePageUrl } from './serviceUrls';
 
 export const SITE = 'https://kisselremodeling.com';
 export const BUSINESS_ID = `${SITE}/#business`;
@@ -101,7 +102,7 @@ type ServiceEntry = {
 export function serviceOffers(services: ServiceEntry[]) {
   return services.map((s) => ({
     '@type': 'Offer',
-    url: `${SITE}/services#${s.slug}`,
+    url: `${SITE}${servicePageUrl(s.slug)}`,
     ...(s.data.priceFrom
       ? {
           price: s.data.priceFrom,

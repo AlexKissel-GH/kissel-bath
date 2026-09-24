@@ -9,7 +9,7 @@ image: "/images/blog/tub-to-shower-conversion-denver.webp"
 imageAlt: "Tub-to-shower conversion in a Denver CO home with new walk-in shower"
 faq:
   - q: "How much does a tub-to-shower conversion cost in Denver?"
-    a: "A professional tub-to-shower conversion in the Denver metro typically starts around $14,900 and takes 3-4 days with Kissel's Bath and Kitchen. The price includes demolition, plumbing adjustments, waterproofing, new wall surrounds, the shower base, fixtures, and glass. Final cost depends on shower size, materials, and the condition of plumbing in older homes."
+    a: "A professional tub-to-shower conversion in the Denver metro typically starts around $12,900 and takes 3-4 days with Kissel's Bath and Kitchen. The price includes demolition, plumbing adjustments, waterproofing, new wall surrounds, the shower base, fixtures, and glass. Final cost depends on shower size, materials, and the condition of plumbing in older homes."
   - q: "How long does a tub-to-shower conversion take?"
     a: "Most conversions are completed in 3-4 working days once demolition starts. Day one covers tear-out and plumbing rough-in, the middle days cover waterproofing, base, and walls, and the final day covers fixtures, glass, and cleanup. Custom tile work or unexpected plumbing repairs in older Denver homes can extend the timeline."
   - q: "Will removing my only bathtub hurt resale value?"
@@ -24,7 +24,7 @@ Here's what a conversion costs in this market, how the process actually works da
 
 ## What a Tub-to-Shower Conversion Costs in Denver
 
-Our tub-to-shower conversion package starts at **$14,900** and takes **3–4 days**. That's a complete, waterproofed, inspected-quality installation — not a liner dropped over your old tile. It typically includes:
+Our [tub-to-shower conversion](/services/tub-to-shower-conversion-denver/) package starts at **$12,900** and takes **3–4 days**. That's a complete, waterproofed, inspected-quality installation — not a liner dropped over your old tile. It typically includes:
 
 - Full demolition and haul-away of the old tub and surround
 - Plumbing adjustments (drain conversion from 1½" tub drain to 2" shower drain, valve relocation or replacement)
@@ -58,7 +58,7 @@ A conversion is usually the right call when:
 - You have a second bathroom with a tub for kids or resale
 - The existing tub surround is failing, leaking, or impossible to keep clean
 
-Think twice when it's the only tub in the house and you might sell to a family with young children. If accessibility is the driving concern, a low-threshold or curbless shower is worth discussing — we cover the design side in our article on [walk-in showers and aging in place](/blog/walk-in-showers-aging-in-place-denver).
+Think twice when it's the only tub in the house and you might sell to a family with young children. If [accessibility](/services/ada-bathroom-remodeling-denver/) is the driving concern, a low-threshold or curbless shower is worth discussing — we cover the design side in our article on [walk-in showers and aging in place](/blog/walk-in-showers-aging-in-place-denver).
 
 ## What Older Denver and Aurora Homes Add to the Job
 
@@ -70,7 +70,7 @@ None of this kills a conversion — it just means the estimate should account fo
 
 A few decisions worth thinking through before your estimate:
 
-- **Base style:** standard curb vs. low-threshold. Low-threshold costs a bit more but pays off in safety and looks.
+- **Base style:** standard curb vs. [low-threshold](/services/walk-in-shower-installation-denver/). Low-threshold costs a bit more but pays off in safety and looks.
 - **Wall system:** Sentrel composite panels give a stone or tile look with no grout lines to scrub — a genuine advantage with Colorado's hard water, which leaves mineral deposits on grout and glass. Custom tile is beautiful but adds days and dollars.
 - **Shower size:** if your alcove is the standard 60"×30", you're at the most economical size. Widening into a closet or stealing space from a vanity adds carpentry.
 - **Glass:** a fixed panel is cheaper and easier to squeegee than a full sliding enclosure, and it makes small bathrooms feel bigger.

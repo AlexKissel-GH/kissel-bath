@@ -1,0 +1,71 @@
+---
+import ServicePage from '../../components/ServicePage.astro';
+---
+
+<ServicePage
+  title="Bathroom Remodeling in Denver, CO"
+  metaTitle="Bathroom Remodeling Denver, CO | Costs, Timeline & Free Estimate"
+  metaDescription="Complete bathroom remodeling in Denver, CO from $19,700. Fixed, itemized pricing, 5–12 day timeline, Sentrel walls with lifetime warranty. Free estimate."
+  heroSubheading="A full bathroom remodel is the biggest single upgrade most Denver-area homeowners make to a bathroom — and the one that pays off every single day. Our complete remodel package takes bathrooms up to 50 square feet from dated to brand new: full demolition and disposal, a new shower or tub with grout-free Sentrel composite walls, a new vanity with countertop and sink, a new toilet, flooring, lighting, mirrors, accessories, and fresh paint. We work in 1910s Denver bungalows and 1950s–70s ranch homes across Aurora, Lakewood, and Littleton every week, so we quote honestly for what older houses actually hide — galvanized drains, tired subfloors, ungrounded wiring. You get a fixed, itemized price before we touch a wall, a crew that seals off the work area and cleans up daily, and a finished bathroom in as little as five days."
+  priceLabel="from $19,700"
+  duration="5–12 days"
+  priceFrom={19700}
+  heroImage="/images/service-complete-bathroom.webp"
+  heroImageAlt="Complete bathroom remodeling in Denver with new vanity, flooring, and walk-in shower"
+  includes={[
+    "Full demolition, haul-away & disposal of the old bathroom",
+    "New shower or tub with Sentrel grout-free composite walls — lifetime warranty on the wall system",
+    "New vanity, countertop & sink sized to your room",
+    "New comfort-height toilet & waterproof flooring",
+    "Lighting, mirrors, exhaust fan & accessories",
+    "Drywall, paint & daily cleanup with final deep clean",
+    "Financing available — soft credit check, 0% APR for 18 months for qualified buyers",
+  ]}
+  processSteps={[
+    { title: "Consultation & measurement", text: "Free in-home visit anywhere in the Denver metro. We measure the bathroom, check the plumbing and electrical, consider the age of the house, and listen to what you want the room to do." },
+    { title: "Design & fixed estimate", text: "Pick your Sentrel wall pattern, vanity, flooring, and fixtures from real samples. Within 24–48 hours you receive a written, itemized, fixed-price quote — the number you sign is the number you pay." },
+    { title: "Demolition & rebuild", text: "We protect floors, seal the work zone, and follow EPA lead-safe practices in pre-1978 homes. Demo to done typically runs 5–12 days depending on scope and what we find behind the walls." },
+    { title: "Walkthrough & warranties", text: "We walk the finished room with you, share care instructions, and hand over documentation: our 1-year labor warranty plus the lifetime Sentrel product warranty." },
+  ]}
+  priceFactors={[
+    "Bathroom size — the base package covers up to 50 sq.ft.; larger primary baths add material and labor",
+    "Layout changes — moving the toilet, vanity, or drain adds plumbing labor, patching, and often a permit",
+    "Age of the home — pre-1978 Denver bungalows and ranch homes can hide galvanized drains, damaged subfloor, or outdated wiring",
+    "Wall system choice — Sentrel composite with a lifetime warranty vs. custom tile, which adds days of labor",
+    "Fixture and vanity tier — Kohler, Delta, and Moen lines range from value to premium",
+    "Electrical upgrades — GFCI outlets, a dedicated circuit, or new lighting in older bathrooms",
+  ]}
+  faqs={[
+    {
+      q: "How much does a bathroom remodel cost in Denver?",
+      a: "Our complete bathroom remodel starts at $19,700 for bathrooms up to 50 square feet and typically runs 5–12 days. Focused projects cost less: a wet-area-only renovation starts at $12,200, a standard shower remodel at $9,900, and a surrounds-only facelift at $6,500. Older Denver homes sometimes need plumbing or subfloor repairs, which we flag in a fixed, itemized estimate before work begins — never as surprise charges mid-project.",
+    },
+    {
+      q: "How long does a full bathroom remodel take?",
+      a: "Most complete remodels we do in the Denver metro finish in 5–12 working days. The range depends on size, layout changes, and what we find behind the walls — cast-iron drains or water-damaged joists in a 1920s bungalow add days, while a straightforward ranch-home bathroom in Aurora or Centennial often lands closer to five. We schedule only after materials are in hand, so your bathroom is never torn apart waiting on a vanity.",
+    },
+    {
+      q: "Do I need a permit for a bathroom remodel in Denver?",
+      a: "It depends on scope. Like-for-like fixture swaps usually don't require a permit, but moving plumbing, adding circuits, or altering structure does — pulled through Denver Community Planning & Development or your local building department in Aurora, Lakewood, or Centennial. Permit fees are typically a few hundred dollars. As a licensed and insured general contractor, we pull whatever permits your project requires and schedule the inspections.",
+    },
+    {
+      q: "Can you remodel a small bathroom in an older Denver bungalow?",
+      a: "Yes — small bathrooms in Wash Park, Congress Park, and Berkeley bungalows are some of our most common projects. Tight 40–50 sq.ft. footprints are exactly what our complete package is priced for. Compact vanities, a curbless shower in place of an old alcove tub, and light Sentrel wall patterns make these rooms feel noticeably bigger without moving a single wall.",
+    },
+    {
+      q: "Is financing available for a bathroom remodel near me?",
+      a: "Yes. We offer financing with a soft credit check — it won't affect your credit score to see your options — and qualified buyers can get 0% APR for 18 months. Many Denver homeowners use financing to do the full remodel now instead of piecemealing it over years, which usually costs more in repeat labor. Ask during your free estimate and we'll walk you through the current terms.",
+    },
+  ]}
+  relatedServices={[
+    { title: "Tub-to-Shower Conversion", href: "/services/tub-to-shower-conversion-denver/", priceLabel: "from $12,900" },
+    { title: "Walk-In Shower Installation", href: "/services/walk-in-shower-installation-denver/", priceLabel: "from $12,200" },
+    { title: "Shower & Tub Surround Replacement", href: "/services/bathroom-surrounds-replacement-denver/", priceLabel: "from $6,500" },
+  ]}
+  photos={[
+    { src: "/images/service-complete-bathroom.webp", alt: "Complete bathroom remodeling in Denver with new vanity, flooring, and walk-in shower" },
+    { src: "/images/blog/bathroom-remodel-cost-denver.webp", alt: "Bathroom remodel in Denver CO with walk-in shower and new vanity" },
+    { src: "/images/blog/bathroom-remodel-roi-denver.webp", alt: "Remodeled bathroom in a Denver home that boosted resale value and buyer appeal" },
+  ]}
+  formLocation="service"
+/>

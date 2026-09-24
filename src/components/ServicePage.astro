@@ -1,0 +1,287 @@
+---
+// Parameterized template for service detail pages (phase 2).
+// Usage: a page under src/pages/services/ passes its content as props and
+// renders <ServicePage {...} /> — the template handles layout + JSON-LD.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LeadForm from './LeadForm.astro';
+import FaqAccordion from './FaqAccordion.astro';
+import { settings, BUSINESS_ID, breadcrumbList, faqPageJsonLd } from '../lib/seo';
+
+interface ProcessStep {
+  title: string;
+  text: string;
+}
+
+interface Props {
+  title: string; // H1
+  metaTitle: string;
+  metaDescription: string;
+  heroSubheading: string;
+  priceLabel: string; // e.g. "from $19,700"
+  duration: string; // e.g. "5–12 days"
+  heroImage: string;
+  heroImageAlt: string;
+  includes: string[];
+  processSteps?: ProcessStep[];
+  priceFactors: string[];
+  faqs: { q: string; a: string }[];
+  relatedServices: { title: string; href: string; priceLabel: string }[];
+  formLocation: string;
+  priceFrom?: number; // numeric price for the Offer schema, when known
+  photos?: { src: string; alt: string }[]; // project photos; falls back to heroImage
+}
+
+const {
+  title,
+  metaTitle,
+  metaDescription,
+  heroSubheading,
+  priceLabel,
+  duration,
+  heroImage,
+  heroImageAlt,
+  includes,
+  processSteps = [
+    { title: 'Consultation', text: 'Free in-home visit: we measure, listen to your goals, and discuss options and materials.' },
+    { title: 'Fixed itemized estimate', text: 'You receive a written, itemized, fixed-price estimate — no low-bids, no surprises later.' },
+    { title: 'Installation', text: 'Our crew completes the work on schedule, keeps the area sealed, and cleans up daily.' },
+    { title: 'Walkthrough & warranty', text: 'Final walkthrough together, care instructions, and your warranty documentation.' },
+  ],
+  priceFactors,
+  faqs,
+  relatedServices,
+  formLocation,
+  priceFrom,
+  photos,
+} = Astro.props;
+
+const gallery = photos && photos.length > 0 ? photos : [{ src: heroImage, alt: heroImageAlt }];
+
+const areaServed = [...settings.serviceAreas, ...settings.extendedServiceAreas].map((city) => ({
+  '@type': 'City',
+  name: city,
+}));
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: title,
+    description: metaDescription,
+    provider: { '@id': BUSINESS_ID },
+    areaServed,
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'USD',
+      ...(priceFrom ? { price: priceFrom } : {}),
+    },
+  },
+  faqPageJsonLd(faqs.map((f) => ({ question: f.q, answer: f.a }))),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Services', path: '/services' },
+    { name: title, path: Astro.url.pathname },
+  ]),
+];
+---
+
+<BaseLayout title={metaTitle} description={metaDescription} jsonld={jsonld}>
+  <!-- HERO -->
+  <section class="bg-gradient-to-b from-brand-surface to-white" aria-labelledby="page-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2 flex-wrap">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href="/services" class="hover:text-brand-dark transition-colors">Services</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-brand-dark font-medium" aria-current="page">{title}</li>
+        </ol>
+      </nav>
+      <div class="mt-8 grid lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+        <div>
+          <h1 id="page-heading" class="text-[26px] md:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
+            {title}
+          </h1>
+          <p class="mt-4 text-base md:text-lg leading-relaxed">{heroSubheading}</p>
+          <p class="mt-5 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-sm font-semibold text-brand-dark shadow-sm">
+            <span class="text-brand-accent">{priceLabel}</span>
+            <span class="text-brand-muted" aria-hidden="true">·</span>
+            <span>{duration}</span>
+          </p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-4" data-track="service-hero">
+            <a
+              href="#lead-form"
+              class="inline-flex items-center justify-center px-8 py-4 min-h-[44px] bg-brand-dark text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+            >
+              Get My Free Estimate
+            </a>
+            <a
+              href={settings.phoneHref}
+              class="inline-flex items-center justify-center gap-2 px-8 py-4 min-h-[44px] bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-colors"
+              aria-label={`Call us at ${settings.phone}`}
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+              </svg>
+              {settings.phone}
+            </a>
+          </div>
+          <p class="mt-5 inline-flex items-center gap-2 text-sm font-medium text-brand-body">
+            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+            EPA Lead-Safe Certified · Licensed &amp; Insured
+          </p>
+        </div>
+        <div>
+          <img
+            src={heroImage}
+            alt={heroImageAlt}
+            width="1024"
+            height="768"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            class="w-full rounded-2xl shadow-xl aspect-[4/3] object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT'S INCLUDED -->
+  <section class="py-14 md:py-16" aria-labelledby="includes-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="includes-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">What's included</h2>
+      <ul class="mt-6 grid sm:grid-cols-2 gap-x-8 gap-y-3">
+        {includes.map((item) => (
+          <li class="flex items-start gap-2.5">
+            <svg class="w-5 h-5 mt-0.5 shrink-0 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+            </svg>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="process-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="process-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">How it works</h2>
+      <ol class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {processSteps.map((step, i) => (
+          <li class="bg-white rounded-2xl border border-slate-200 p-6">
+            <div class="w-9 h-9 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center" aria-hidden="true">{i + 1}</div>
+            <h3 class="mt-4 font-bold text-brand-dark">{step.title}</h3>
+            <p class="mt-2 text-sm leading-relaxed">{step.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJECT PHOTOS -->
+  <section class="py-14 md:py-16" aria-labelledby="photos-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="photos-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">Recent projects</h2>
+      <div class:list={['mt-8 grid gap-6', gallery.length > 1 ? 'sm:grid-cols-2' : 'max-w-3xl']}>
+        {gallery.map((photo) => (
+          <img
+            src={photo.src}
+            alt={photo.alt}
+            width="1024"
+            height="768"
+            loading="lazy"
+            decoding="async"
+            class="w-full rounded-2xl border border-slate-200 aspect-[4/3] object-cover"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE & COST FACTORS -->
+  <section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="price-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 id="price-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">What it costs</h2>
+        <p class="mt-4 text-lg">
+          <span class="font-bold text-brand-accent">{priceLabel}</span>
+          <span class="text-brand-muted" aria-hidden="true"> · </span>
+          <span>{duration}</span>
+        </p>
+        <p class="mt-4 leading-relaxed">
+          Every estimate is free, fixed, and itemized before we start. The final price depends on your
+          space and selections — here is what affects it most:
+        </p>
+      </div>
+      <ul class="bg-white rounded-2xl border border-slate-200 p-6 md:p-8 space-y-3">
+        {priceFactors.map((factor) => (
+          <li class="flex items-start gap-2.5 text-sm">
+            <svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-accent" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>{factor}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FaqAccordion faqs={faqs} heading={`${title} — FAQ`} />
+
+  <!-- RELATED SERVICES -->
+  <section class="py-14 md:py-16" aria-labelledby="related-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="related-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">Related services</h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {relatedServices.map((service) => (
+          <a
+            href={service.href}
+            data-track="related-service"
+            class="group bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg hover:border-slate-300 transition-all"
+          >
+            <h3 class="font-bold text-brand-dark group-hover:text-brand-accent transition-colors">{service.title}</h3>
+            <p class="mt-2 text-sm font-semibold text-brand-accent">{service.priceLabel}</p>
+            <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark">
+              Learn more
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-8 text-center">
+        <a href="/pricing" class="inline-flex items-center gap-2 font-semibold text-brand-dark hover:text-brand-accent transition-colors min-h-[44px]">
+          Compare all package pricing
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA WITH LEAD FORM -->
+  <section id="lead-form" class="bg-brand-dark scroll-mt-24" aria-labelledby="cta-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="text-center lg:text-left">
+        <h2 id="cta-heading" class="text-3xl md:text-4xl font-bold text-white tracking-tight">
+          Get your free in-home estimate
+        </h2>
+        <p class="mt-4 text-lg text-slate-300">
+          Fixed, itemized pricing — no obligation. Licensed, insured &amp; EPA Lead-Safe certified.
+        </p>
+        <p class="mt-6 text-sm text-slate-400">{settings.hours}</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 md:p-8 shadow-xl" data-track="service-form">
+        <LeadForm formLocation={formLocation} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

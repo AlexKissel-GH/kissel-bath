@@ -41,7 +41,7 @@ const isActive = (href: string) =>
         ))}
       </nav>
 
-      <div class="hidden md:flex items-center gap-3">
+      <div class="hidden md:flex items-center gap-3" data-track="header">
         <a
           href={settings.phoneHref}
           class="phone-pulse inline-flex items-center gap-2 px-4 py-2.5 min-h-[44px] bg-emerald-600 text-white text-sm font-semibold rounded-xl hover:bg-emerald-700 transition-colors"
@@ -96,6 +96,7 @@ const isActive = (href: string) =>
       ))}
       <a
         href={settings.phoneHref}
+        data-track="mobile-menu"
         class="mt-3 mb-2 inline-flex items-center justify-center gap-2 px-4 py-3 min-h-[44px] bg-emerald-600 text-white font-semibold rounded-xl"
         aria-label={`Call us at ${settings.phone}`}
       >
@@ -124,7 +125,7 @@ const isActive = (href: string) =>
 </script>
 
 <!-- Sticky mobile bottom bar: Call / Free Estimate -->
-<div class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-white border-t border-slate-200 grid grid-cols-2 shadow-[0_-4px_12px_rgba(0,0,0,0.06)]">
+<div data-track="sticky-bar" class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-white border-t border-slate-200 grid grid-cols-2 shadow-[0_-4px_12px_rgba(0,0,0,0.06)]">
   <a
     href={settings.phoneHref}
     class="inline-flex items-center justify-center gap-2 py-4 min-h-[44px] bg-emerald-600 text-white font-semibold"

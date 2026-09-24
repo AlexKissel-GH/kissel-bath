@@ -5,6 +5,11 @@ import TestimonialCard from '../components/TestimonialCard.astro';
 import CTASection from '../components/CTASection.astro';
 import { settings, businessJsonLd, breadcrumbList } from '../lib/seo';
 
+const GBP_URL =
+  "https://www.google.com/maps/place/Kissel's+Bath+for+US/@39.7196944,-104.7925253,17z/data=!4m6!3m5!1s0x876c7dca5fdaf431:0xc0d4d25ad129929e!8m2!3d39.7196944!4d-104.7925253!16s%2Fg%2F11h94tpl17";
+const HOUZZ_URL = 'https://www.houzz.com/professionals/kitchen-and-bath-remodelers/kissel-s-bath-for-us-pfvwus-pf~221904293';
+const FACEBOOK_URL = 'https://www.facebook.com/bath4us';
+
 const about = await getEntry('pages', 'about');
 const { Content } = await about!.render();
 
@@ -257,6 +262,32 @@ const jsonld = [
       <p class="mt-3">{settings.rating}★ average across {settings.reviewCount} Google reviews.</p>
       <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((t) => <TestimonialCard testimonial={t} />)}
+      </div>
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+        <a
+          href={GBP_URL}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 px-6 py-3 min-h-[44px] bg-brand-dark text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+        >
+          See all reviews on Google →
+        </a>
+        <a
+          href={HOUZZ_URL}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 px-6 py-3 min-h-[44px] bg-white text-brand-dark font-semibold rounded-xl border border-slate-300 hover:border-slate-400 transition-colors"
+        >
+          Houzz profile →
+        </a>
+        <a
+          href={FACEBOOK_URL}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-2 px-6 py-3 min-h-[44px] bg-white text-brand-dark font-semibold rounded-xl border border-slate-300 hover:border-slate-400 transition-colors"
+        >
+          Facebook →
+        </a>
       </div>
     </div>
   </section>

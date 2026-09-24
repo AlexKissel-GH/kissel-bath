@@ -44,4 +44,17 @@ import { settings } from '../lib/seo';
       </div>
     </div>
   </section>
+
+  <!-- Lead conversion event for GTM/GA4 (form_location from ?from= query param) -->
+  <script is:inline>
+    (function () {
+      var from = 'contact';
+      try {
+        var param = new URLSearchParams(window.location.search).get('from');
+        if (param) from = param;
+      } catch (e) {}
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'generate_lead', form_location: from });
+    })();
+  </script>
 </BaseLayout>

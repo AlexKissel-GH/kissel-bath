@@ -1,6 +1,6 @@
 ---
 title: "Kitchen Facelift in Denver: A Budget-Friendly Refresh Guide"
-description: "A kitchen facelift in Denver refreshes your cabinets, counters, and finishes in 3-5 days starting at $7,900. See what's included and if it fits your home."
+description: "A kitchen facelift in Denver refreshes your cabinets, counters, and finishes in 3-5 days starting at $8,900. See what's included and if it fits your home."
 category: kitchen-remodeling
 pubDate: 2026-08-31
 author: "Alex Kissel"
@@ -9,22 +9,22 @@ image: "/images/blog/kitchen-facelift-denver.webp"
 imageAlt: "Kitchen facelift transformation in an Aurora Colorado ranch home"
 faq:
   - q: "What is a kitchen facelift?"
-    a: "A kitchen facelift is a focused refresh of your kitchen's visible surfaces — typically countertops, backsplash, sink, faucet, cabinet hardware, and finishes — without demolition or layout changes. Our kitchen facelift starts at $7,900 and takes just 3-5 days, with every item spelled out in fixed, itemized pricing."
+    a: "A kitchen facelift is a focused refresh of your kitchen's visible surfaces — typically countertops, backsplash, sink, faucet, cabinet hardware, and finishes — without demolition or layout changes. Our kitchen facelift starts at $8,900 and takes just 3-5 days, with every item spelled out in fixed, itemized pricing."
   - q: "How much does a kitchen facelift cost in Denver?"
-    a: "Our kitchen facelift starts at $7,900 for the Denver metro, with a typical timeline of 3-5 days. The final price depends on your kitchen's size and material selections, and every estimate is fixed and itemized after a free in-home visit — no surprises after work begins."
+    a: "Our kitchen facelift starts at $8,900 for the Denver metro, with a typical timeline of 3-5 days. The final price depends on your kitchen's size and material selections, and every estimate is fixed and itemized after a free in-home visit — no surprises after work begins."
   - q: "How long does a kitchen facelift take?"
     a: "Most kitchen facelifts take 3-5 working days from start to finish. Because there's no demolition, no plumbing rerouting, and no permits required, the disruption is minimal compared to a full remodel, which typically runs 7-14 days. Your kitchen is offline for less than a week."
   - q: "Is a kitchen facelift worth it before selling my home?"
     a: "Often, yes. A dated-looking kitchen drags down buyer perception of the whole house, and a facelift corrects the visual problem for a fraction of a full remodel's cost. Clean, updated surfaces and modern hardware photograph well and help listings compete across the Denver metro. A realtor can confirm what your neighborhood supports."
 ---
 
-Not every dated kitchen needs a $30,000 gut job. If your layout works, your cabinets are sound, and your appliances still have life in them, a kitchen facelift can deliver the fresh, updated look you're after in 3–5 days — starting at $7,900. It's the fastest, least disruptive way to transform how your kitchen looks and feels, and it's one of the most popular projects we do for homeowners across Denver, Aurora, and the metro. Here's what's involved and how to tell if it's right for you.
+Not every dated kitchen needs a $30,000 gut job. If your layout works, your cabinets are sound, and your appliances still have life in them, a kitchen facelift can deliver the fresh, updated look you're after in 3–5 days — starting at $8,900. It's the fastest, least disruptive way to transform how your kitchen looks and feels, and it's one of the most popular projects we do for homeowners across Denver, Aurora, and the metro. Here's what's involved and how to tell if it's right for you.
 
 ## What a Kitchen Facelift Actually Includes
 
 A facelift targets everything you see and touch, while leaving the bones of the kitchen alone. A typical scope includes:
 
-- **New countertops** — the visual anchor of the whole room
+- **[New countertops](/services/countertop-replacement-denver/)** — the visual anchor of the whole room
 - **New backsplash** — tile or other finishes that set the style
 - **New sink and faucet** — modern, hard-water-resistant finishes
 - **New cabinet hardware** — pulls, knobs, and soft-close hinges
@@ -34,19 +34,19 @@ No demolition. No moving plumbing or electrical. No permits. The exact scope for
 
 ## What a Kitchen Facelift Costs in Denver
 
-Our kitchen facelift starts at $7,900 with a 3–5 day timeline. What moves the number within that range:
+Our [kitchen facelift](/services/kitchen-facelift-denver/) starts at $8,900 with a 3–5 day timeline. What moves the number within that range:
 
 - **Kitchen size** — more linear feet of countertop and backsplash means more material
 - **Countertop selection** — the biggest material variable in the package
 - **Fixture and hardware choices** — standard versus premium finishes
 
-Compared to the alternatives, the value is stark. A full kitchen remodel is a custom-quoted project running 7–14 days and well into five figures when layout or mechanical work is involved. A facelift captures a large share of that visual impact for a fraction of the cost and none of the construction chaos. For the full pricing picture across every project type, see our [Denver kitchen remodel cost guide](/blog/kitchen-remodel-cost-denver).
+Compared to the alternatives, the value is stark. A [full kitchen remodel](/services/kitchen-remodeling-denver/) is a custom-quoted project running 7–14 days and well into five figures when layout or mechanical work is involved. A facelift captures a large share of that visual impact for a fraction of the cost and none of the construction chaos. For the full pricing picture across every project type, see our [Denver kitchen remodel cost guide](/blog/kitchen-remodel-cost-denver).
 
 ## Facelift vs. Full Remodel: Which Do You Need?
 
 | Factor | Kitchen facelift | Full remodel |
 |---|---|---|
-| Starting cost | from $7,900 | Custom quote |
+| Starting cost | from $8,900 | Custom quote |
 | Timeline | 3–5 days | 7–14 days |
 | Layout changes | No | Yes |
 | Permits | None | Required for plumbing/electrical/structural |

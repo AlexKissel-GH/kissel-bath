@@ -1,0 +1,73 @@
+---
+import LocationPage from '../../components/LocationPage.astro';
+import { servicePageUrl } from '../../lib/serviceUrls';
+
+const topServices = [
+  {
+    title: 'Tub-to-Shower Conversion',
+    href: servicePageUrl('tub-to-shower-conversion'),
+    priceLabel: 'from $12,900',
+    duration: '3-4 days',
+  },
+  {
+    title: 'Budget Shower Renovation',
+    href: servicePageUrl('budget-shower-renovation'),
+    priceLabel: 'from $9,900',
+    duration: '2–3 days',
+  },
+  {
+    title: 'Complete Bathroom Remodel',
+    href: servicePageUrl('complete-bathroom-remodel'),
+    priceLabel: 'from $19,700',
+    duration: '5–12 days',
+  },
+];
+---
+
+<LocationPage
+  city="Highlands Ranch"
+  metaTitle="Bathroom Remodeling Highlands Ranch, CO | Fixed Pricing"
+  metaDescription="Highlands Ranch bathroom remodeling with fixed, itemized pricing. HOA-aware scheduling, clean job sites, free in-home estimates. Call 720.705.1461 today."
+  housingStock={[
+    "Highlands Ranch is one of the country's best-known master-planned communities, and its bathrooms reflect that: homes built from the early 1980s through the 2000s, constructed by a handful of production builders using repeating floor plans. That's an advantage when remodeling. Whether your home is in one of the original neighborhoods near Broadway or a newer village toward BackCountry, we've likely worked in your exact layout before — which means accurate estimates, known plumbing locations, and few surprises once the walls open.",
+    "Homes here are generally in good structural shape, with copper or PEX supply lines and modern venting. What ages out first are the finishes: fiberglass tub-shower combos with yellowed seams, cultured marble vanity tops, framed sliding shower doors, and the oak-and-brass trim package that defined 90s construction. A wet-area renovation — new base, composite walls, new fixtures — replaces everything that dates the room while keeping sound elements like flooring and vanities untouched, and it's done in days rather than weeks.",
+    "The one thing that genuinely distinguishes remodeling in Highlands Ranch isn't the house — it's the community around it. Many neighborhoods have HOA or covenant expectations covering work hours, contractor parking, and where a dumpster can sit (and for how long). We plan around those rules from day one: confirming parking arrangements, scheduling deliveries within allowed hours, and keeping the job site tidy enough that your neighbors never have a reason to call the association.",
+    "That planning discipline extends inside the house. Highlands Ranch homes often have the primary bath directly above a living room or kitchen, so we treat waterproofing as the non-negotiable core of the job: properly sloped bases, sealed wall systems, and a full water test before anything gets closed up. And because construction here is so consistent, our estimates tend to be unusually precise — when we've remodeled your floor plan a dozen times, there's little left to guess at. You get fixed, itemized pricing in writing before any work begins, plus a schedule that accounts for your HOA's rules on hours and access, not just our crew calendar.",
+  ]}
+  permits={`Highlands Ranch is unincorporated, so building permits here run through Douglas County rather than a city building department. Whether your project needs one depends on scope — like-for-like fixture and finish replacement often doesn't, while moving plumbing or electrical typically does. Requirements vary and change over time, so we verify what's needed for your specific project and can advise on or handle permitting where required. Current information is on the <a href="https://www.douglas.co.us/" target="_blank" rel="noopener">Douglas County official website</a>. For covenant or HOA questions, the <a href="https://www.highlandsranch.org/" target="_blank" rel="noopener">Highlands Ranch Community Association</a> is the right starting point.`}
+  topServices={topServices}
+  blogLinks={[
+    { title: 'How Long Does a Bathroom Remodel Take in Denver?', href: '/blog/bathroom-remodel-timeline-denver' },
+    { title: 'Sentrel Composite vs Tile Shower Walls: Best Choice for Colorado Homes', href: '/blog/sentrel-vs-tile-shower-walls-colorado' },
+  ]}
+  faqs={[
+    {
+      q: 'Does my HOA need to approve a bathroom remodel?',
+      a: "Interior bathroom work typically doesn't require HOA architectural approval in Highlands Ranch, but associations often regulate the logistics — work hours, contractor parking, and dumpster placement. We recommend checking your community's rules, and we coordinate scheduling and debris removal to comply with them. If your association asks for contractor documentation, we provide our license and insurance information directly.",
+    },
+    {
+      q: 'Where does the dumpster go in a neighborhood with HOA rules?',
+      a: 'Usually in your driveway on protective boards, for the shortest practical time — often just the demolition days. Some Highlands Ranch associations restrict street placement entirely, so we confirm placement rules before delivery and use smaller haul-away runs when a dumpster is not permitted.',
+    },
+    {
+      q: 'Who issues permits for Highlands Ranch projects?',
+      a: 'Because Highlands Ranch is unincorporated, permits go through Douglas County. Whether one is needed depends on scope — fixture swaps often require none, while plumbing or electrical changes typically do. We verify requirements for your project and handle the paperwork where a permit is required.',
+    },
+    {
+      q: 'How long will my bathroom be out of service?',
+      a: 'A budget shower renovation takes 2–3 days, a tub-to-shower conversion 3-4 days, and a complete remodel 5–12 working days. We give you a written schedule before starting, in a multi-bath home your household keeps a working bathroom throughout, and we restore basic function as early in the schedule as the work allows. We also notify you before deliveries so you can alert your HOA if your community requires it.',
+    },
+    {
+      q: 'Do you offer financing?',
+      a: 'Yes — we partner with financing providers offering several options, including 0% APR for 18 months for qualified buyers. The application is a soft credit inquiry and will not affect your credit score. We can discuss it during your free in-home estimate.',
+    },
+  ]}
+  nearbyCities={[
+    { name: 'Aurora, CO', href: '/locations/bathroom-remodeling-aurora-co/' },
+    { name: 'Parker, CO', href: '/locations/bathroom-remodeling-parker-co/' },
+    { name: 'Lakewood, CO', href: '/locations/bathroom-remodeling-lakewood-co/' },
+    { name: 'Littleton, CO', href: '/locations/bathroom-remodeling-littleton-co/' },
+    { name: 'All Service Areas', href: '/' },
+  ]}
+  formLocation="location"
+/>

@@ -25,8 +25,8 @@ Here's the question that stalls more kitchen projects than any budget conversati
 | Project | Permit required? |
 |---|---|
 | Painting, hardware, backsplash | No |
-| Countertop replacement | No |
-| Cabinet refacing or like-for-like replacement | No |
+| [Countertop replacement](/services/countertop-replacement-denver/) | No |
+| [Cabinet refacing](/services/cabinet-refacing-denver/) or like-for-like replacement | No |
 | New flooring | No |
 | Adding outlets, new circuits, rewiring | Yes — electrical |
 | Moving a sink, new supply or drain lines, gas line work | Yes — plumbing |
@@ -79,7 +79,7 @@ Second, pre-1978 homes fall under federal lead-safe renovation rules. Any contra
 
 Your contractor — full stop. When a licensed general contractor pulls the permit, they own code compliance, inspection scheduling, and the relationship with the building department. If a contractor asks you to pull a "homeowner permit" for work they're performing, treat it as a red flag: it transfers legal responsibility to you and often signals they can't pull permits themselves.
 
-We handle all permitting for projects that need it, and we'll tell you plainly when they don't. Many of our most popular services — a [kitchen facelift](/blog/kitchen-facelift-denver) starting at $7,900 or [cabinet refacing](/blog/cabinet-refacing-vs-replacement-denver) from $10,500 — are deliberately scoped as permit-free cosmetic work, which is part of why they finish in days instead of weeks. If you're planning a bathroom project alongside the kitchen, the same rules apply; see our guide to [bathroom remodel permits in Denver](/blog/bathroom-remodel-permits-denver).
+We handle all permitting for projects that need it, and we'll tell you plainly when they don't. Many of our most popular services — a [kitchen facelift](/blog/kitchen-facelift-denver) starting at $8,900 or [cabinet refacing](/blog/cabinet-refacing-vs-replacement-denver) from $10,500 — are deliberately scoped as permit-free cosmetic work, which is part of why they finish in days instead of weeks. The [kitchen facelift service](/services/kitchen-facelift-denver/) page shows exactly what's included in that scope. If you're planning a bathroom project alongside the kitchen, the same rules apply; see our guide to [bathroom remodel permits in Denver](/blog/bathroom-remodel-permits-denver).
 
 ## Next Steps
 

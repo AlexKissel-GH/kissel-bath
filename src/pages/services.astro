@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CTASection from '../components/CTASection.astro';
 import { servicesPageJsonLd, breadcrumbList } from '../lib/seo';
+import { servicePageUrl } from '../lib/serviceUrls';
 
 const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
 const bathroomServices = services.filter((s) => s.data.category === 'bathroom');
@@ -77,6 +78,15 @@ const jsonld = [
                   />
                 </div>
                 <div class="md:col-span-2 p-6 md:p-8">
+                  <a
+                    href={servicePageUrl(service.slug)}
+                    class="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark hover:text-brand-accent transition-colors min-h-[44px]"
+                  >
+                    Learn more
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                  </a>
                   <div class="flex flex-wrap items-baseline gap-x-4 gap-y-1">
                     <h3 class="text-xl md:text-2xl font-bold text-brand-dark">{service.data.title}</h3>
                     <span class="font-semibold text-brand-accent">{service.data.priceLabel}</span>

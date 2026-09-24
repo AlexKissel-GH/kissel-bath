@@ -9,7 +9,7 @@ image: "/images/blog/bathroom-remodel-cost-denver.webp"
 imageAlt: "Bathroom remodel in Denver CO with walk-in shower and new vanity"
 faq:
   - q: "How much does a bathroom remodel cost in Denver in 2026?"
-    a: "In the Denver metro, a focused wet-area renovation typically starts around $14,900, while a complete bathroom remodel starts around $19,700 for a bathroom up to 50 square feet. Smaller scoped projects like a surrounds-only facelift start around $6,500. Older Denver and Aurora homes often need plumbing or subfloor work, which raises the total."
+    a: "In the Denver metro, a focused wet-area renovation typically starts around $12,200, while a complete bathroom remodel starts around $19,700 for a bathroom up to 50 square feet. Smaller scoped projects like a surrounds-only facelift start around $6,500. Older Denver and Aurora homes often need plumbing or subfloor work, which raises the total."
   - q: "Why do bathroom remodels in older Denver homes cost more?"
     a: "Denver bungalows from the 1900s-1930s and 1950s-70s ranch homes in Aurora and Lakewood often hide galvanized or cast-iron drain lines, undersized supply piping, uneven framing, and lead paint. Opening walls can reveal problems that must be corrected to pass inspection, which adds labor and material cost to the project."
   - q: "Is a bathroom remodel worth the money in Colorado?"
@@ -29,11 +29,11 @@ The fastest way to understand pricing is to look at the scope of work, not the r
 | Project type | Starting price | Typical timeline |
 |---|---|---|
 | Surrounds Only Facelift | from $6,500 | 1 day |
-| Budget Shower Renovation (standard 60"×30" alcove) | from $9,000 | 2–3 days |
-| Wet Area Only Renovation | from $14,900 | 3–4 days |
-| Tub-to-Shower Conversion | from $14,900 | 3–4 days |
-| Complete Bathroom Remodel (up to 50 sq.ft.) | from $19,700 | 5–12 days |
-| ADA / Accessibility Remodel | custom quote | 4–7 days |
+| [Budget Shower Renovation](/services/shower-remodel-denver/) (standard 60"×30" alcove) | from $9,900 | 2–3 days |
+| Wet Area Only Renovation | from $12,200 | 3–4 days |
+| [Tub-to-Shower Conversion](/services/tub-to-shower-conversion-denver/) | from $12,900 | 3–4 days |
+| [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) (up to 50 sq.ft.) | from $19,700 | 5–12 days |
+| [ADA / Accessibility Remodel](/services/ada-bathroom-remodeling-denver/) | custom quote | 4–7 days |
 
 These are real starting points, not bait numbers. During a [free in-home estimate](/pricing), we measure your actual bathroom and give you a fixed, itemized price — so the number you sign is the number you pay unless you change the scope.
 
@@ -45,7 +45,7 @@ Two bathrooms of identical size can differ by $10,000 or more. Here's why.
 
 ### Scope: wet area vs. everything
 
-The wet area — tub, shower, and the waterproofing behind it — is the most technical and failure-prone part of any bathroom. Limiting work to that zone (or even just the wall surrounds) is the single biggest lever you have on cost. A surrounds-only facelift starting at $6,500 can transform how a bathroom looks in one day, while a complete remodel starting at $19,700 touches the vanity, flooring, toilet, lighting, and paint too.
+The wet area — tub, shower, and the waterproofing behind it — is the most technical and failure-prone part of any bathroom. Limiting work to that zone (or even just the wall surrounds) is the single biggest lever you have on cost. A [surrounds-only facelift](/services/bathroom-surrounds-replacement-denver/) starting at $6,500 can transform how a bathroom looks in one day, while a complete remodel starting at $19,700 touches the vanity, flooring, toilet, lighting, and paint too.
 
 ### Keeping the plumbing layout vs. moving it
 

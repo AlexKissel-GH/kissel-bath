@@ -7,7 +7,8 @@ import '@fontsource/inter/800.css';
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE } from '../lib/seo';
+import CookieConsent from '../components/CookieConsent.astro';
+import { SITE, settings } from '../lib/seo';
 
 interface Props {
   title: string;
@@ -33,6 +34,11 @@ const {
 
 const canonical = new URL(path, SITE).href;
 const ogImageUrl = new URL(ogImage, SITE).href;
+
+// GTM is configurable via Decap CMS → Site Settings → "Google Tag Manager ID".
+// It is never rendered into the HTML directly; a loader injects it only after
+// the visitor accepts the cookie-consent bar (localStorage "kissel-consent").
+const gtmId = (settings.gtmId || '').trim();
 ---
 
 <!doctype html>
@@ -40,6 +46,34 @@ const ogImageUrl = new URL(ogImage, SITE).href;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- dataLayer exists before any tracker so events can be queued pre-GTM -->
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+    </script>
+    {gtmId && (
+      <>
+        <script is:inline set:html={`window.__GTM_ID=${JSON.stringify(gtmId)};`} />
+        <script is:inline>
+          (function () {
+            var loaded = false;
+            window.__loadGTM = function () {
+              if (loaded || !window.__GTM_ID) return;
+              loaded = true;
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtm.js?id=' + encodeURIComponent(window.__GTM_ID);
+              document.head.appendChild(s);
+            };
+            try {
+              if (localStorage.getItem('kissel-consent') === 'accepted') window.__loadGTM();
+            } catch (e) {}
+          })();
+        </script>
+      </>
+    )}
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -77,5 +111,31 @@ const ogImageUrl = new URL(ogImage, SITE).href;
       <slot />
     </main>
     <Footer />
+    <CookieConsent />
+
+    <!-- Site-wide interaction tracking → dataLayer (works before GTM loads).
+         click_location comes from the nearest ancestor with a data-track attr. -->
+    <script is:inline>
+      (function () {
+        document.addEventListener('click', function (e) {
+          var t = e.target;
+          var a = t && t.closest ? t.closest('a[href]') : null;
+          if (!a) return;
+          var href = a.getAttribute('href') || '';
+          var locEl = a.closest('[data-track]');
+          window.dataLayer = window.dataLayer || [];
+          function push(event) {
+            var payload = { event: event };
+            if (locEl) payload.click_location = locEl.getAttribute('data-track');
+            window.dataLayer.push(payload);
+          }
+          if (href.indexOf('tel:') === 0) push('tel_click');
+          else if (href.indexOf('mailto:') === 0) push('email_click');
+          else if (href.indexOf('sms:') === 0) push('sms_click');
+          else if (/google\.com\/maps/.test(href)) push('gbp_click');
+          else if (/facebook\.com|houzz\.com/.test(href)) push('social_click');
+        });
+      })();
+    </script>
   </body>
 </html>

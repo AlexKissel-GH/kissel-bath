@@ -45,10 +45,10 @@ Not every dollar works equally hard. Based on what we see move the needle in met
 
 | Project | Starting price | Why buyers respond |
 |---|---|---|
-| Budget Shower Renovation (60"×30" alcove) | from $9,000 | Fresh wet area erases the most visible wear |
-| Wet Area Only | from $14,900 | New tub/shower zone signals "no water damage here" |
-| Tub-to-Shower Conversion | from $14,900 | Walk-in showers top buyer wish lists |
-| Complete Bathroom Remodel (up to 50 sq.ft.) | from $19,700 | A fully updated bath closes the gap with new construction |
+| [Budget Shower Renovation](/services/shower-remodel-denver/) (60"×30" alcove) | from $9,900 | Fresh wet area erases the most visible wear |
+| [Wet Area Only](/services/walk-in-shower-installation-denver/) | from $12,200 | New tub/shower zone signals "no water damage here" |
+| [Tub-to-Shower Conversion](/services/tub-to-shower-conversion-denver/) | from $12,900 | Walk-in showers top buyer wish lists |
+| [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) (up to 50 sq.ft.) | from $19,700 | A fully updated bath closes the gap with new construction |
 
 The pattern: money spent on the wet area and the surfaces buyers touch first returns best. Full details of each scope are on our [pricing page](/pricing). Kitchens follow similar logic — if you're weighing both, our [kitchen remodel ROI analysis](/blog/kitchen-remodel-roi-denver) covers the other half of the equation.
 
@@ -64,7 +64,7 @@ Equally important is what to skip when resale is the goal:
 
 ## Remodeling to stay: the other ROI calculation
 
-For many metro homeowners — especially in established suburbs where aging-in-place demand keeps growing — the relevant math isn't resale at all. Compare a $14,900 tub-to-shower conversion or a $19,700 complete remodel against the cost of moving: agent commissions, closing costs on both ends, movers, and the premium on the next house in a market where entry-level inventory has stayed tight. Remodeling to stay usually wins that comparison decisively, and you get to use the bathroom every day in the meantime.
+For many metro homeowners — especially in established suburbs where aging-in-place demand keeps growing — the relevant math isn't resale at all. Compare a $12,900 tub-to-shower conversion or a $19,700 complete remodel against the cost of moving: agent commissions, closing costs on both ends, movers, and the premium on the next house in a market where entry-level inventory has stayed tight. Remodeling to stay usually wins that comparison decisively, and you get to use the bathroom every day in the meantime.
 
 Time horizon matters, though. Selling within a year? Scope tightly and fix what's broken. Staying five-plus years? Remodel for how you live — accessibility features, low-maintenance surfaces like Sentrel wall systems with their lifetime warranty, and finishes suited to Colorado's hard water — and let resale be a bonus rather than the plan. Financing with a soft credit check, including 0% APR for 18 months for qualified buyers, can make the stay-put math work even when cash is earmarked elsewhere.
 

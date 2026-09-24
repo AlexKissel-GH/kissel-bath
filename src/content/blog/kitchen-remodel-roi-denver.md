@@ -11,11 +11,11 @@ faq:
   - q: "Does a kitchen remodel increase home value in Denver?"
     a: "Yes — kitchens consistently rank among the first things Denver metro buyers evaluate, and a dated or worn kitchen is one of the most common objections at showings. As a general pattern, midrange cosmetic remodels tend to recoup a larger share of their cost than high-end gut renovations. Your exact return depends on neighborhood, scope, and market conditions, so treat any published percentage as a rough guide."
   - q: "What kitchen upgrades have the best ROI?"
-    a: "The strongest performers are the ones buyers see and touch: new countertops, refreshed or refaced cabinets, modern hardware, updated lighting, and a clean backsplash. These cosmetic upgrades cost a fraction of a full remodel — countertop replacement starts at $4,200 and a kitchen facelift at $7,900 — and they photograph well, which matters for online listings."
+    a: "The strongest performers are the ones buyers see and touch: new countertops, refreshed or refaced cabinets, modern hardware, updated lighting, and a clean backsplash. These cosmetic upgrades cost a fraction of a full remodel — countertop replacement starts at $5,200 and a kitchen facelift at $8,900 — and they photograph well, which matters for online listings."
   - q: "Should I remodel my kitchen before selling my Denver home?"
     a: "If the kitchen is visibly dated or worn, a targeted refresh usually makes sense: counters, cabinet refacing, paint, and lighting can be done in days. A full custom remodel right before listing rarely pays for itself — buyers won't reimburse you dollar-for-dollar for personalized choices. Talk to your listing agent about what comparable homes in your neighborhood offer first."
   - q: "How much should I spend on a kitchen remodel for resale?"
-    a: "Keep the spend proportional to your home's value and neighborhood. Overbuilding — luxury appliances and custom cabinets in a midrange ranch — is the classic ROI mistake. For most pre-listing situations, a facelift starting at $7,900 or refacing starting at $10,500 hits the right level. Get an itemized quote so you can compare cost against your agent's expected price lift."
+    a: "Keep the spend proportional to your home's value and neighborhood. Overbuilding — luxury appliances and custom cabinets in a midrange ranch — is the classic ROI mistake. For most pre-listing situations, a facelift starting at $8,900 or refacing starting at $10,500 hits the right level. Get an itemized quote so you can compare cost against your agent's expected price lift."
 ---
 
 Here's the honest answer about kitchen remodel ROI in Denver: a kitchen remodel almost always adds value, but how much you get back depends almost entirely on scope. The projects that recoup best are usually not the biggest ones. After 200-plus kitchen and bath projects across Aurora and the Denver metro — many of them explicitly for resale — this is the pattern we see over and over.
@@ -50,11 +50,11 @@ These are the projects we recommend most often when resale is the goal:
 
 | Upgrade | Starting at | Time | Why buyers care |
 | --- | --- | --- | --- |
-| Countertop replacement | $4,200 | 1–2 days | First thing buyers see and touch |
-| Kitchen facelift (doors, hardware, surfaces) | $7,900 | 3–5 days | Makes the whole room read as "new" |
-| Cabinet refacing | $10,500 | 3–5 days | Fixes dated cabinets without full replacement |
+| [Countertop replacement](/services/countertop-replacement-denver/) | $5,200 | 1–2 days | First thing buyers see and touch |
+| [Kitchen facelift](/services/kitchen-facelift-denver/) (doors, hardware, surfaces) | $8,900 | 3–5 days | Makes the whole room read as "new" |
+| [Cabinet refacing](/services/cabinet-refacing-denver/) | $10,500 | 3–5 days | Fixes dated cabinets without full replacement |
 | Lighting & backsplash refresh | Varies | 1–2 days | Transforms listing photos |
-| Full kitchen remodel | Custom quote | 7–14 days | Right when the layout itself is the problem |
+| [Full kitchen remodel](/services/kitchen-remodeling-denver/) | Custom quote | 7–14 days | Right when the layout itself is the problem |
 
 The common thread: cosmetic scope, fast turnaround, and a kitchen that photographs like a new-build. Our [pricing page](/pricing) has the full detail on what's included at each tier.
 

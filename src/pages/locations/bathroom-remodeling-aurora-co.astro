@@ -1,0 +1,73 @@
+---
+import LocationPage from '../../components/LocationPage.astro';
+import { servicePageUrl } from '../../lib/serviceUrls';
+
+const topServices = [
+  {
+    title: 'Tub-to-Shower Conversion',
+    href: servicePageUrl('tub-to-shower-conversion'),
+    priceLabel: 'from $12,900',
+    duration: '3-4 days',
+  },
+  {
+    title: 'Surrounds Only',
+    href: servicePageUrl('surrounds-only-facelift'),
+    priceLabel: 'from $6,500',
+    duration: '1 day',
+  },
+  {
+    title: 'Complete Bathroom Remodel',
+    href: servicePageUrl('complete-bathroom-remodel'),
+    priceLabel: 'from $19,700',
+    duration: '5–12 days',
+  },
+];
+---
+
+<LocationPage
+  city="Aurora"
+  metaTitle="Bathroom Remodeling Aurora, CO | Kissel's Bath and Kitchen"
+  metaDescription="Bathroom remodeling in Aurora, CO — from tub-to-shower conversions to complete remodels. Fixed, itemized pricing and free in-home estimates. Call 720.705.1461."
+  housingStock={[
+    "Much of Aurora was built in a few big waves between the early 1960s and the late 1980s, and the ranch-style homes from that era share a remarkably consistent bathroom: the original 5x8 hall bath with a cast-iron tub, a single vanity, and a toilet tucked beside it. Neighborhoods like Mission Viejo, Utah Park, Heather Ridge, and Meadow Hills are full of these floor plans. If your bath still has its original footprint, you're looking at the same layout thousands of your neighbors have already remodeled — which is good news, because we know exactly what's behind those walls.",
+    "Two things define bathrooms from this era. First, the cast-iron tub: it weighs 250–350 pounds and usually can't leave the room in one piece, so removal means breaking it out in sections with proper dust and floor protection. Second, plumbing: many Aurora ranches still have remnants of galvanized steel supply lines mixed in with later copper or PEX repairs. Galvanized pipe corrodes from the inside, so by the time water pressure drops or a remodel opens the wall, those sections are often near the end of their life. We flag any galvanized piping we find and can replace affected runs while the walls are already open — far cheaper than a dedicated plumbing visit later.",
+    "Ventilation is the other weak point. Original baths in 60s–80s ranches frequently have no exhaust fan at all, or one that vents into the attic instead of outdoors — a slow recipe for moisture damage through Colorado's freeze-thaw winters. Every project we do includes checking that exhaust air actually leaves the house. Layout-wise, the 5x8 footprint limits how much can move without real cost, but a tub-to-shower conversion or a correctly sized vanity transforms how the room works without touching the floor plan.",
+    "One more note on homes built before 1978: painted surfaces from that era can contain lead, and disturbing them during demolition is regulated. Kissel's is an EPA Lead-Safe Certified Firm, so containment, cleanup, and disposal follow the required work practices — you don't have to manage any of that yourself. What you can expect on every Aurora project is the same sequence: a free in-home estimate with fixed, itemized pricing; a written schedule before demolition starts; floor and dust protection along the path from your front door to the bathroom; and daily cleanup so the rest of your home stays livable. In a two-bath home, your household keeps a functioning bathroom the entire time.",
+  ]}
+  permits={`Permit requirements in Aurora depend on the scope of work. Replacing fixtures and finishes in the same locations typically doesn't require a permit, while moving plumbing or electrical generally does. Requirements vary by city and change over time, so we confirm what's needed for your specific project before work starts — and we can advise on or handle the permitting process where a permit is required. You can also find current permit information on the <a href="https://www.auroragov.org/" target="_blank" rel="noopener">City of Aurora's official website</a>.`}
+  topServices={topServices}
+  blogLinks={[
+    { title: 'Tub-to-Shower Conversion in Denver: Cost, Process & Timeline', href: '/blog/tub-to-shower-conversion-denver' },
+    { title: 'Bathroom Remodel Cost in Denver, CO: 2026 Price Guide', href: '/blog/bathroom-remodel-cost-denver' },
+  ]}
+  faqs={[
+    {
+      q: 'How long does a bathroom remodel take in an older Aurora ranch?',
+      a: 'It depends on scope: a surrounds-only update takes about a day, a tub-to-shower conversion runs 3-4 days, and a complete remodel of a standard 5x8 bath takes 5–12 working days. Homes from the 60s–80s occasionally add a day if we find plumbing that needs repair once walls open. You get a written schedule with your estimate, and in a multi-bath home your household keeps a working bathroom throughout.',
+    },
+    {
+      q: 'Do I need a permit to remodel my bathroom in Aurora?',
+      a: 'For like-for-like replacement of fixtures and finishes, usually not. Work that moves plumbing, adds circuits, or changes the structure typically does require one. Rules vary by city and by scope, so we verify requirements with the local building department before starting and can handle the permitting where required.',
+    },
+    {
+      q: 'Do you offer financing?',
+      a: 'Yes. We partner with financing providers offering a range of options, including 0% APR for 18 months for qualified buyers. The application uses a soft credit inquiry, so checking your options will not affect your credit score. We can walk through financing during your free estimate.',
+    },
+    {
+      q: 'My home still has original 1960s or 70s plumbing — is that a problem?',
+      a: "It's common, not a problem. Galvanized remnants and aging valves are exactly what we expect in Aurora's ranch homes. We inspect accessible plumbing during the estimate, flag anything that should be replaced while walls are open, and price it upfront so there are no surprises mid-project.",
+    },
+    {
+      q: 'How far do you travel from your Aurora office?',
+      a: 'Our shop is on E 2nd Ave in Aurora, so Aurora is home base. We regularly work across the Denver metro and the south suburbs — Parker, Highlands Ranch, Lakewood, Littleton, and beyond. If you can drive to us, we can almost certainly work at your place. Estimates are free across the whole service area, and there is never a travel or trip charge for being a few miles farther out.',
+    },
+  ]}
+  nearbyCities={[
+    { name: 'Parker, CO', href: '/locations/bathroom-remodeling-parker-co/' },
+    { name: 'Highlands Ranch, CO', href: '/locations/bathroom-remodeling-highlands-ranch-co/' },
+    { name: 'Lakewood, CO', href: '/locations/bathroom-remodeling-lakewood-co/' },
+    { name: 'Littleton, CO', href: '/locations/bathroom-remodeling-littleton-co/' },
+    { name: 'All Service Areas', href: '/' },
+  ]}
+  formLocation="location"
+/>

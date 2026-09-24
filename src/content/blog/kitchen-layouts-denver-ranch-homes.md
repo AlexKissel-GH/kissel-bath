@@ -13,7 +13,7 @@ faq:
   - q: "Can you remove the wall between a kitchen and living room in a ranch home?"
     a: "Usually, yes — it's the most common request we get. In most 1950s-70s ranches that wall is load-bearing, so the opening needs an engineered beam (typically an LVL) and a building permit. In Denver that goes through Community Planning & Development; Aurora uses its e-permits portal. We handle the engineering coordination and permits."
   - q: "How much does it cost to change a kitchen layout in Denver?"
-    a: "Changing a layout — moving the sink, stove, or walls — puts a project into full remodel territory, which we price with a custom quote after an in-home visit. If you keep the existing layout, a kitchen facelift starts at $7,900 and cabinet refacing starts at $10,500, both completed in 3 to 5 days."
+    a: "Changing a layout — moving the sink, stove, or walls — puts a project into full remodel territory, which we price with a custom quote after an in-home visit. If you keep the existing layout, a kitchen facelift starts at $8,900 and cabinet refacing starts at $10,500, both completed in 3 to 5 days."
   - q: "What kitchen layout adds the most resale value in Denver?"
     a: "Buyers in the Denver metro consistently respond to open sightlines between the kitchen and living areas and an island or peninsula with seating. We can't promise a specific return — resale value depends on your neighborhood and market conditions — but closed-off galley kitchens in ranch homes are frequently flagged by buyers as projects."
 ---
@@ -36,7 +36,7 @@ The bones are usually fine. Ranch homes were built with simple, honest framing, 
 
 ## Layout 1: The Opened-Up L-Shape (The Most Popular Move)
 
-This is the classic Denver ranch conversion, and it's what roughly half our full kitchen remodels involve. We remove the wall between the kitchen and dining room, extend the cabinet run into an L, and finish the open end with a peninsula that seats two or three.
+This is the classic Denver ranch conversion, and it's what roughly half our [full kitchen remodels](/services/kitchen-remodeling-denver/) involve. We remove the wall between the kitchen and dining room, extend the cabinet run into an L, and finish the open end with a peninsula that seats two or three.
 
 Why it works so well in ranches:
 
@@ -57,7 +57,7 @@ The keys to making a galley feel modern instead of cramped:
 - **Light-color counters and a full-height backsplash** bounce the limited natural light around.
 - **A pass-through or half-wall opening** to the dining room adds sightlines without a full structural beam.
 
-A galley refresh is also the most budget-friendly path. Keeping the layout means keeping plumbing and electrical in place, which is exactly the scenario where a [kitchen facelift](/blog/kitchen-facelift-denver) starting at $7,900 or refacing starting at $10,500 makes sense — a new-looking kitchen in 3 to 5 days.
+A galley refresh is also the most budget-friendly path. Keeping the layout means keeping plumbing and electrical in place, which is exactly the scenario where a [kitchen facelift](/blog/kitchen-facelift-denver) starting at $8,900 or [refacing](/services/cabinet-refacing-denver/) starting at $10,500 makes sense — a new-looking kitchen in 3 to 5 days.
 
 ## Layout 3: The Island Conversion
 
@@ -91,7 +91,7 @@ If your remodel keeps all the walls, you may need no building permit at all — 
 A few local realities we plan for on every ranch kitchen:
 
 - **Dry climate and wood movement.** Colorado air runs dry, and new cabinets and wood flooring need to acclimate in your home before installation. Skipping this leads to gapped joints and cracked finishes by the first winter.
-- **Hard water.** Denver metro water is hard enough to spot glassware and wear faucet finishes. We steer clients toward fixtures with finishes that tolerate it, and it's one reason quartz outsells marble here — no etching panic.
+- **Hard water.** Denver metro water is hard enough to spot glassware and wear faucet finishes. We steer clients toward fixtures with finishes that tolerate it, and it's one reason [quartz countertops](/services/countertop-replacement-denver/) outsell marble here — no etching panic.
 - **Aging electrical.** Many 60s and 70s ranches still have 100-amp panels and too few kitchen circuits. A modern kitchen — dedicated circuits for the dishwasher, disposal, microwave, and small-appliance receptacles — often triggers a panel conversation.
 - **Pre-1978 homes.** Lead paint is a possibility, and we're certified as an EPA Lead-Safe Firm (NAT-F212803-1), so containment and cleanup follow federal rules on every older home we touch.
 

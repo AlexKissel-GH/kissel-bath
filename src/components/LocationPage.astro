@@ -1,0 +1,227 @@
+---
+// Parameterized template for city / location pages (phase 2).
+// Usage: a page under src/pages/locations/ passes its content as props and
+// renders <LocationPage {...} /> — the template handles layout + JSON-LD.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LeadForm from './LeadForm.astro';
+import FaqAccordion from './FaqAccordion.astro';
+import { settings, BUSINESS_ID, breadcrumbList, faqPageJsonLd } from '../lib/seo';
+
+interface Props {
+  city: string; // e.g. "Aurora" (no ", CO" suffix)
+  metaTitle: string;
+  metaDescription: string;
+  housingStock: string[]; // paragraphs about local housing stock
+  permits: string; // paragraph about permits / local regulations
+  topServices: { title: string; href: string; priceLabel: string; duration: string }[]; // exactly 3
+  blogLinks: { title: string; href: string }[];
+  faqs: { q: string; a: string }[];
+  nearbyCities: { name: string; href: string }[];
+  formLocation: string;
+}
+
+const {
+  city,
+  metaTitle,
+  metaDescription,
+  housingStock,
+  permits,
+  topServices,
+  blogLinks,
+  faqs,
+  nearbyCities,
+  formLocation,
+} = Astro.props;
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Bathroom Remodeling in ${city}, CO`,
+    description: metaDescription,
+    provider: { '@id': BUSINESS_ID },
+    areaServed: { '@type': 'City', name: `${city}, CO` },
+  },
+  faqPageJsonLd(faqs.map((f) => ({ question: f.q, answer: f.a }))),
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Locations', path: '/#service-areas' },
+    { name: city, path: Astro.url.pathname },
+  ]),
+];
+---
+
+<BaseLayout title={metaTitle} description={metaDescription} jsonld={jsonld}>
+  <!-- HERO -->
+  <section class="bg-gradient-to-b from-brand-surface to-white" aria-labelledby="page-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16">
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2 flex-wrap">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-brand-dark font-medium" aria-current="page">{city}, CO</li>
+        </ol>
+      </nav>
+      <div class="mt-8 max-w-3xl">
+        <h1 id="page-heading" class="text-[26px] md:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
+          Bathroom Remodeling in {city}, CO
+        </h1>
+        <p class="mt-4 text-base md:text-lg leading-relaxed">
+          Serving {city} from our Aurora headquarters — free in-home estimates.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4" data-track="location-hero">
+          <a
+            href="#lead-form"
+            class="inline-flex items-center justify-center px-8 py-4 min-h-[44px] bg-brand-dark text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors"
+          >
+            Get My Free Estimate
+          </a>
+          <a
+            href={settings.phoneHref}
+            class="inline-flex items-center justify-center gap-2 px-8 py-4 min-h-[44px] bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-colors"
+            aria-label={`Call us at ${settings.phone}`}
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+            </svg>
+            {settings.phone}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOUSING STOCK -->
+  <section class="py-14 md:py-16" aria-labelledby="housing-heading">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="housing-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Remodeling {city} homes
+      </h2>
+      <div class="mt-5 space-y-4 leading-relaxed">
+        {housingStock.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <!-- PERMITS -->
+  <section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="permits-heading">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="permits-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Permits &amp; local requirements in {city}
+      </h2>
+      <!-- permits may contain inline HTML links to official city portals -->
+      <p class="mt-5 leading-relaxed [&_a]:font-semibold [&_a]:text-brand-accent [&_a]:underline [&_a]:underline-offset-2" set:html={permits} />
+    </div>
+  </section>
+
+  <!-- TOP 3 SERVICES -->
+  <section class="py-14 md:py-16" aria-labelledby="top-services-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="top-services-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Popular projects in {city}
+      </h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {topServices.slice(0, 3).map((service) => (
+          <a
+            href={service.href}
+            data-track="location-service"
+            class="group bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg hover:border-slate-300 transition-all"
+          >
+            <h3 class="font-bold text-brand-dark group-hover:text-brand-accent transition-colors">{service.title}</h3>
+            <p class="mt-2 text-sm">
+              <span class="font-semibold text-brand-accent">{service.priceLabel}</span>
+              <span class="text-brand-muted" aria-hidden="true"> · </span>
+              <span class="text-brand-muted">{service.duration}</span>
+            </p>
+            <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark">
+              Learn more
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG LINKS (optional) -->
+  {blogLinks.length > 0 && (
+    <section class="py-14 md:py-16 bg-brand-surface" aria-labelledby="guides-heading">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 id="guides-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+          Remodeling guides for {city} homeowners
+        </h2>
+        <ul class="mt-6 space-y-3">
+          {blogLinks.map((link) => (
+            <li>
+              <a href={link.href} class="inline-flex items-center gap-2 font-semibold text-brand-dark hover:text-brand-accent transition-colors min-h-[44px]">
+                <svg class="w-4 h-4 shrink-0 text-brand-accent" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+                {link.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <!-- TRUST BLOCK -->
+  <section class:list={['py-14 md:py-16', blogLinks.length > 0 ? '' : 'bg-brand-surface']} aria-labelledby="trust-heading">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 id="trust-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+        Serving {city} with pride
+      </h2>
+      <p class="mt-4 text-lg leading-relaxed">
+        Family-owned and based in Aurora — {settings.rating}★ across {settings.reviewCount} Google reviews.
+        Licensed &amp; insured General Contractor and EPA Lead-Safe Certified Firm (NAT-F212803-1).
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FaqAccordion faqs={faqs} heading={`Bathroom remodeling in ${city} — FAQ`} />
+
+  <!-- NEARBY CITIES -->
+  {nearbyCities.length > 0 && (
+    <section class="py-14 md:py-16" aria-labelledby="nearby-heading">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 id="nearby-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
+          Nearby areas we serve
+        </h2>
+        <ul class="mt-6 flex flex-wrap gap-3">
+          {nearbyCities.map((nearby) => (
+            <li>
+              <a
+                href={nearby.href}
+                class="inline-flex items-center px-4 py-2 min-h-[44px] bg-white border border-slate-200 rounded-full text-sm font-medium text-brand-body hover:text-brand-dark hover:border-slate-300 transition-colors"
+              >
+                {nearby.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <!-- FINAL CTA WITH LEAD FORM -->
+  <section id="lead-form" class="bg-brand-dark scroll-mt-24" aria-labelledby="cta-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="text-center lg:text-left">
+        <h2 id="cta-heading" class="text-3xl md:text-4xl font-bold text-white tracking-tight">
+          Free in-home estimate in {city}
+        </h2>
+        <p class="mt-4 text-lg text-slate-300">
+          Fixed, itemized pricing — no obligation. We come to you.
+        </p>
+        <p class="mt-6 text-sm text-slate-400">{settings.hours}</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 md:p-8 shadow-xl" data-track="location-form">
+        <LeadForm formLocation={formLocation} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -9,7 +9,7 @@ image: "/images/blog/accessible-bathroom-design-ada-denver.webp"
 imageAlt: "Accessible ADA bathroom remodel in an Aurora home with curbless shower and grab bars"
 faq:
   - q: "How much does an accessible bathroom remodel cost in Denver?"
-    a: "Accessible remodels are custom-quoted because scope varies widely — a curbless shower with blocking and grab bars differs from a full ADA-compliant rebuild. Our ADA and accessibility projects run 4-7 days on site. If a tub-to-shower conversion solves the main barrier, that scope starts at $14,900 and takes 3-4 days. Every estimate is free, in-home, and itemized."
+    a: "Accessible remodels are custom-quoted because scope varies widely — a curbless shower with blocking and grab bars differs from a full ADA-compliant rebuild. Our ADA and accessibility projects run 4-7 days on site. If a tub-to-shower conversion solves the main barrier, that scope starts at $12,900 and takes 3-4 days. Every estimate is free, in-home, and itemized."
   - q: "What's the difference between ADA-compliant and aging-in-place design?"
     a: "ADA standards are legal requirements for public and commercial spaces, specifying exact clearances, heights, and reach ranges. Residential aging-in-place design borrows those principles — curbless entries, grab bars, comfort-height fixtures — but adapts them to the homeowner's body, mobility, and home layout. Most private homes aim for aging-in-place, not strict ADA compliance."
   - q: "Do grab bars require special wall construction?"
@@ -18,7 +18,7 @@ faq:
     a: "Adding grab bars or swapping fixtures like-for-like generally needs no permit. Converting to a curbless shower, moving plumbing, widening a doorway, or adding electrical circuits does require permits through your local building department, plus inspections. We handle permitting and schedule inspections as part of every accessibility project that requires them."
 ---
 
-Across Aurora, Centennial, Highlands Ranch, and Denver's established suburbs, we hear the same request more often every year: "We want to stay in this house — make the bathroom let us." Accessible and ADA-style bathroom remodeling is how established ranch homes and bungalows adapt to aging knees, hips, and balance, without turning the room into a hospital. Here's what actually matters in a residential accessibility remodel, what it costs in the Denver metro, and how to plan it before a fall forces the issue. This guide covers the features that matter most, realistic costs, and how the process works from estimate to inspection.
+Across Aurora, Centennial, Highlands Ranch, and Denver's established suburbs, we hear the same request more often every year: "We want to stay in this house — make the bathroom let us." [Accessible and ADA-style bathroom remodeling](/services/ada-bathroom-remodeling-denver/) is how established ranch homes and bungalows adapt to aging knees, hips, and balance, without turning the room into a hospital. Here's what actually matters in a residential accessibility remodel, what it costs in the Denver metro, and how to plan it before a fall forces the issue. This guide covers the features that matter most, realistic costs, and how the process works from estimate to inspection.
 
 ## What "accessible" means in a private home
 
@@ -36,7 +36,7 @@ Every one of these works better — and costs less — when designed into a remo
 
 ## The curbless shower: the centerpiece
 
-A curbless (zero-threshold) shower is the feature most accessibility clients ask about, and for good reason: no step, easy walker or wheelchair access, and a clean modern look that helps resale rather than hurting it. But it's also the most technically demanding element.
+A [curbless (zero-threshold) shower](/services/walk-in-shower-installation-denver/) is the feature most accessibility clients ask about, and for good reason: no step, easy walker or wheelchair access, and a clean modern look that helps resale rather than hurting it. But it's also the most technically demanding element.
 
 Getting the slope right means dropping or recessing the subfloor so the shower floor can pitch to the drain without a lip, then waterproofing the entire wet zone — not just the stall. In Denver's 1950s–70s ranch homes with slab foundations, that can mean cutting concrete; in bungalows with basement access, it's usually simpler. Either way, this is structural work with permits, not a weekend project.
 
@@ -49,7 +49,7 @@ Getting the slope right means dropping or recessing the subfloor so the shower f
 | Handheld shower | Optional | Standard, on a slide bar |
 | Door/curtain | Framed glass | Wide opening or curtain for caregiver access |
 
-For many clients, the practical path is a [tub-to-shower conversion](/blog/tub-to-shower-conversion-denver) with a low threshold, blocking, a bench, and a handheld — that scope starts at $14,900 and takes 3–4 days. Full custom accessibility builds with curbless entries run 4–7 days and are custom-quoted after we see the house.
+For many clients, the practical path is a [tub-to-shower conversion](/blog/tub-to-shower-conversion-denver) with a low threshold, blocking, a bench, and a handheld — that scope starts at $12,900 and takes 3–4 days. Full custom accessibility builds with curbless entries run 4–7 days and are custom-quoted after we see the house.
 
 ## Grab bars and blocking: do it while the walls are open
 
@@ -80,7 +80,7 @@ Every accessibility contractor hears the same regret: "We should have done this 
 
 ## What it costs and how long it takes
 
-ADA and accessibility remodels are custom-quoted — a grab-bar-and-toilet refresh is a different job from a curbless rebuild — with typical on-site time of 4–7 days. As reference points, a tub-to-shower conversion starts at $14,900 (3–4 days) and a Complete Bathroom Remodel at $19,700 (5–12 days, up to 50 sq.ft.). Financing with a soft credit check, including 0% APR for 18 months for qualified buyers, is available. All work carries our 1-year labor warranty.
+ADA and accessibility remodels are custom-quoted — a grab-bar-and-toilet refresh is a different job from a curbless rebuild — with typical on-site time of 4–7 days. As reference points, a tub-to-shower conversion starts at $12,900 (3–4 days) and a [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) at $19,700 (5–12 days, up to 50 sq.ft.). Financing with a soft credit check, including 0% APR for 18 months for qualified buyers, is available. All work carries our 1-year labor warranty.
 
 ## Talk to us about staying in your home
 

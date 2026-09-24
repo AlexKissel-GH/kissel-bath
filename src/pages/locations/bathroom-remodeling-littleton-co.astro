@@ -1,0 +1,73 @@
+---
+import LocationPage from '../../components/LocationPage.astro';
+import { servicePageUrl } from '../../lib/serviceUrls';
+
+const topServices = [
+  {
+    title: 'Budget Shower Renovation',
+    href: servicePageUrl('budget-shower-renovation'),
+    priceLabel: 'from $9,900',
+    duration: '2–3 days',
+  },
+  {
+    title: 'Surrounds Only',
+    href: servicePageUrl('surrounds-only-facelift'),
+    priceLabel: 'from $6,500',
+    duration: '1 day',
+  },
+  {
+    title: 'Complete Bathroom Remodel',
+    href: servicePageUrl('complete-bathroom-remodel'),
+    priceLabel: 'from $19,700',
+    duration: '5–12 days',
+  },
+];
+---
+
+<LocationPage
+  city="Littleton"
+  metaTitle="Bathroom Remodeling Littleton, CO | From $9,900"
+  metaDescription="Bathroom remodeling in Littleton, CO from $9,900 — shower renovations, surrounds, and complete remodels for bungalows and two-stories. Call 720.705.1461."
+  housingStock={[
+    "Littleton doesn't have one housing stock — it has several, stacked in layers. Near historic downtown and along the older streets off Main Street and Alamo, you'll find early-century bungalows and post-war cottages with bathrooms that have been patched and updated in stages for decades. Head south and west, and the stock shifts to 1970s–90s two-stories and split-levels with more conventional layouts but aging original finishes. The first thing we do at a Littleton estimate is figure out which layer your home belongs to, because the right scope — and the right budget — depends on it.",
+    "In the older bungalows, bathrooms are often small and idiosyncratic: a tub on feet or a cast-iron built-in, tile set in mud beds, plumbing that's been rerouted more than once. The temptation is to gut everything; often the smarter move is a surgical update — a new wet area, modern fixtures, better ventilation — that respects the home's character and your budget. Our budget shower renovation, from $9,900, exists precisely for these rooms: new base, composite walls, sliding glass door, new fixtures, done in 2–3 days with no tile and no grout to maintain.",
+    "The 70s–90s homes south of Belleview and toward Chatfield are a different conversation. Structurally straightforward — copper or PEX supply, plywood subfloors — they're ideal candidates for surrounds-only updates (from $6,500, one day) or complete remodels that finally retire the fiberglass combo and cultured marble. Whichever era your Littleton home comes from, you get the same thing from us: a fixed, itemized quote before any work begins, with every line explained in plain English.",
+    "Budget discipline matters to a lot of Littleton households, so it's worth saying plainly: a bathroom project does not have to be all-or-nothing. Many of our Littleton jobs start with the wet area this year and continue with the vanity, flooring, and lighting next year. Because our pricing is fixed and itemized, you can phase the work deliberately instead of overextending on one giant project — and each phase is a complete, usable upgrade on its own, not a half-finished room. Financing is available too, including 0% APR for 18 months for qualified buyers, if you'd rather do it all at once.",
+  ]}
+  permits={`Permit requirements in Littleton vary with the scope of work. Replacing fixtures and finishes in the same locations typically requires no permit, while moving plumbing or electrical generally does — and requirements vary by city and change over time. We verify what applies to your project before work starts and can advise on or handle permitting where required. Current permit information, including the city's online portal, is on the <a href="https://www.littletongov.org/" target="_blank" rel="noopener">City of Littleton's official website</a>. If your home sits in a designated historic area, exterior changes may face additional review — interior bathroom work typically is not affected, but we can help you confirm.`}
+  topServices={topServices}
+  blogLinks={[
+    { title: 'Budget Shower Renovation in Denver: What $10K Gets You', href: '/blog/budget-shower-renovation-denver' },
+    { title: 'Do You Need a Permit for a Bathroom Remodel in Denver?', href: '/blog/bathroom-remodel-permits-denver' },
+  ]}
+  faqs={[
+    {
+      q: 'What does a $9,900 budget shower renovation actually include?',
+      a: 'A complete rebuild of a standard 60x30 alcove shower: old unit removed and hauled away, new shower base, composite wall panels, sliding glass door, and new Kohler, Delta, or Moen fixtures — in 2–3 days, with no tile or grout to scrub. Final price depends on size and condition, confirmed in your written estimate.',
+    },
+    {
+      q: 'My home is near downtown Littleton and over 80 years old — can you work on it?',
+      a: "Yes. Older bungalows are familiar territory: mud-set tile, cast-iron tubs, and plumbing that's been modified over generations. We assess what's sound, recommend a scope that respects the home, and flag historic-district considerations if your address is in one. Interior bathroom work typically isn't affected by historic review, but we help you confirm. Because we're an EPA Lead-Safe Certified Firm, demolition in pre-1978 homes follows the required containment and cleanup practices as standard.",
+    },
+    {
+      q: 'Do I need a permit for my Littleton bathroom remodel?',
+      a: 'Usually not for like-for-like fixture and finish replacement; typically yes when plumbing or electrical moves. Rules vary by city and scope, so we verify with the City of Littleton before starting and can handle the permitting process where required.',
+    },
+    {
+      q: 'Do you offer financing?',
+      a: 'Yes — we partner with financing providers offering a range of options, including 0% APR for 18 months for qualified buyers. The application is a soft credit inquiry, so it will not affect your credit score. We can go over financing during your free estimate.',
+    },
+    {
+      q: 'Which parts of Littleton do you serve?',
+      a: 'All of them — from the historic downtown area and the streets around Bemis Library to the neighborhoods south toward Chatfield and west toward Ken Caryl. Estimates are free and in-home throughout Littleton and the surrounding southwest metro — we come to you, measure, and leave you with fixed, itemized pricing and no obligation.',
+    },
+  ]}
+  nearbyCities={[
+    { name: 'Aurora, CO', href: '/locations/bathroom-remodeling-aurora-co/' },
+    { name: 'Parker, CO', href: '/locations/bathroom-remodeling-parker-co/' },
+    { name: 'Highlands Ranch, CO', href: '/locations/bathroom-remodeling-highlands-ranch-co/' },
+    { name: 'Lakewood, CO', href: '/locations/bathroom-remodeling-lakewood-co/' },
+    { name: 'All Service Areas', href: '/' },
+  ]}
+  formLocation="location"
+/>

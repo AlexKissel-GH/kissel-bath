@@ -9,7 +9,7 @@ image: "/images/blog/small-bathroom-remodel-denver-bungalows.webp"
 imageAlt: "Small bathroom remodel in a Denver bungalow with a walk-in shower and compact vanity"
 faq:
   - q: "How much does a small bathroom remodel cost in Denver?"
-    a: "It depends on scope. A Surrounds Only Facelift starts at $6,500, a Budget Shower Renovation at $9,000, a Wet Area Only remodel at $14,900, and a Complete Bathroom Remodel at $19,700 for up to 50 square feet. Older homes can add plumbing or subfloor repairs, which is why we quote fixed, itemized pricing after a free in-home estimate."
+    a: "It depends on scope. A Surrounds Only Facelift starts at $6,500, a Budget Shower Renovation at $9,900, a Wet Area Only remodel at $12,200, and a Complete Bathroom Remodel at $19,700 for up to 50 square feet. Older homes can add plumbing or subfloor repairs, which is why we quote fixed, itemized pricing after a free in-home estimate."
   - q: "Can you remodel a 5x8 bathroom without moving the plumbing?"
     a: "Yes, and we recommend it in most Denver bungalows and ranch homes. Keeping the toilet, vanity, and tub or shower on the existing wet wall avoids opening concrete slabs or rerouting cast-iron drains. Swapping fixtures within the same footprint still transforms the room while keeping the budget and timeline under control."
   - q: "Do I need a permit for a small bathroom remodel in Denver?"
@@ -38,7 +38,7 @@ Moving a toilet or rerouting a drain in a bungalow often means opening a basemen
 
 ### Trade the cast-iron tub for a walk-in shower
 
-The single biggest space-claim move in a small bath. A low-threshold or curbless shower in the same 60"×30" alcove opens sightlines, makes the room easier to use, and removes the visual bulk of a tub apron. If it's your only tub and you have young kids or resale concerns, we sometimes suggest keeping one tub elsewhere in the house instead — but in most primary baths, the shower wins. See how that works in our [tub-to-shower conversion guide](/blog/tub-to-shower-conversion-denver).
+The single biggest space-claim move in a small bath. A [low-threshold or curbless shower](/services/walk-in-shower-installation-denver/) in the same 60"×30" alcove opens sightlines, makes the room easier to use, and removes the visual bulk of a tub apron. If it's your only tub and you have young kids or resale concerns, we sometimes suggest keeping one tub elsewhere in the house instead — but in most primary baths, the shower wins. See how that works in our [tub-to-shower conversion guide](/blog/tub-to-shower-conversion-denver).
 
 ### Reclaim the doorway
 
@@ -81,11 +81,11 @@ Small doesn't always mean cheap — the trades involved are the same as a large 
 
 | Project | Starting price | On-site time |
 |---|---|---|
-| Surrounds Only Facelift | from $6,500 | 1 day |
-| Budget Shower Renovation (standard 60"×30" alcove) | from $9,000 | 2–3 days |
-| Wet Area Only | from $14,900 | 3–4 days |
-| Tub-to-Shower Conversion | from $14,900 | 3–4 days |
-| Complete Bathroom Remodel (up to 50 sq.ft.) | from $19,700 | 5–12 days |
+| [Surrounds Only Facelift](/services/bathroom-surrounds-replacement-denver/) | from $6,500 | 1 day |
+| [Budget Shower Renovation](/services/shower-remodel-denver/) (standard 60"×30" alcove) | from $9,900 | 2–3 days |
+| Wet Area Only | from $12,200 | 3–4 days |
+| [Tub-to-Shower Conversion](/services/tub-to-shower-conversion-denver/) | from $12,900 | 3–4 days |
+| [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) (up to 50 sq.ft.) | from $19,700 | 5–12 days |
 
 Older homes sometimes reveal galvanized supply lines or subfloor damage that add to scope — that's exactly why we quote fixed, itemized pricing after seeing the room rather than ballparking over the phone. Full details are on our [pricing page](/pricing), and financing with a soft credit check (0% APR for 18 months for qualified buyers) can spread the cost.
 

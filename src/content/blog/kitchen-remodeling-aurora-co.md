@@ -9,7 +9,7 @@ image: "/images/blog/kitchen-remodeling-aurora-co.webp"
 imageAlt: "Kitchen remodeling project completed in an Aurora Colorado ranch home"
 faq:
   - q: "How much does kitchen remodeling cost in Aurora, CO?"
-    a: "It depends on scope. Countertop replacement starts at $4,200, a kitchen facelift starts at $7,900, and cabinet refacing starts at $10,500 — each finished in days. A full kitchen remodel is priced with a custom quote based on your kitchen's size and finishes. Every project begins with a free in-home estimate and fixed, itemized pricing, so you know the number before work starts."
+    a: "It depends on scope. Countertop replacement starts at $5,200, a kitchen facelift starts at $8,900, and cabinet refacing starts at $10,500 — each finished in days. A full kitchen remodel is priced with a custom quote based on your kitchen's size and finishes. Every project begins with a free in-home estimate and fixed, itemized pricing, so you know the number before work starts."
   - q: "Do I need a permit to remodel my kitchen in Aurora?"
     a: "Cosmetic-only work — painting, refacing cabinets, replacing countertops in place — generally doesn't need a permit. Moving plumbing, modifying electrical, or removing a wall does. Aurora handles applications through the city's e-permits online portal, and trade permits for straightforward work typically move quickly. We prepare and pull all required permits as part of the project."
   - q: "How long does a kitchen remodel take in Aurora?"
@@ -38,10 +38,10 @@ Here's what we charge, with every project starting at the listed price and final
 
 | Service | Starting at | On-site time |
 | --- | --- | --- |
-| Countertop Replacement | $4,200 | 1–2 days |
-| Kitchen Facelift | $7,900 | 3–5 days |
-| Cabinet Refacing | $10,500 | 3–5 days |
-| Full Kitchen Remodel | Custom quote | 7–14 days |
+| [Countertop Replacement](/services/countertop-replacement-denver/) | $5,200 | 1–2 days |
+| [Kitchen Facelift](/services/kitchen-facelift-denver/) | $8,900 | 3–5 days |
+| [Cabinet Refacing](/services/cabinet-refacing-denver/) | $10,500 | 3–5 days |
+| [Full Kitchen Remodel](/services/kitchen-remodeling-denver/) | Custom quote | 7–14 days |
 
 Which tier fits depends on your cabinets and layout:
 

@@ -1,0 +1,73 @@
+---
+import LocationPage from '../../components/LocationPage.astro';
+import { servicePageUrl } from '../../lib/serviceUrls';
+
+const topServices = [
+  {
+    title: 'Complete Bathroom Remodel',
+    href: servicePageUrl('complete-bathroom-remodel'),
+    priceLabel: 'from $19,700',
+    duration: '5–12 days',
+  },
+  {
+    title: 'Wet Area Only Renovation',
+    href: servicePageUrl('wet-area-only-renovation'),
+    priceLabel: 'from $12,200',
+    duration: '3–4 days',
+  },
+  {
+    title: 'Tub-to-Shower Conversion',
+    href: servicePageUrl('tub-to-shower-conversion'),
+    priceLabel: 'from $12,900',
+    duration: '3-4 days',
+  },
+];
+---
+
+<LocationPage
+  city="Parker"
+  metaTitle="Bathroom Remodeling Parker, CO | Free In-Home Estimates"
+  metaDescription="Parker, CO bathroom remodeling for newer suburban homes — master bath upgrades, builder-grade replacements, fixed pricing. Free in-home estimates: 720.705.1461."
+  housingStock={[
+    "Parker's neighborhoods — Stonegate, Stroh Ranch, Canterberry Crossing, Cottonwood, and the communities along Jordan and Lincoln — are mostly two-story homes built from the 1990s through the 2010s. These houses share a predictable pattern: builder-grade bathrooms that looked fine on closing day but were spec'd to a price point, not to last. Twenty-plus years on, the cultured marble tops are stained, the plastic-framed shower doors wobble, the hollow brass fixtures are pitted, and the grout never quite comes clean anymore. That's not neglect — it's simply what production-builder finishes do at this age.",
+    "The classic Parker master bath deserves special mention: a giant corner soaking tub that nobody uses, paired with a cramped 32-inch shower stall that everybody uses. Builders loved that arrangement because it photographed well in the model home. Homeowners tolerate it for years, then call us. Reclaiming the tub's footprint for a full-size walk-in shower is the single most satisfying change we make in these homes — the room suddenly matches how the household actually lives, and no square footage has to move.",
+    "Because these homes are relatively modern, remodels here are usually straightforward: PEX or copper supply lines, proper venting, plywood subfloors rather than plank decking. That means fewer surprises behind the walls and more of the budget going toward finishes you'll see every day. One practical note for two-story layouts: when the master bath sits above finished space, we take waterproofing and leak-testing especially seriously, since a failure upstairs becomes a ceiling repair downstairs.",
+    "There's also a resale angle worth knowing. In Parker's price range, buyers walk into the master bath early in a showing, and a dated builder-grade suite reads as a project — and a price negotiation — before they've seen the rest of the house. A clean, modern wet area with frameless-look glass and updated fixtures is one of the most visible upgrades per dollar in these homes. Whether you're staying for fifteen more years or listing in three, the same work serves both plans. Every Parker project starts the same way: a free in-home estimate, fixed and itemized pricing in writing, and a schedule we commit to before demolition begins.",
+  ]}
+  permits={`Permit requirements vary by city and by scope. In Parker, replacing fixtures and finishes in their existing locations typically doesn't trigger a permit, while relocating plumbing or electrical generally does. We confirm what applies to your project with the Town of Parker before work begins and can advise on or handle permitting where it's required. Current information is available on the <a href="https://www.parkerco.gov/" target="_blank" rel="noopener">Town of Parker's official website</a>.`}
+  topServices={topServices}
+  blogLinks={[
+    { title: "Does a Bathroom Remodel Pay Off in Denver's Housing Market?", href: '/blog/bathroom-remodel-roi-denver' },
+    { title: 'How Long Does a Bathroom Remodel Take in Denver?', href: '/blog/bathroom-remodel-timeline-denver' },
+  ]}
+  faqs={[
+    {
+      q: 'Can you replace my big corner tub with a walk-in shower?',
+      a: "Yes — it's our most-requested master bath project in Parker. We remove the unused tub, rebuild the wet area with proper waterproofing, and install a full-size low-threshold or curbless shower in its place. A conversion starts at $12,900 and takes 3-4 days; pairing it with new vanities and flooring turns it into a complete remodel. If you're keeping a tub in a second bathroom for kids or resale, converting the master is usually the smartest first move — you lose nothing and gain a shower you'll actually use every day.",
+    },
+    {
+      q: 'How disruptive is a remodel with kids and pets at home?',
+      a: 'Most families stay in the house throughout. We protect floors along the path to the bathroom, contain dust at the doorway, keep tools out of living areas, and haul debris out daily. In a two-bath home you keep a functioning bathroom the whole time. We also agree on daily start and end times that work around your schedule.',
+    },
+    {
+      q: 'Do I need a permit for a bathroom remodel in Parker?',
+      a: 'Like-for-like fixture and finish replacement usually requires no permit; moving plumbing or electrical typically does. Requirements vary by city and scope, so we verify with the Town of Parker building division before starting and can handle the permitting process where required.',
+    },
+    {
+      q: 'Is financing available for a master bath upgrade?',
+      a: 'Yes. We work with financing providers offering multiple options, including 0% APR for 18 months for qualified buyers. Checking options uses a soft credit inquiry and will not affect your credit score. We can review financing alongside your itemized estimate.',
+    },
+    {
+      q: 'Do you serve all Parker neighborhoods?',
+      a: 'Yes — from the Pinery and Stonegate in the north to Meridian and the communities south of Mainstreet, plus nearby Castle Pines and Lone Tree. Estimates are free and in-home: we come to you, measure, and leave you with fixed, itemized pricing. Many Parker households also use financing to complete the master suite now and pay it off inside the 0% APR window rather than phasing the work over years.',
+    },
+  ]}
+  nearbyCities={[
+    { name: 'Aurora, CO', href: '/locations/bathroom-remodeling-aurora-co/' },
+    { name: 'Highlands Ranch, CO', href: '/locations/bathroom-remodeling-highlands-ranch-co/' },
+    { name: 'Lakewood, CO', href: '/locations/bathroom-remodeling-lakewood-co/' },
+    { name: 'Littleton, CO', href: '/locations/bathroom-remodeling-littleton-co/' },
+    { name: 'All Service Areas', href: '/' },
+  ]}
+  formLocation="location"
+/>

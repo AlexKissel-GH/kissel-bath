@@ -1,0 +1,106 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { settings, breadcrumbList } from '../lib/seo';
+
+const jsonld = [
+  breadcrumbList([
+    { name: 'Home', path: '/' },
+    { name: 'Terms of Service', path: '/terms' },
+  ]),
+];
+---
+
+<BaseLayout
+  title="Terms of Service | Kissel's Bath and Kitchen"
+  description="Terms of Service for the Kissel's Bath and Kitchen website — informational use, pricing disclaimers, intellectual property, liability, and governing law (Colorado)."
+  path="/terms"
+  jsonld={jsonld}
+>
+  <section class="bg-brand-surface border-b border-slate-200" aria-labelledby="page-heading">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-18">
+      <nav class="text-sm text-brand-muted" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2">
+          <li><a href="/" class="hover:text-brand-dark transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-brand-dark font-medium" aria-current="page">Terms of Service</li>
+        </ol>
+      </nav>
+      <h1 id="page-heading" class="mt-4 text-4xl md:text-5xl font-bold text-brand-dark tracking-tight">
+        Terms of Service
+      </h1>
+      <p class="mt-4 text-lg max-w-2xl">Last updated: September 24, 2026</p>
+    </div>
+  </section>
+
+  <section class="py-14 md:py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-slate max-w-none
+      prose-headings:text-brand-dark prose-headings:tracking-tight
+      prose-a:text-emerald-700 prose-a:font-semibold hover:prose-a:text-emerald-800">
+
+      <p>
+        Welcome to kisselremodeling.com, operated by Kissel's Bath and Kitchen ("we", "us", "our").
+        By using this website, you agree to these Terms of Service. If you do not agree, please do
+        not use the site.
+      </p>
+
+      <h2>1. Informational website</h2>
+      <p>
+        This website is provided for general informational purposes about our bathroom and kitchen
+        remodeling services in the Denver metro area. Nothing on this site constitutes a binding
+        contract, quote, or offer to perform work.
+      </p>
+
+      <h2>2. Pricing disclaimer</h2>
+      <p>
+        Any prices shown on this site (including "from" prices) are starting estimates for typical
+        projects and are <strong>not an offer</strong>. The final price for your project is determined
+        only after a free in-home estimate and is confirmed in a written, itemized estimate and
+        contract. Actual costs depend on your space, materials, and scope of work.
+      </p>
+
+      <h2>3. Intellectual property</h2>
+      <p>
+        All content on this site — including text, design, logos, and project photographs — is the
+        property of Kissel's Bath and Kitchen or its licensors and is protected by copyright. Project
+        photos show our actual work and may not be copied, reproduced, or used elsewhere without our
+        written permission.
+      </p>
+
+      <h2>4. Limitation of liability</h2>
+      <p>
+        We work hard to keep the information on this site accurate and up to date, but we make no
+        warranties, express or implied, about completeness, accuracy, or availability. To the fullest
+        extent permitted by law, Kissel's Bath and Kitchen is not liable for any damages arising from
+        your use of, or inability to use, this website or reliance on its content.
+      </p>
+
+      <h2>5. Third-party links</h2>
+      <p>
+        This site links to third-party websites such as Google (Maps / Business Profile), Houzz, and
+        Facebook. We do not control and are not responsible for the content, policies, or practices of
+        those sites. Following these links is at your own risk.
+      </p>
+
+      <h2>6. Governing law</h2>
+      <p>
+        These Terms are governed by the laws of the State of Colorado, without regard to conflict-of-law
+        principles. Any disputes arising from the use of this website shall be resolved in the courts
+        located in Colorado.
+      </p>
+
+      <h2>7. Changes to these terms</h2>
+      <p>
+        We may update these Terms from time to time. The "Last updated" date above shows the latest
+        revision. Continued use of the site after changes means you accept the updated Terms.
+      </p>
+
+      <h2>8. Contact</h2>
+      <p>
+        Kissel's Bath and Kitchen<br />
+        {settings.address}<br />
+        Phone: <a href={settings.phoneHref}>{settings.phone}</a><br />
+        Email: <a href={`mailto:${settings.email}`}>{settings.email}</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

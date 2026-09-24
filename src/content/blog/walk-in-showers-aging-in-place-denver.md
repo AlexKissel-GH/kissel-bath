@@ -9,7 +9,7 @@ image: "/images/blog/walk-in-showers-aging-in-place-denver.webp"
 imageAlt: "Walk-in shower installation in Denver CO with grab bars and bench seat"
 faq:
   - q: "How much does a walk-in shower installation cost in Denver?"
-    a: "A standard walk-in shower installed in place of a tub typically starts around $14,900 with a 3-4 day timeline. Fully accessible designs with curbless entries, custom bases, seating, and grab bar packages are quoted individually and usually take 4-7 days, depending on the bathroom's framing, plumbing, and size."
+    a: "A standard walk-in shower installed in place of a tub typically starts around $12,900 with a 3-4 day timeline. Fully accessible designs with curbless entries, custom bases, seating, and grab bar packages are quoted individually and usually take 4-7 days, depending on the bathroom's framing, plumbing, and size."
   - q: "What is the difference between a low-threshold and a curbless shower?"
     a: "A low-threshold shower has a small step of roughly 2-4 inches over a curb, which is simpler and cheaper to build. A curbless (zero-entry) shower has no step at all, with the bathroom floor sloping into the drain. Curbless designs require recessing the floor structure or building up the surrounding floor, which adds carpentry work."
   - q: "Are grab bars enough to make a bathroom safe for aging in place?"
@@ -20,7 +20,7 @@ faq:
 
 Most bathrooms in the Denver metro were designed for 30-year-olds. Slippery tub walls, a 15-inch step to get in, nowhere to sit, and towel bars that people grab for balance even though they were never meant to hold body weight. If you or a parent plan to stay in your home for the long haul, the bathroom is the first room that needs to change.
 
-**Walk-in shower installation in Denver** has become one of our most requested projects — and done right, it doesn't have to look like a hospital. Here's how to think about safety, cost, and design.
+**[Walk-in shower installation in Denver](/services/walk-in-shower-installation-denver/)** has become one of our most requested projects — and done right, it doesn't have to look like a hospital. Here's how to think about safety, cost, and design.
 
 ## What "Aging in Place" Actually Means for a Bathroom
 
@@ -48,8 +48,8 @@ Two realistic starting points:
 
 | Project | Starting price | Timeline |
 |---|---|---|
-| Tub-to-shower conversion with low threshold, grab-bar blocking, bench | from $14,900 | 3–4 days |
-| Full ADA / accessibility remodel (curbless entry, custom layout) | custom quote | 4–7 days |
+| [Tub-to-shower conversion](/services/tub-to-shower-conversion-denver/) with low threshold, grab-bar blocking, bench | from $12,900 | 3–4 days |
+| [Full ADA / accessibility remodel](/services/ada-bathroom-remodeling-denver/) (curbless entry, custom layout) | custom quote | 4–7 days |
 
 A straight conversion with safety features costs about the same as any quality walk-in shower — the blocking, bench, and handheld add relatively little when they're planned from the start. A curbless entry costs more because of the floor work involved, and it's worth every dollar if a wheelchair is part of the picture.
 

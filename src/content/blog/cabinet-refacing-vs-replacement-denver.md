@@ -29,7 +29,7 @@ Refacing keeps your existing cabinet boxes and replaces everything you see and t
 - **New hardware** — hinges, pulls, and soft-close mechanisms
 - **Finished end panels and trim** for a factory-new look
 
-The result looks like a brand-new kitchen because, visually, it is. The skeleton stays; the skin is new. Our cabinet refacing starts at $10,500 and takes 3–5 days, and because no plumbing or electrical work is involved, no permits are needed.
+The result looks like a brand-new kitchen because, visually, it is. The skeleton stays; the skin is new. Our [cabinet refacing](/services/cabinet-refacing-denver/) starts at $10,500 and takes 3–5 days, and because no plumbing or electrical work is involved, no permits are needed.
 
 ## What Full Cabinet Replacement Involves
 
@@ -41,7 +41,7 @@ Replacement means tearing the old cabinets out entirely and installing new boxes
 - Sink, faucet, and sometimes appliance disconnection and reconnection
 - Potential drywall, flooring, and paint repair where old cabinets sat
 
-Replacement is normally part of a broader kitchen remodel, which is custom-quoted based on layout and materials. The timeline stretches accordingly, and if you're moving anything mechanical, permits and inspections enter the picture.
+Replacement is normally part of a broader [kitchen remodel](/services/kitchen-remodeling-denver/), which is custom-quoted based on layout and materials. The timeline stretches accordingly, and if you're moving anything mechanical, permits and inspections enter the picture.
 
 ## Refacing vs. Replacement: Side by Side
 
@@ -85,7 +85,7 @@ Hard water is another Front Range reality. Cabinet finishes near sinks take a be
 
 ## Cost and Timeline in the Denver Metro
 
-Refacing starts at $10,500 with a 3–5 day timeline — most kitchens are done inside a working week, and you can usually keep using your sink and fridge for much of it. Replacement is priced as part of a broader remodel; for a full picture of how the numbers compare across project types, see our [Denver kitchen remodel cost guide](/blog/kitchen-remodel-cost-denver). If your budget is tighter and your cabinets are in decent shape cosmetically, a [kitchen facelift](/blog/kitchen-facelift-denver) starting at $7,900 may be the smarter middle step.
+Refacing starts at $10,500 with a 3–5 day timeline — most kitchens are done inside a working week, and you can usually keep using your sink and fridge for much of it. Replacement is priced as part of a broader remodel; for a full picture of how the numbers compare across project types, see our [Denver kitchen remodel cost guide](/blog/kitchen-remodel-cost-denver). If your budget is tighter and your cabinets are in decent shape cosmetically, a [kitchen facelift](/blog/kitchen-facelift-denver) starting at $8,900 may be the smarter middle step. And if worn counters are the real problem, [countertop replacement](/services/countertop-replacement-denver/) starts at $5,200 and finishes in a day or two.
 
 ## How to Decide: A Simple Framework
 

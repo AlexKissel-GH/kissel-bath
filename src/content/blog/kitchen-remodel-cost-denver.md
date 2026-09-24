@@ -9,16 +9,16 @@ image: "/images/blog/kitchen-remodel-cost-denver.webp"
 imageAlt: "Kitchen remodel cost breakdown for a renovated Denver area ranch home"
 faq:
   - q: "How much does a kitchen remodel cost in Denver?"
-    a: "It depends on scope. A kitchen facelift starts at $7,900 and takes 3-5 days, cabinet refacing starts at $10,500, countertop replacement starts at $4,200, and a full kitchen remodel is custom-quoted and typically takes 7-14 days. Full gut renovations with layout changes, new plumbing, or electrical upgrades commonly run well into five figures across the Denver metro."
+    a: "It depends on scope. A kitchen facelift starts at $8,900 and takes 3-5 days, cabinet refacing starts at $10,500, countertop replacement starts at $5,200, and a full kitchen remodel is custom-quoted and typically takes 7-14 days. Full gut renovations with layout changes, new plumbing, or electrical upgrades commonly run well into five figures across the Denver metro."
   - q: "What is the cheapest way to update a kitchen in Denver?"
-    a: "Keep your existing layout and focus on surfaces. A kitchen facelift starting at $7,900 refreshes the visible elements of your kitchen in 3-5 days without demolition, plumbing moves, or permits. If your cabinet boxes are structurally sound, refacing delivers a like-new look for far less than full replacement."
+    a: "Keep your existing layout and focus on surfaces. A kitchen facelift starting at $8,900 refreshes the visible elements of your kitchen in 3-5 days without demolition, plumbing moves, or permits. If your cabinet boxes are structurally sound, refacing delivers a like-new look for far less than full replacement."
   - q: "Does a kitchen remodel require a permit in Denver?"
     a: "Cosmetic work like painting, countertop swaps, and cabinet refacing does not require a permit. Electrical, plumbing, and structural changes do, through Denver Community Planning & Development or your local building department. A licensed general contractor pulls these permits as part of the project."
   - q: "Do you offer financing for kitchen remodels?"
     a: "Yes. We offer financing with a soft credit check that does not affect your credit score, and qualified buyers can get 0% APR for 18 months. Every project starts with a free in-home estimate and fixed, itemized pricing, so you know the exact cost before any financing decision."
 ---
 
-How much does a kitchen remodel cost in Denver? It's the first question nearly every homeowner asks us, from Aurora to Arvada, and the honest answer is: it depends on scope — but it's often less than you fear when the project is planned correctly. A focused kitchen facelift starts at $7,900 and wraps up in 3–5 days. Cabinet refacing starts at $10,500. A full, down-to-the-studs remodel is custom-quoted because layout changes, structure, and finish selections drive that number. This guide breaks down real 2026 price ranges, what moves the number up or down, and how to budget without surprises.
+How much does a kitchen remodel cost in Denver? It's the first question nearly every homeowner asks us, from Aurora to Arvada, and the honest answer is: it depends on scope — but it's often less than you fear when the project is planned correctly. A focused kitchen facelift starts at $8,900 and wraps up in 3–5 days. Cabinet refacing starts at $10,500. A full, down-to-the-studs remodel is custom-quoted because layout changes, structure, and finish selections drive that number. This guide breaks down real 2026 price ranges, what moves the number up or down, and how to budget without surprises.
 
 ## 2026 Kitchen Remodel Price Ranges in Denver
 
@@ -26,10 +26,10 @@ Here are the actual starting prices we quote across the Denver metro, from Lakew
 
 | Project type | Starting price | Typical timeline |
 |---|---|---|
-| Countertop replacement | from $4,200 | 1–2 days |
-| Kitchen facelift | from $7,900 | 3–5 days |
-| Cabinet refacing | from $10,500 | 3–5 days |
-| Full kitchen remodel | custom quote | 7–14 days |
+| [Countertop replacement](/services/countertop-replacement-denver/) | from $5,200 | 1–2 days |
+| [Kitchen facelift](/services/kitchen-facelift-denver/) | from $8,900 | 3–5 days |
+| [Cabinet refacing](/services/cabinet-refacing-denver/) | from $10,500 | 3–5 days |
+| [Full kitchen remodel](/services/kitchen-remodeling-denver/) | custom quote | 7–14 days |
 
 A few things worth understanding about these numbers. "Starting at" reflects a straightforward project in a typical-sized kitchen. Costs climb with square footage, premium materials, and mechanical changes. And for full remodels, any contractor quoting you a firm price over the phone without seeing your home is guessing. Layout changes, plumbing reroutes, and electrical panel work are what push full renovations into the higher ranges — which is exactly why we do free in-home estimates with fixed, itemized pricing before anyone commits to anything.
 
@@ -41,7 +41,7 @@ Cabinetry is almost always the largest single line item in a kitchen budget. The
 
 ### Countertops
 
-Countertop replacement starts at $4,200 and takes just 1–2 days, which makes it one of the highest-impact, lowest-disruption upgrades available. Material choice matters: quartz and granite sit in a similar range for most kitchens, while exotic slabs, waterfall edges, and complex cutouts push the price up. We compare the two most popular options in detail in our [quartz vs granite countertops](/blog/quartz-vs-granite-countertops-colorado) guide.
+Countertop replacement starts at $5,200 and takes just 1–2 days, which makes it one of the highest-impact, lowest-disruption upgrades available. Material choice matters: quartz and granite sit in a similar range for most kitchens, while exotic slabs, waterfall edges, and complex cutouts push the price up. We compare the two most popular options in detail in our [quartz vs granite countertops](/blog/quartz-vs-granite-countertops-colorado) guide.
 
 ### Layout and mechanical changes
 

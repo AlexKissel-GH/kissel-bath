@@ -32,7 +32,7 @@ In most Denver-metro jurisdictions, you can typically do the following without p
 - Replacing a tub or shower surround on existing plumbing in the same footprint
 - New countertops, mirrors, and accessories
 
-Our Surrounds Only Facelift (from $6,500, one day) is a good example — new wall panels over properly prepped existing surfaces, fixtures in place. That's cosmetic work and generally permit-free.
+Our [Surrounds Only Facelift](/services/bathroom-surrounds-replacement-denver/) (from $6,500, one day) is a good example — new wall panels over properly prepped existing surfaces, fixtures in place. That's cosmetic work and generally permit-free.
 
 ## Work That Usually DOES Need a Permit
 
@@ -44,7 +44,7 @@ The rule of thumb across the metro: if you're modifying the systems behind the w
 - **Ventilation** — adding or relocating an exhaust fan duct to the exterior
 - **Windows** — changing the size of an opening
 
-Note the nuance on tub-to-shower work: replacing a tub with a shower using the existing drain location is often permit-free, but many conversions benefit from upsizing the 1½" tub drain to a code-preferred 2" shower drain, and once you're altering drain lines, most departments want a plumbing permit and inspection.
+Note the nuance on tub-to-shower work: [replacing a tub with a shower](/services/tub-to-shower-conversion-denver/) using the existing drain location is often permit-free, but many conversions benefit from upsizing the 1½" tub drain to a code-preferred 2" shower drain, and once you're altering drain lines, most departments want a plumbing permit and inspection.
 
 ## How It Works in Denver Specifically
 
@@ -66,7 +66,7 @@ This patchwork is one reason to hire a contractor who works across the metro reg
 
 For a typical bathroom remodel, combined plumbing and electrical permit fees usually land in the low hundreds of dollars, scaled to the project value. It's a small line item. Our [Denver bathroom remodel cost guide](/blog/bathroom-remodel-cost-denver) covers the full budget picture — permits are rarely more than a rounding error in it.
 
-The inspection itself is free with the permit and, honestly, it's a benefit: a second set of qualified eyes on the plumbing and electrical work before the walls close. We build inspection scheduling into our timelines — a [complete bathroom remodel](/services) runs 5–12 days partly because rough-in inspections sit in the middle of the sequence.
+The inspection itself is free with the permit and, honestly, it's a benefit: a second set of qualified eyes on the plumbing and electrical work before the walls close. We build inspection scheduling into our timelines — a [complete bathroom remodel](/services/bathroom-remodeling-denver/) runs 5–12 days partly because rough-in inspections sit in the middle of the sequence.
 
 ## The Real Risks of Skipping the Permit
 

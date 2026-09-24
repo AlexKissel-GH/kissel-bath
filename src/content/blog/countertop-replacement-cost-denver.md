@@ -9,7 +9,7 @@ image: "/images/blog/countertop-replacement-cost-denver.webp"
 imageAlt: "New quartz countertops installed in a Denver kitchen during a countertop replacement"
 faq:
   - q: "How much does countertop replacement cost in Denver?"
-    a: "Professional countertop replacement in the Denver metro starts at $4,200 with our team, which includes removal of the old tops, precise templating, fabrication, installation, and reconnection of your sink and fixtures. The final price depends on material, square footage, edge profile, and the number of cutouts. We quote fixed, itemized pricing after a free in-home estimate."
+    a: "Professional countertop replacement in the Denver metro starts at $5,200 with our team, which includes removal of the old tops, precise templating, fabrication, installation, and reconnection of your sink and fixtures. The final price depends on material, square footage, edge profile, and the number of cutouts. We quote fixed, itemized pricing after a free in-home estimate."
   - q: "How long does countertop replacement take?"
     a: "On-site work takes 1 to 2 days — removal of the old counters and installation of the new ones. Before that, the fabricator templates your cabinets after any new cabinetry is set, and fabrication typically takes one to two weeks depending on the material. From estimate to finished counters, most projects complete within two to three weeks."
   - q: "Is quartz or granite better for Colorado homes?"
@@ -18,13 +18,13 @@ faq:
     a: "Yes, and it's one of the most cost-effective upgrades we do — as long as the existing cabinets are structurally sound and level. We check both during your free estimate. If the cabinet boxes are good but the doors are dated, pairing new counters with cabinet refacing (starting at $10,500) delivers a full-kitchen look for far less than a remodel."
 ---
 
-Countertop replacement is the highest-impact, lowest-disruption upgrade you can make to a Denver kitchen. Done professionally, it starts at $4,200, takes one to two days on site, and makes the entire room read as renovated — even if nothing else changes.
+Countertop replacement is the highest-impact, lowest-disruption upgrade you can make to a Denver kitchen. Done professionally, it starts at $5,200, takes one to two days on site, and makes the entire room read as renovated — even if nothing else changes.
 
 But "what do countertops cost?" doesn't have a single number answer, because the material you choose and the shape of your kitchen move the price considerably. Here's the breakdown we give homeowners when they call us — my wife Daria and I run a family-owned remodeling company based in Aurora, and counters are part of nearly every one of the 200-plus kitchen and bath projects we've completed across the metro.
 
 ## What Countertop Replacement Costs in Denver
 
-Our countertop replacement service starts at $4,200 and includes the full scope: removal and disposal of your old tops, laser-accurate templating, fabrication, installation, seaming, and reconnection of the sink and fixtures. What moves a project above that starting point:
+Our [countertop replacement](/services/countertop-replacement-denver/) service starts at $5,200 and includes the full scope: removal and disposal of your old tops, laser-accurate templating, fabrication, installation, seaming, and reconnection of the sink and fixtures. What moves a project above that starting point:
 
 - **Material.** This is the biggest lever — see the comparison below.
 - **Square footage.** A compact galley in an Aurora ranch might run 30 square feet of counter; a big open kitchen with an island in Highlands Ranch can double that.
@@ -92,9 +92,9 @@ A few local factors we plan around on every counter job:
 
 New counters on tired cabinets is a half-finished look, so think about the whole picture before you commit:
 
-- **Cabinets solid, doors dated?** New counters plus cabinet refacing reads as a full remodel, done in 3 to 5 days.
+- **Cabinets solid, doors dated?** New counters plus [cabinet refacing](/services/cabinet-refacing-denver/) reads as a full remodel, done in 3 to 5 days.
 - **Just want the fastest refresh?** Counters alone, in and out in 1 to 2 days.
-- **Layout actually broken?** That's full remodel territory — counters go in near the end of a 7–14 day build.
+- **Layout actually broken?** That's [full remodel](/services/kitchen-remodeling-denver/) territory — counters go in near the end of a 7–14 day build.
 
 If a full remodel is on your horizon within a year or two, wait on the counters — you don't want to template and cut stone for cabinets you're about to remove. If the layout works and you just hate the surfaces, counters now are money well spent.
 
