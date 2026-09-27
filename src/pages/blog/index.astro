@@ -14,7 +14,7 @@ const kitchenPosts = posts.filter((p) => p.data.category === 'kitchen-remodeling
 const blogJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
-  name: "Kissel's Bath and Kitchen — Remodeling Blog",
+  name: "Kissel's Bath and Kitchen · Remodeling Blog",
   description:
     'Bathroom and kitchen remodeling guides, costs, and ideas for Denver metro homeowners from Kissel\'s Bath and Kitchen.',
   url: `${SITE}/blog`,
@@ -39,7 +39,7 @@ const jsonld = [
 ---
 
 <BaseLayout
-  title="Bathroom & Kitchen Remodeling Blog — Denver Metro | Kissel's Bath and Kitchen"
+  title="Bathroom & Kitchen Remodeling Blog · Denver Metro | Kissel's Bath and Kitchen"
   description="Remodeling costs, timelines, design ideas, and permit guides for Denver metro homeowners. Practical bathroom & kitchen advice from a local family-owned contractor."
   path="/blog"
   jsonld={jsonld}
@@ -56,10 +56,10 @@ const jsonld = [
       </nav>
       <div class="mt-6 max-w-2xl">
         <h1 id="blog-heading" class="text-4xl md:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
-          Bathroom &amp; Kitchen Remodeling Blog — Denver Metro
+          Bathroom &amp; Kitchen Remodeling Blog. Denver Metro
         </h1>
         <p class="mt-5 text-lg leading-relaxed">
-          Real costs, honest timelines, and practical design advice for Denver-area homeowners —
+          Real costs, honest timelines, and practical design advice for Denver-area homeowners.
           written by the family that remodels your neighbors' homes.
         </p>
       </div>
@@ -76,7 +76,7 @@ const jsonld = [
         {bathroomPosts.map((post) => <BlogCard post={post} />)}
       </div>
       {bathroomPosts.length === 0 && (
-        <p class="mt-8 text-brand-muted">New bathroom remodeling guides are on the way — check back soon.</p>
+        <p class="mt-8 text-brand-muted">New bathroom remodeling guides are on the way, check back soon.</p>
       )}
     </div>
   </section>
@@ -91,7 +91,7 @@ const jsonld = [
         {kitchenPosts.map((post) => <BlogCard post={post} />)}
       </div>
       {kitchenPosts.length === 0 && (
-        <p class="mt-8 text-brand-muted">New kitchen remodeling guides are on the way — check back soon.</p>
+        <p class="mt-8 text-brand-muted">New kitchen remodeling guides are on the way, check back soon.</p>
       )}
     </div>
   </section>

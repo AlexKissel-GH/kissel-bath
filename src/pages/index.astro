@@ -40,7 +40,6 @@ const trustItems = [
   { title: 'EPA Lead-Safe Certified', sub: 'Firm NAT-F212803-1' },
   { title: 'Licensed & Insured', sub: 'General Contractor' },
   { title: 'HomeAdvisor Elite', sub: 'Top-Rated Pro' },
-  { title: 'Houzz 2024', sub: 'Best of Service' },
 ];
 
 const whyItems = [
@@ -181,7 +180,7 @@ const jsonld = [
         <h2 id="why-heading" class="text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">
           Why Denver homeowners choose Kissel's
         </h2>
-        <p class="mt-4 text-lg">200+ completed projects across Denver metro — and a reputation built one happy homeowner at a time.</p>
+        <p class="mt-4 text-lg">A reputation built one happy homeowner at a time, backed by a 4.9★ Google rating.</p>
       </div>
       <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {whyItems.map((item) => (
@@ -195,10 +194,10 @@ const jsonld = [
       <!-- Financing strip -->
       <div class="mt-10 bg-brand-dark rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
-          <h3 class="text-xl font-bold text-white">Easy financing available</h3>
+          <h3 class="text-xl font-bold text-white">Financing options</h3>
           <p class="mt-2 text-slate-300 max-w-xl">
-            Flexible financing options with low interest rates — including 0% APR for 18 months for qualified buyers.
-            The application uses a soft credit inquiry that won't affect your credit score.
+            We partner with a financing provider so you can spread the cost of your project over time.
+            Rates and terms depend on approval. Ask about current options during your free estimate.
           </p>
         </div>
         <a
@@ -244,7 +243,7 @@ const jsonld = [
           <h2 id="lead-form-heading" class="text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">
             Get your free in-home estimate
           </h2>
-          <p class="mt-4 text-lg">Fixed, itemized pricing — no obligation.</p>
+          <p class="mt-4 text-lg">Fixed, itemized pricing. No obligation.</p>
         </div>
         <div class="mt-8">
           <LeadForm formLocation="home" />
@@ -260,7 +259,7 @@ const jsonld = [
         <h2 id="areas-heading" class="text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">
           Serving the Denver metro area
         </h2>
-        <p class="mt-4 text-lg">Based in Aurora, CO — proudly remodeling homes across the Front Range.</p>
+        <p class="mt-4 text-lg">Based in Aurora, CO · proudly remodeling homes across the Front Range.</p>
       </div>
       <ul class="mt-8 flex flex-wrap gap-3">
         {[...settings.serviceAreas, ...settings.extendedServiceAreas].map((area) => (

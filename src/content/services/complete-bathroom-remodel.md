@@ -19,6 +19,6 @@ featured: true
 order: 5
 ---
 
-Our most popular package: a full gut-to-finish renovation for bathrooms up to 50 sq.ft. New flooring, vanity, toilet, lighting, shower or tub, and walls — everything brand new, from demolition to final cleanup.
+Our most popular package: a full gut-to-finish renovation for bathrooms up to 50 sq.ft. New flooring, vanity, toilet, lighting, shower or tub, and walls, everything brand new, from demolition to final cleanup.
 
 Every complete remodel includes full demolition and disposal, a shower or tub with grout-free composite walls, a new vanity with countertop and sink, a new toilet and flooring, lighting, mirrors and accessories, and paint with final cleanup. Financing is available, and every estimate is fixed and itemized before we start.

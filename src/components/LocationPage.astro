@@ -1,7 +1,7 @@
 ---
 // Parameterized template for city / location pages (phase 2).
 // Usage: a page under src/pages/locations/ passes its content as props and
-// renders <LocationPage {...} /> — the template handles layout + JSON-LD.
+// renders <LocationPage {...} /> - the template handles layout + JSON-LD.
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LeadForm from './LeadForm.astro';
 import FaqAccordion from './FaqAccordion.astro';
@@ -67,7 +67,7 @@ const jsonld = [
           Bathroom Remodeling in {city}, CO
         </h1>
         <p class="mt-4 text-base md:text-lg leading-relaxed">
-          Serving {city} from our Aurora headquarters — free in-home estimates.
+          Serving {city} from our Aurora headquarters, free in-home estimates.
         </p>
         <div class="mt-8 flex flex-col sm:flex-row gap-4" data-track="location-hero">
           <a
@@ -175,14 +175,14 @@ const jsonld = [
         Serving {city} with pride
       </h2>
       <p class="mt-4 text-lg leading-relaxed">
-        Family-owned and based in Aurora — {settings.rating}★ across {settings.reviewCount} Google reviews.
+        Family-owned and based in Aurora, {settings.rating}★ across {settings.reviewCount} Google reviews.
         Licensed &amp; insured General Contractor and EPA Lead-Safe Certified Firm (NAT-F212803-1).
       </p>
     </div>
   </section>
 
   <!-- FAQ -->
-  <FaqAccordion faqs={faqs} heading={`Bathroom remodeling in ${city} — FAQ`} />
+  <FaqAccordion faqs={faqs} heading={`Bathroom remodeling in ${city} · FAQ`} />
 
   <!-- NEARBY CITIES -->
   {nearbyCities.length > 0 && (
@@ -215,7 +215,7 @@ const jsonld = [
           Free in-home estimate in {city}
         </h2>
         <p class="mt-4 text-lg text-slate-300">
-          Fixed, itemized pricing — no obligation. We come to you.
+          Fixed, itemized pricing, no obligation. We come to you.
         </p>
         <p class="mt-6 text-sm text-slate-400">{settings.hours}</p>
       </div>

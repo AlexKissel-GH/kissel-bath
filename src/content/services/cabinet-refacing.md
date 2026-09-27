@@ -17,6 +17,6 @@ featured: false
 order: 9
 ---
 
-Keep your existing cabinet boxes and replace only the doors, drawer fronts, and hardware — the look of a new kitchen at a fraction of the cost of a full remodel. Available in shaker, raised panel, and modern flat styles.
+Keep your existing cabinet boxes and replace only the doors, drawer fronts, and hardware, the look of a new kitchen at a fraction of the cost of a full remodel. Available in shaker, raised panel, and modern flat styles.
 
 Refacing includes new cabinet doors and drawer fronts, soft-close hinges and drawer glides, new knobs, pulls and handles, matching veneer for exposed sides, and the paint or stain finish of your choice.

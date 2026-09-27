@@ -18,15 +18,15 @@ faq:
     a: "On-site time ranges from one day for a Surrounds Only Facelift to 5-12 working days for a Complete Bathroom Remodel in a space up to 50 square feet. Older Denver homes sometimes add a day or two if we find galvanized supply lines, corroded cast-iron drains, or subfloor damage once the demo starts."
 ---
 
-If you own a 1920s bungalow in Wash Park, a postwar ranch in Aurora, or a mid-century place in Englewood, you already know the bathroom situation: a tight 5×8 room, a heavy cast-iron tub, and a layout that hasn't changed since the house was built. The good news is that a small bathroom remodel in Denver's older homes doesn't require an addition or moving walls. Most of these rooms gain the function and feel of a much larger bath with smarter layouts, the right fixtures, and materials chosen for Colorado's climate. Here's how we approach them after 200+ projects across the metro.
+If you own a 1920s bungalow in Wash Park, a postwar ranch in Aurora, or a mid-century place in Englewood, you already know the bathroom situation: a tight 5×8 room, a heavy cast-iron tub, and a layout that hasn't changed since the house was built. The good news is that a small bathroom remodel in Denver's older homes doesn't require an addition or moving walls. Most of these rooms gain the function and feel of a much larger bath with smarter layouts, the right fixtures, and materials chosen for Colorado's climate. Here's how we approach them after years of projects across the Denver metro.
 
 ## Why so many Denver bathrooms are exactly 5×8
 
-Denver's building boom from the 1900s through the 1930s produced thousands of brick bungalows in neighborhoods like Baker, the Highlands, Park Hill, and Congress Park. Indoor plumbing was still a luxury, so builders tucked one small bathroom against the main plumbing stack — usually a 5×8 rectangle with a tub, a wall-hung or tiny vanity sink, and a toilet in a row.
+Denver's building boom from the 1900s through the 1930s produced thousands of brick bungalows in neighborhoods like Baker, the Highlands, Park Hill, and Congress Park. Indoor plumbing was still a luxury, so builders tucked one small bathroom against the main plumbing stack, usually a 5×8 rectangle with a tub, a wall-hung or tiny vanity sink, and a toilet in a row.
 
 The 1950s–70s ranch homes that fill Aurora, Lakewood, Littleton, Englewood, and Wheat Ridge repeated the same formula: one or two compact full baths, a 60"×30" steel or cast-iron tub, and galvanized steel supply lines. That consistency is actually good news for remodeling. We know what's behind those walls before we open them, and the standard alcove footprint works with modern fixtures without custom fabrication.
 
-The challenges are just as predictable: original cast-iron tubs that weigh 300+ pounds, galvanized pipes that corrode shut over decades, cast-iron drain stacks, and — in pre-1978 homes — possible lead-based paint. As an EPA Lead-Safe Certified Firm (NAT-F212803-1), we follow containment and cleanup practices on every older-home project.
+The challenges are just as predictable: original cast-iron tubs that weigh 300+ pounds, galvanized pipes that corrode shut over decades, cast-iron drain stacks, and, in pre-1978 homes, possible lead-based paint. As an EPA Lead-Safe Certified Firm (NAT-F212803-1), we follow containment and cleanup practices on every older-home project.
 
 ## Start with the layout, not the tile
 
@@ -38,7 +38,7 @@ Moving a toilet or rerouting a drain in a bungalow often means opening a basemen
 
 ### Trade the cast-iron tub for a walk-in shower
 
-The single biggest space-claim move in a small bath. A [low-threshold or curbless shower](/services/walk-in-shower-installation-denver/) in the same 60"×30" alcove opens sightlines, makes the room easier to use, and removes the visual bulk of a tub apron. If it's your only tub and you have young kids or resale concerns, we sometimes suggest keeping one tub elsewhere in the house instead — but in most primary baths, the shower wins. See how that works in our [tub-to-shower conversion guide](/blog/tub-to-shower-conversion-denver).
+The single biggest space-claim move in a small bath. A [low-threshold or curbless shower](/services/walk-in-shower-installation-denver/) in the same 60"×30" alcove opens sightlines, makes the room easier to use, and removes the visual bulk of a tub apron. If it's your only tub and you have young kids or resale concerns, we sometimes suggest keeping one tub elsewhere in the house instead, but in most primary baths, the shower wins. See how that works in our [tub-to-shower conversion guide](/blog/tub-to-shower-conversion-denver).
 
 ### Reclaim the doorway
 
@@ -48,13 +48,13 @@ A standard 28"–30" door swinging into a 5×8 bath eats usable floor and blocks
 
 Small-room fixtures have improved a lot. What we spec most often:
 
-- **24"–30" vanities** with drawers instead of doors — drawers use the full cabinet depth, which matters when the cabinet is shallow.
+- **24"–30" vanities** with drawers instead of doors, drawers use the full cabinet depth, which matters when the cabinet is shallow.
 - **Wall-hung or floating vanities** expose more floor, which makes the room read larger and simplifies mopping.
-- **Round-front or compact elongated toilets** save 2–3 inches of projection versus a standard elongated bowl — real inches in front of a tub alcove.
+- **Round-front or compact elongated toilets** save 2–3 inches of projection versus a standard elongated bowl, real inches in front of a tub alcove.
 - **Single-handle faucets and single-lever shower valves** reduce deck clutter and are easier for every age to operate.
 - **Large-format floor tile** with minimal grout lines tricks the eye into reading the floor as one continuous plane.
 
-Skip corner sinks and pedestal basins unless storage is truly impossible elsewhere — they give up counter space without actually freeing floor area.
+Skip corner sinks and pedestal basins unless storage is truly impossible elsewhere, they give up counter space without actually freeing floor area.
 
 ## Storage that doesn't crowd the room
 
@@ -63,7 +63,7 @@ Older Denver homes are short on closets, so the bath has to work harder:
 - **Recessed medicine cabinets** set between studs add 4+ inches of storage depth with zero projection. Most bungalow walls are true 2×4 framing, so this is an easy win during a remodel.
 - **A shower niche** sized to your actual bottles, placed on a wall that isn't the plumbing wall, keeps bottles off the floor and the ledge.
 - **Over-toilet cabinets or open shelving** use the one vertical slice of wall every 5×8 bath has.
-- **Hooks instead of towel bars** — a hook needs 3 inches of wall; a bar needs 18–24.
+- **Hooks instead of towel bars**: a hook needs 3 inches of wall; a bar needs 18–24.
 - If there's a linen closet just outside the bathroom, re-shelving it with adjustable shelving often beats squeezing a tower cabinet into the bath itself.
 
 ## Materials that survive Colorado's climate
@@ -71,13 +71,13 @@ Older Denver homes are short on closets, so the bath has to work harder:
 Denver sits at about 5,280 feet with low humidity most of the year, big daily temperature swings, and hard municipal water in much of the metro. That combination beats up bathrooms in specific ways:
 
 - **Hard water scale** clouds glass and crusts fixtures. Brushed or matte finishes hide spotting far better than polished chrome, and a squeegee hook inside the shower is the cheapest maintenance tool we install.
-- **Dry winter air plus shower steam** means big humidity swings. A properly sized, quiet exhaust fan — vented through the roof or soffit, never into the attic — protects paint, grout, and vanity finishes.
+- **Dry winter air plus shower steam** means big humidity swings. A properly sized, quiet exhaust fan, vented through the roof or soffit, never into the attic, protects paint, grout, and vanity finishes.
 - **Wood movement** is real at altitude. Plywood vanity boxes and properly acclimated trim hold up better than particleboard in rooms that swing between dry and steamy.
 - **Grout maintenance** is the long-term cost of tile. Solid-surface wall systems like Sentrel give you a grout-free wet area with a lifetime warranty, which is why we install them in so many older-home showers. We compare both options honestly in [Sentrel vs. tile shower walls in Colorado](/blog/sentrel-vs-tile-shower-walls-colorado).
 
 ## What a small bathroom remodel costs in Denver
 
-Small doesn't always mean cheap — the trades involved are the same as a large bath — but compact rooms fit our scoped packages well:
+Small doesn't always mean cheap, the trades involved are the same as a large bath, but compact rooms fit our scoped packages well:
 
 | Project | Starting price | On-site time |
 |---|---|---|
@@ -87,7 +87,7 @@ Small doesn't always mean cheap — the trades involved are the same as a large 
 | [Tub-to-Shower Conversion](/services/tub-to-shower-conversion-denver/) | from $12,900 | 3–4 days |
 | [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) (up to 50 sq.ft.) | from $19,700 | 5–12 days |
 
-Older homes sometimes reveal galvanized supply lines or subfloor damage that add to scope — that's exactly why we quote fixed, itemized pricing after seeing the room rather than ballparking over the phone. Full details are on our [pricing page](/pricing), and financing with a soft credit check (0% APR for 18 months for qualified buyers) can spread the cost.
+Older homes sometimes reveal galvanized supply lines or subfloor damage that add to scope, that's exactly why we quote fixed, itemized pricing after seeing the room rather than ballparking over the phone. Full details are on our [pricing page](/pricing), and financing through our lending partner can spread the cost; rates and terms depend on approval. Ask about current options during your free estimate.
 
 ## Permits and older-home surprises
 
@@ -97,4 +97,4 @@ Common surprises we budget-contingency for in 1900s–1970s homes: corroded galv
 
 ## Get a fixed price for your small bath
 
-A 5×8 bathroom remodels beautifully when the plan respects the room's bones. We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating (40 reviews) and a 1-year labor warranty on every project. Call 720.705.1461 or [request a free in-home estimate](/contact) — you'll get itemized, fixed pricing and a straight answer on what your room needs.
+A 5×8 bathroom remodels beautifully when the plan respects the room's bones. We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating (40 reviews) and a 1-year labor warranty on every project. Call 720.705.1461 or [request a free in-home estimate](/contact), you'll get itemized, fixed pricing and a straight answer on what your room needs.

@@ -1,7 +1,7 @@
 ---
 // Parameterized template for service detail pages (phase 2).
 // Usage: a page under src/pages/services/ passes its content as props and
-// renders <ServicePage {...} /> — the template handles layout + JSON-LD.
+// renders <ServicePage {...} /> - the template handles layout + JSON-LD.
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LeadForm from './LeadForm.astro';
 import FaqAccordion from './FaqAccordion.astro';
@@ -43,7 +43,7 @@ const {
   includes,
   processSteps = [
     { title: 'Consultation', text: 'Free in-home visit: we measure, listen to your goals, and discuss options and materials.' },
-    { title: 'Fixed itemized estimate', text: 'You receive a written, itemized, fixed-price estimate — no low-bids, no surprises later.' },
+    { title: 'Fixed itemized estimate', text: 'You receive a written, itemized, fixed-price estimate, with no low-bids and no surprises later.' },
     { title: 'Installation', text: 'Our crew completes the work on schedule, keeps the area sealed, and cleans up daily.' },
     { title: 'Walkthrough & warranty', text: 'Final walkthrough together, care instructions, and your warranty documentation.' },
   ],
@@ -215,7 +215,7 @@ const jsonld = [
         </p>
         <p class="mt-4 leading-relaxed">
           Every estimate is free, fixed, and itemized before we start. The final price depends on your
-          space and selections — here is what affects it most:
+          space and selections, here is what affects it most:
         </p>
       </div>
       <ul class="bg-white rounded-2xl border border-slate-200 p-6 md:p-8 space-y-3">
@@ -232,7 +232,7 @@ const jsonld = [
   </section>
 
   <!-- FAQ -->
-  <FaqAccordion faqs={faqs} heading={`${title} — FAQ`} />
+  <FaqAccordion faqs={faqs} heading={`${title} · FAQ`} />
 
   <!-- RELATED SERVICES -->
   <section class="py-14 md:py-16" aria-labelledby="related-heading">
@@ -275,7 +275,7 @@ const jsonld = [
           Get your free in-home estimate
         </h2>
         <p class="mt-4 text-lg text-slate-300">
-          Fixed, itemized pricing — no obligation. Licensed, insured &amp; EPA Lead-Safe certified.
+          Fixed, itemized pricing, no obligation. Licensed, insured &amp; EPA Lead-Safe certified.
         </p>
         <p class="mt-6 text-sm text-slate-400">{settings.hours}</p>
       </div>

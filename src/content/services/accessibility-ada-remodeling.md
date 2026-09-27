@@ -17,6 +17,6 @@ featured: false
 order: 6
 ---
 
-Safe, comfortable bathrooms for aging in place and special needs. We follow ADA guidelines for doorway dimensions, toilet placement, grab bar positioning, and barrier-free (curbless) shower design — and every accessibility project is customized to the individual's mobility needs.
+Safe, comfortable bathrooms for aging in place and special needs. We follow ADA guidelines for doorway dimensions, toilet placement, grab bar positioning, and barrier-free (curbless) shower design, and every accessibility project is customized to the individual's mobility needs.
 
 Options include roll-in or walk-in showers and tubs, strategically placed grab bars, comfort-height toilets, non-slip flooring, wider doorways where needed, and handheld shower wands. Because every situation is different, accessibility projects are quoted individually after a free in-home consultation.

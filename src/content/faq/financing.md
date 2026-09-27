@@ -4,4 +4,4 @@ category: "Pricing & Estimates"
 order: 4
 ---
 
-Yes. We partner with financing providers to offer a range of options with low interest rates — including 0% APR for 18 months for qualified buyers. The application uses a soft credit inquiry — it will not affect your credit score. We can discuss financing during your free consultation.
+Yes. We partner with a financing provider so you can spread the cost of your project over time. Rates and terms depend on approval. We can discuss the current options during your free consultation.

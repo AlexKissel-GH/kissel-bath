@@ -25,7 +25,7 @@ const labelClass = 'block text-sm font-semibold text-brand-dark mb-1.5';
 ---
 
 <BaseLayout
-  title="Free In-Home Estimate — Denver Remodeling | Kissel's Bath and Kitchen"
+  title="Free In-Home Estimate · Denver Remodeling | Kissel's Bath and Kitchen"
   description="Schedule your free in-home estimate in Denver, Aurora & Highlands Ranch. Licensed, insured & EPA certified. Call 720.705.1461 or fill out the form."
   path="/contact"
   jsonld={jsonld}
@@ -94,7 +94,7 @@ const labelClass = 'block text-sm font-semibold text-brand-dark mb-1.5';
                 <optgroup label="Kitchen Services">
                   {kitchenServices.map((s) => <option value={s.data.title}>{s.data.title}</option>)}
                 </optgroup>
-                <option value="Not sure yet — need consultation">Not sure yet — need consultation</option>
+                <option value="Not sure yet, need consultation">Not sure yet, need consultation</option>
               </select>
             </div>
             <div>
@@ -164,14 +164,14 @@ const labelClass = 'block text-sm font-semibold text-brand-dark mb-1.5';
             ))}
           </ul>
           <p class="mt-4 text-sm text-brand-muted">
-            Plus {settings.extendedServiceAreas.length} more communities across the Denver metro — call to confirm yours.
+            Plus {settings.extendedServiceAreas.length} more communities across the Denver metro, call to confirm yours.
           </p>
         </div>
 
         <div class="bg-brand-surface rounded-2xl border border-slate-200 p-6 md:p-8">
           <h2 class="text-lg font-bold text-brand-dark">Prefer to talk?</h2>
           <p class="mt-2 text-sm">
-            Call or text us during business hours — Alex or Daria will personally answer your questions.
+            Call or text us during business hours. Alex or Daria will personally answer your questions.
           </p>
           <a
             href={settings.phoneHref}

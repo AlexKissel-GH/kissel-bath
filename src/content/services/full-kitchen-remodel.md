@@ -17,6 +17,6 @@ featured: false
 order: 10
 ---
 
-A complete kitchen transformation: new cabinets, countertops, backsplash, flooring, lighting, appliances, and layout reconfiguration — designed around how you actually cook and live.
+A complete kitchen transformation: new cabinets, countertops, backsplash, flooring, lighting, appliances, and layout reconfiguration, designed around how you actually cook and live.
 
 Every full remodel starts with a design consultation and 3D rendering, then covers custom or semi-custom cabinets, quartz, granite, or solid-surface countertops, backsplash and flooring, lighting, plumbing and electrical work, and appliance installation. Most full kitchen remodels take 7–14 days and are quoted individually after a free consultation.

@@ -31,16 +31,16 @@ faq:
 | [Complete Bathroom Remodel](/services/bathroom-remodeling-denver/) (up to 50 sq.ft.) | from $19,700 | 5–12 days |
 | [ADA/Accessibility Remodel](/services/ada-bathroom-remodeling-denver/) | custom quote | 4–7 days |
 
-"On-site time" means days our crew is physically working in your home. It does not include design, selections, permit review, or material lead times — those happen before demo and overlap with your normal life rather than disrupting it. Full scope details for each tier are on our [services page](/services).
+"On-site time" means days our crew is physically working in your home. It does not include design, selections, permit review, or material lead times, those happen before demo and overlap with your normal life rather than disrupting it. Full scope details for each tier are on our [services page](/services).
 
 ## What happens before demo day
 
 This pre-construction phase is where timelines are actually won or lost:
 
-1. **In-home estimate and fixed quote.** We measure, inspect plumbing and electrical, and deliver itemized, fixed pricing — usually the same visit. No allowance guessing.
+1. **In-home estimate and fixed quote.** We measure, inspect plumbing and electrical, and deliver itemized, fixed pricing, usually the same visit. No allowance guessing.
 2. **Selections.** Surround style, fixtures, vanity, flooring, paint. Decisions made now prevent mid-project stalls later.
 3. **Material ordering.** Sentrel wall systems, vanities, and specialty fixtures carry lead times. We don't schedule demo until materials are in hand or confirmed.
-4. **Permits.** Cosmetic work generally needs none. Plumbing relocations, new circuits, and structural changes require permits from the City and County of Denver, Aurora, or your local building department — Lakewood, Centennial, and unincorporated Arapahoe or Jefferson County each run their own queues. Review times vary from a few days for simple plumbing permits to a couple of weeks for anything structural. We cover the specifics in our [Denver bathroom permit guide](/blog/bathroom-remodel-permits-denver).
+4. **Permits.** Cosmetic work generally needs none. Plumbing relocations, new circuits, and structural changes require permits from the City and County of Denver, Aurora, or your local building department. Lakewood, Centennial, and unincorporated Arapahoe or Jefferson County each run their own queues. Review times vary from a few days for simple plumbing permits to a couple of weeks for anything structural. We cover the specifics in our [Denver bathroom permit guide](/blog/bathroom-remodel-permits-denver).
 
 ## Day by day: a full remodel in an older Denver home
 
@@ -59,17 +59,17 @@ Smaller scopes compress this same sequence. A Budget Shower Renovation skips flo
 
 Denver's 1900s–1930s bungalows and 1950s–70s ranches are wonderful houses with predictable skeletons. The usual timeline-stretchers:
 
-- **Galvanized supply lines** corroded nearly shut — once we open the wall, patching around them wastes money, so we repipe to the stack. Adds a day or two.
+- **Galvanized supply lines** corroded nearly shut, once we open the wall, patching around them wastes money, so we repipe to the stack. Adds a day or two.
 - **Cast-iron drain stacks** with cracked hubs or heavy scaling, common in pre-war homes.
-- **Subfloor rot** around the toilet flange and tub edge — decades of slow leaks. Sistering joists or replacing decking adds a day.
+- **Subfloor rot** around the toilet flange and tub edge, decades of slow leaks. Sistering joists or replacing decking adds a day.
 - **Ungrounded two-wire electrical** in bungalows, which must be addressed when we add GFCI protection.
-- **Inspection scheduling** — city inspectors are generally prompt, but a failed rough inspection or a long queue can cost 1–3 days. Clean rough work the first time is the fix.
+- **Inspection scheduling**: city inspectors are generally prompt, but a failed rough inspection or a long queue can cost 1–3 days. Clean rough work the first time is the fix.
 
 None of these should surprise you on the invoice: our fixed, itemized quotes identify likely conditions at the estimate, and we flag contingencies in writing before work starts.
 
 ## Colorado factors that actually help your timeline
 
-It's not all headwinds. Denver's dry climate works in your favor: thinset, joint compound, and paint cure fast at 5,280 feet, which shortens the dead time between coats and lets tile work proceed on schedule. Winter projects are rarely weather-delayed because bathroom work is interior — though we do plan material deliveries around snowstorms. One caution: our low humidity plus hard water makes proper ventilation non-negotiable, so we size and vent the exhaust fan correctly rather than treating it as an afterthought that gets value-engineered away at the end.
+It's not all headwinds. Denver's dry climate works in your favor: thinset, joint compound, and paint cure fast at 5,280 feet, which shortens the dead time between coats and lets tile work proceed on schedule. Winter projects are rarely weather-delayed because bathroom work is interior, though we do plan material deliveries around snowstorms. One caution: our low humidity plus hard water makes proper ventilation non-negotiable, so we size and vent the exhaust fan correctly rather than treating it as an afterthought that gets value-engineered away at the end.
 
 ## How to keep your remodel on schedule
 
@@ -78,7 +78,7 @@ Homeowners control more of the timeline than they think:
 - **Make selections before demo**, not during. A vanity decision made on day 6 can add a week.
 - **Approve the fixed scope in writing** and resist mid-project additions. "While you're in there" changes are the number one cause of timeline creep.
 - **Clear the path.** Empty the bathroom fully and clear a route from the entry door before day one.
-- **Plan around your only-bath situation** if applicable — ask us which specific days fixtures will be offline.
+- **Plan around your only-bath situation** if applicable, ask us which specific days fixtures will be offline.
 - **Choose a contractor who quotes fixed pricing.** Open-ended cost-plus jobs have a way of expanding. If you're still comparing budget ranges, our breakdown of [bathroom remodel costs in Denver](/blog/bathroom-remodel-cost-denver) pairs with this timeline.
 
 ## Living in the house during the remodel
@@ -87,9 +87,9 @@ Most Denver-area families stay home through the entire project, and with a littl
 
 - **Water shutoffs are short.** We schedule supply shutoffs in windows of a few hours, not days, and tell you the night before so you can plan around them.
 - **Dust is contained, not eliminated.** Zip walls, floor protection, and disciplined cleanup keep the mess in the work zone, but plan to change the furnace filter when we're done and wipe surfaces more often during the project.
-- **The room is off-limits; the house isn't.** We work normal daytime hours and secure the space each evening. Kids and pets need a closed door between them and the work zone — tools, adhesives, and open walls don't mix with curiosity.
+- **The room is off-limits; the house isn't.** We work normal daytime hours and secure the space each evening. Kids and pets need a closed door between them and the work zone, tools, adhesives, and open walls don't mix with curiosity.
 - **If it's your only full bath,** we sequence the job so the toilet is functional at the end of most working days, and we flag the specific days fixtures will be offline before demo starts. Many clients time the wettest days around a weekend away or a gym membership.
 
 ## Ready to put dates on the calendar?
 
-We're a family-owned, licensed and insured General Contractor based in Aurora — 200+ completed projects, a 4.9★ Google rating from 40 reviews, and a 1-year labor warranty. Financing is available with a soft credit check, including 0% APR for 18 months for qualified buyers. Call 720.705.1461 or [book your free in-home estimate](/contact), and you'll leave the visit with a fixed price and a realistic start-to-finish schedule for your specific bathroom.
+We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating from 40 reviews and a 1-year labor warranty. Financing is available through our lending partner; rates and terms depend on approval. Ask about current options during your free estimate. Call 720.705.1461 or [book your free in-home estimate](/contact), and you'll leave the visit with a fixed price and a realistic start-to-finish schedule for your specific bathroom.

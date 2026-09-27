@@ -18,6 +18,6 @@ featured: false
 order: 1
 ---
 
-Keep your existing tub or shower base and just replace the walls. This is the fastest turnaround in our lineup — most projects are done in a single day — with dramatic visual impact. Perfect if your base is solid but the walls are dated, stained, or impossible to keep clean.
+Keep your existing tub or shower base and just replace the walls. This is the fastest turnaround in our lineup, most projects are done in a single day, with dramatic visual impact. Perfect if your base is solid but the walls are dated, stained, or impossible to keep clean.
 
 We remove the old wall surround, install new grout-free composite wall panels with corner caddies and trim, and finish with professional sealant and waterproofing.

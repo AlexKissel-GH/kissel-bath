@@ -10,12 +10,12 @@ const jsonld = [
   {
     '@context': 'https://schema.org',
     '@type': 'ImageGallery',
-    name: "Kissel's Bath and Kitchen — Project Portfolio",
+    name: "Kissel's Bath and Kitchen · Project Portfolio",
     about: { '@id': BUSINESS_ID },
     image: projects.map((p) => ({
       '@type': 'ImageObject',
       contentUrl: `${SITE}${p.data.image}`,
-      name: `${p.data.title} — ${p.data.location}`,
+      name: `${p.data.title} · ${p.data.location}`,
       description: p.data.description,
     })),
   },
@@ -27,7 +27,7 @@ const jsonld = [
 ---
 
 <BaseLayout
-  title="Portfolio — Bathroom & Kitchen Remodeling Projects Denver | Kissel's Bath and Kitchen"
+  title="Portfolio · Bathroom & Kitchen Remodeling Projects Denver | Kissel's Bath and Kitchen"
   description="See real bathroom and kitchen remodeling projects across Denver, Aurora, Parker & Highlands Ranch. Tub-to-shower conversions, complete remodels, kitchen facelifts & more."
   path="/portfolio"
   jsonld={jsonld}
@@ -45,7 +45,7 @@ const jsonld = [
         Our Recent Projects
       </h1>
       <p class="mt-4 text-lg max-w-2xl">
-        Real remodels across the Denver metro — from one-day shower renovations to full kitchen transformations.
+        Real remodels across the Denver metro, from one-day shower renovations to full kitchen transformations.
       </p>
     </div>
   </section>

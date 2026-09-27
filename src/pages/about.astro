@@ -16,7 +16,7 @@ const { Content } = await about!.render();
 const testimonials = (await getCollection('testimonials')).sort((a, b) => a.data.order - b.data.order);
 
 const stats = [
-  { value: '200+', label: 'Projects Completed' },
+  { value: 'Free', label: 'In-Home Estimates' },
   { value: `${settings.rating}★`, label: 'Google Rating' },
   { value: '10', label: 'Service Packages' },
   { value: '1-Year', label: 'Labor Warranty' },
@@ -33,11 +33,11 @@ const values = [
   },
   {
     title: 'EPA Lead-Safe Certified',
-    text: 'Certified firm NAT-F212803-1 — trained and certified to work safely in pre-1978 homes.',
+    text: 'Certified firm NAT-F212803-1, trained and certified to work safely in pre-1978 homes.',
   },
   {
     title: 'Award-Winning Service',
-    text: 'HomeAdvisor Elite Service & Top-Rated Pro. Houzz 2024 Best of Service & Best of Design.',
+    text: 'HomeAdvisor Elite Service & Top-Rated Pro.',
   },
 ];
 
@@ -45,7 +45,6 @@ const certifications = [
   { title: 'EPA Lead-Safe', sub: 'Firm NAT-F212803-1' },
   { title: 'Licensed GC', sub: 'Bonded & Insured' },
   { title: 'HomeAdvisor', sub: 'Elite Service · Top-Rated Pro' },
-  { title: 'Houzz 2024', sub: 'Best of Service · Best of Design' },
   { title: `Google ${settings.rating}★`, sub: `${settings.reviewCount} Reviews` },
 ];
 
@@ -93,7 +92,7 @@ const jsonld = [
 ---
 
 <BaseLayout
-  title="About Us — Kissel's Bath and Kitchen | Denver Remodeling Contractor"
+  title="About Us · Kissel's Bath and Kitchen | Denver Remodeling Contractor"
   description="Family-owned bathroom & kitchen remodeling in Denver. Meet Alex & Daria. Licensed, EPA Lead-Safe certified, HomeAdvisor Elite & Houzz award winner. Call 720.705.1461."
   path="/about"
   jsonld={jsonld}
@@ -214,7 +213,7 @@ const jsonld = [
       <h2 id="brands-heading" class="text-2xl md:text-3xl font-bold text-brand-dark tracking-tight">
         Brands we trust
       </h2>
-      <p class="mt-3 max-w-2xl">We never cut corners on materials — only trusted, name-brand products with real warranties.</p>
+      <p class="mt-3 max-w-2xl">We never cut corners on materials. Only trusted, name-brand products with real warranties.</p>
       <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {brands.map((b) => (
           <div class="bg-white rounded-2xl border border-slate-200 p-6">

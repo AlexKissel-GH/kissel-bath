@@ -4,7 +4,7 @@ category: bathroom
 priceFrom: 12200
 priceLabel: from $12,200
 duration: 3–4 days
-shortDescription: Update just the wet zone — tub or shower area — while keeping
+shortDescription: Update just the wet zone, tub or shower area, while keeping
   your vanity, toilet, and flooring intact. Great for a quick refresh without a
   full gut.
 includes:
@@ -19,6 +19,6 @@ featured: false
 order: 3
 ---
 
-Update just the wet zone — the tub or shower area — while keeping your vanity, toilet, and flooring intact. It's a great option for a quick, high-impact refresh without the cost and disruption of a full gut renovation.
+Update just the wet zone, the tub or shower area, while keeping your vanity, toilet, and flooring intact. It's a great option for a quick, high-impact refresh without the cost and disruption of a full gut renovation.
 
-We replace the tub or shower base, install a grout-free composite wall surround system, fit new fixtures and trim, and handle all plumbing connections — typically in 3–4 days.
+We replace the tub or shower base, install a grout-free composite wall surround system, fit new fixtures and trim, and handle all plumbing connections, typically in 3–4 days.
