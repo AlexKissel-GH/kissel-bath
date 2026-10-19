@@ -61,14 +61,14 @@ export function businessJsonLd(opts: { reviews?: ReviewInput[]; extra?: Record<s
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '08:00',
-        closes: '18:00',
+        opens: '09:00',
+        closes: '17:30',
       },
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: 'Saturday',
-        opens: '09:00',
-        closes: '14:00',
+        opens: '10:00',
+        closes: '16:00',
       },
     ],
     aggregateRating: {
