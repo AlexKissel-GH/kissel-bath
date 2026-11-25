@@ -84,4 +84,4 @@ ADA and accessibility remodels are custom-quoted, a grab-bar-and-toilet refresh 
 
 ## Talk to us about staying in your home
 
-We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating from 40 reviews. We'll walk your bathroom, talk through how you actually use it, and give you itemized, fixed pricing for the scope that fits. Call 720.705.1461 or [request a free in-home estimate](/contact).
+We're a family-owned, licensed and insured General Contractor based in Aurora, with a 4.9★ Google rating. We'll walk your bathroom, talk through how you actually use it, and give you itemized, fixed pricing for the scope that fits. Call 720.705.1461 or [request a free in-home estimate](/contact).

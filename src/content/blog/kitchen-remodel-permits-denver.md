@@ -83,6 +83,6 @@ We handle all permitting for projects that need it, and we'll tell you plainly w
 
 ## Next Steps
 
-If you're planning a kitchen project and aren't sure where it falls on the permit spectrum, the fastest way to find out is a free in-home estimate. We'll assess the scope, tell you exactly what requires permitting, and include everything in fixed, itemized pricing, no surprises. Kissel's Bath and Kitchen is a family-owned, licensed and insured general contractor based in Aurora, with a 4.9-star Google rating from 40 reviews and a 1-year labor warranty on every job. Financing is available through our lending partner; rates and terms depend on approval. Ask about current options during your free estimate.
+If you're planning a kitchen project and aren't sure where it falls on the permit spectrum, the fastest way to find out is a free in-home estimate. We'll assess the scope, tell you exactly what requires permitting, and include everything in fixed, itemized pricing, no surprises. Kissel's Bath and Kitchen is a family-owned, licensed and insured general contractor based in Aurora, with a 4.9-star Google rating and a 1-year labor warranty on every job. Financing is available through our lending partner; rates and terms depend on approval. Ask about current options during your free estimate.
 
 Browse our [kitchen and bathroom services](/services), then [contact us](/contact) or call 720.705.1461 to schedule your free estimate.

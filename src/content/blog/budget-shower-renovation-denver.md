@@ -95,4 +95,4 @@ Budget projects pair naturally with financing. Financing is available through ou
 
 ## Get your fixed number
 
-We're a family-owned company based in Aurora, a licensed and insured General Contractor with a 4.9★ Google rating from 40 reviews. Every estimate is free, in-home, and ends with itemized fixed pricing you can hold us to. Call 720.705.1461 or [schedule your estimate](/contact) and find out whether your shower qualifies for the budget scope.
+We're a family-owned company based in Aurora, a licensed and insured General Contractor with a 4.9★ Google rating. Every estimate is free, in-home, and ends with itemized fixed pricing you can hold us to. Call 720.705.1461 or [schedule your estimate](/contact) and find out whether your shower qualifies for the budget scope.

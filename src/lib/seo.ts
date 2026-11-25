@@ -74,7 +74,6 @@ export function businessJsonLd(opts: { reviews?: ReviewInput[]; extra?: Record<s
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: settings.rating,
-      reviewCount: settings.reviewCount,
     },
     // Verified business profiles (Google Maps place URL confirmed against the live GBP card)
     sameAs: [

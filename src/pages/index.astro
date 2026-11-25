@@ -36,7 +36,7 @@ const latestPosts = (await getCollection('blog'))
   .slice(0, 3);
 
 const trustItems = [
-  { title: `${settings.rating}★ on Google`, sub: `${settings.reviewCount} reviews` },
+  { title: `${settings.rating}★ on Google`, sub: 'Google reviews' },
   { title: 'EPA Lead-Safe Certified', sub: 'Firm NAT-F212803-1' },
   { title: 'Licensed & Insured', sub: 'General Contractor' },
   { title: 'HomeAdvisor Elite', sub: 'Top-Rated Pro' },
@@ -107,7 +107,7 @@ const jsonld = [
           </div>
           <div class="mt-4 md:mt-6 flex items-center gap-2 text-sm text-brand-muted">
             <Stars rating={5} />
-            <span>{settings.rating} on Google · {settings.reviewCount} reviews</span>
+            <span>{settings.rating} on Google</span>
           </div>
         </div>
         <div>
@@ -217,7 +217,7 @@ const jsonld = [
         <h2 id="testimonials-heading" class="text-3xl md:text-4xl font-bold text-brand-dark tracking-tight">
           What our clients say
         </h2>
-        <p class="mt-4 text-lg">{settings.rating}★ average across {settings.reviewCount} Google reviews.</p>
+        <p class="mt-4 text-lg">{settings.rating}★ average across Google reviews.</p>
       </div>
       <div class="mt-10 grid md:grid-cols-3 gap-6">
         {homeTestimonials.map((t) => <TestimonialCard testimonial={t} />)}
@@ -229,7 +229,7 @@ const jsonld = [
           rel="noopener"
           class="inline-flex items-center gap-2 px-6 py-3 min-h-[44px] bg-brand-dark text-white font-semibold rounded-xl hover:bg-slate-800 transition-colors"
         >
-          Read our {settings.reviewCount} reviews on Google →
+          Read our reviews on Google →
         </a>
       </div>
     </div>

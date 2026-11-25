@@ -41,7 +41,6 @@ collections:
             widget: "list"
             field: { label: "City", name: "city", widget: "string" }
           - { label: "Google Rating", name: "rating", widget: "number", value_type: "float", min: 1, max: 5 }
-          - { label: "Review Count", name: "reviewCount", widget: "number", value_type: "int", min: 0 }
           - label: "Google Tag Manager ID (GTM-XXXXXXX)"
             name: "gtmId"
             widget: "string"
