@@ -63,7 +63,6 @@ const jsonld = [
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
     mainEntity: businessJsonLd({
-      reviews: testimonials.map((t) => t.data),
       extra: {
         founder: [
           { '@type': 'Person', name: 'Alex Kissel', jobTitle: 'Founder & Lead Contractor' },
